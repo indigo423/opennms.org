@@ -1,11 +1,6 @@
-# Composer
-.composer
-vendor/
-
-# Sass
-.sass-cache
-
 # Grav Specific
+.sass-cache
+composer.lock
 backup/*
 !backup/.*
 cache/*
@@ -16,15 +11,8 @@ logs/*
 !logs/.*
 images/*
 !images/.*
-user/accounts/*
-!user/accounts/.*
 user/data/*
 !user/data/.*
-user/plugins/*
-!user/plugins/.*
-user/themes/*
-!user/themes/.*
-user/localhost/config/security.yaml
 
 # OS Generated
 .DS_Store*

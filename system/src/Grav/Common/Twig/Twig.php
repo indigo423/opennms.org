@@ -4,8 +4,6 @@ namespace Grav\Common\Twig;
 use Grav\Common\Grav;
 use Grav\Common\Config\Config;
 use Grav\Common\Page\Page;
-use Grav\Common\Inflector;
-use Grav\Common\Utils;
 use RocketTheme\Toolbox\ResourceLocator\UniformResourceLocator;
 use RocketTheme\Toolbox\Event\Event;
 
@@ -82,7 +80,10 @@ class Twig
 
             $active_language = $language->getActive();
 
-            $language_append = $active_language ? '/'.$active_language : '';
+            $language_append = '';
+            if ($language->getDefault() != $active_language || $config->get('system.languages.include_default_lang') === true) {
+                $language_append = $active_language ? '/' . $active_language : '';
+            }
 
             // handle language templates if available
             if ($language->enabled()) {

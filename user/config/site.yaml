@@ -1,7 +1,7 @@
-title: Grav
+title: OpenNMS
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: OpenNMS 
+  email: 'webmaster@opennms.org'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'OpenNMS is the worlds first network management platform developed under the open source model'
 

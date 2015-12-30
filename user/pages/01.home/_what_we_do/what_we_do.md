@@ -21,20 +21,31 @@ layout_elements:
 # ITEMS
 items:
     0:
-        icon: bullhorn fa-5x
+        icon: heartbeat fa-5x
         icon_type: fontawesome
-        section: section1
+        section: faultmgmt
     1:
-        icon: bolt fa-5x
+        icon: line-chart fa-5x
         icon_type: fontawesome
-        section: section2
+        section: perfmgmt
     2:
-        icon: heart fa-5x
+        icon: paper-plane-o fa-5x
         icon_type: fontawesome
-        section: section3
+        section: quickstart
+    3:
+        icon: commenting-o fa-5x
+        icon_type: fontawesome
+        section: section4
+    4:
+        icon: users fa-5x
+        icon_type: fontawesome
+        section: section5
+    5:
+        icon: book fa-5x
+        icon_type: fontawesome
+        section: section6
 ---
 
-## Explain your business
-Use the `What we do module` to explain your customers the services you offer.
+## Network management platform developed under the open source model
 
 ___

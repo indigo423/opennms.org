@@ -5,3 +5,40 @@ author:
 metadata:
     description: 'OpenNMS is the worlds first network management platform developed under the open source model'
 
+gravstrap:
+    navbar:
+        # Add as many navbars as you need
+        navbar1:
+          id: bsnavbar
+          # none, top, bottom
+          fixed: top
+          # none, centered, fluid
+          centering: none
+          # inverted: true
+          brand:
+              text: Gravstrap theme
+              #image: brand.png
+          items:
+              menu0:
+                  type: menu
+                  alignment: center
+                  # onepage: true
+              menu1:
+                  type: menu
+                  alignment: right
+                  items:
+                      0:
+                          url: http://twitter.com
+                          type: link
+                          icon_type: fontawesome
+                          icon: twitter
+                      1:
+                          url: http://facebook.com
+                          type: link
+                          icon_type: fontawesome
+                          icon: facebook
+                      3:
+                          url: http://my-rss.com
+                          type: link
+                          icon_type: fontawesome
+                          icon: rss

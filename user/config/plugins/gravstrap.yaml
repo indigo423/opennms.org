@@ -8,7 +8,7 @@ navbar:
             0: gravstrap_navbar.js
             1: scroll.js
 jumbotron:
-    enhanced: true
+    enhanced: false
     assets:
         css:
             0: gravstrap_jumbotron.css

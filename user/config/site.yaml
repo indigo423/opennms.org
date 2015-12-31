@@ -1,6 +1,6 @@
 title: OpenNMS
 author:
-  name: OpenNMS 
+  name: OpenNMS
   email: 'webmaster@opennms.org'
 metadata:
     description: 'OpenNMS is the worlds first network management platform developed under the open source model'
@@ -14,10 +14,10 @@ gravstrap:
           fixed: top
           # none, centered, fluid
           centering: none
-          # inverted: true
+          inverted: true
           brand:
               text: Gravstrap theme
-              #image: brand.png
+              image: brand.png
           items:
               menu0:
                   type: menu

@@ -2,7 +2,7 @@
 title: Welcome
 metadata:
   description: Java based network management platform developed under the open source model.
-slug: welcome-to-gravstrap-theme
+slug: welcome-to-opennms
 
 gravstrap:
     jumbotron:

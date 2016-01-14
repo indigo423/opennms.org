@@ -17,7 +17,7 @@ cache:
   prefix: 'g'
 
 twig:
-  cache: true
+  cache: false
   debug: true
   auto_reload: true
   autoescape: false
@@ -30,7 +30,7 @@ assets:
   js_minify: true
 
 debugger:
-  enabled: false
+  enabled: true
   twig: true
   shutdown:
     close_connection: true

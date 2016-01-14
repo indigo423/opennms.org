@@ -1,10 +1,10 @@
-title: Deliver
+title: ''
 author:
-  name: John Appleseed                      # Default author name
-  email: 'john@email.com'                   # Default author email
-  copyright: "Copyright 2013 Deliver. All Rights Reserved."
+  name: Webmaster                           # Default author name
+  email: 'webmaster@opennms.org'            # Default author email
+  copyright: "Copyright 2016 The OpenNMS Group, Inc. All Rights Reserved."
 social:
-  - url: 'https://twitter.com/getgrav'
+  - url: 'https://twitter.com/opennms'
     icon: 'twitter'
   - url: '#'
     icon: 'facebook'
@@ -12,10 +12,10 @@ social:
     icon: 'rss'
 contact:
   address:
-    - line: "222 Ave C South"
-    - line: "Saskatoon, Saskatchewan"
-    - line: "Canada S7K 2N5"
-  gps: 1.306.222.3456  
+    - line: "220 Chatham Business Drive"
+    - line: "Pittsboro, North Carolina 27312"
+    - line: "United States"
+  gps: 1.306.222.3456
 othermenu:
   - text: "About"
     url: "about"
@@ -25,7 +25,6 @@ othermenu:
     url: "contact"
 quicklinks:
   - text: "Portfolio"
-    url: "base_url:portfolio"
   - text: "About"
     url: "base_url:about"
   - text: "Services"
@@ -40,7 +39,7 @@ taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 blog:
   route: '/blog'                            # Route to blog
 metadata:
-    description: 'My Deliver Site'             # Site description
+    description: 'Project home page of OpenNMS - a java based network managememnt platform developed under the Open Source model'
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
@@ -60,12 +59,10 @@ header_options:
   swipe : 'true'                            # Enable swipe for touch device
 
 footer:
-    description: "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+    description: "Java base network management platform developed under the Open Source model."
     contact_title: "Contact Info"
     links_title: "Quick Links"
-    newsletter_title: "Newsletter"
-    newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
-    copyright_text: "Copyright 2013 Deliver. All Rights Reserved."
+    copyright_text: "Copyright 2016 The OpenNMS Group, Inc. All Rights Reserved."
     feedburner: ""   # Your feedburner id for Newsletter footer modul
 
 

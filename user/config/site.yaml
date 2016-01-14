@@ -1,9 +1,9 @@
-title: Gravstrap theme
+title: OpenNMS
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: OpenNMS Project
+  email: 'webmaster@opennms.org'
 metadata:
-    description: Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design'
+    description: 'OpenNMS is a Java based networm managemen platform developed under the Open Source model.'
 
 credits: This website is made with <a href="http://getgrav.org/">Grav CMS</a> and it is powerd by <a href="http://diblas.net/themes/gravstrap-theme-to-start-grav-cms-site-with-bootstrap-support/">Gravstrap Theme</a> and <a href="http://diblas.net/plugins/use-bootstrap-elements-in-the-grav-cms-way/">Gravstrap Plugin</a>.
 copyright: Joe Bloggs
@@ -17,10 +17,10 @@ gravstrap:
           fixed: top
           # none, centered, fluid
           centering: none
-          # inverted: true
+          inverted: true
           brand:
-              text: Gravstrap theme
-              #image: brand.png
+              text: OpenNMS
+              image: brand.png
           items:
               menu0:
                   type: menu

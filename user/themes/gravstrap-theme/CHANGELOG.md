@@ -1,3 +1,27 @@
+# v0.9.15
+## 01/11/2016
+
+1. [](#bugfix)
+    * Gravstrap-theme css was not correctly compiled. Fixed.
+
+# v0.9.14
+## 01/08/2016
+
+1. [](#bugfix)
+    * Fixed toggled navbar active link background color
+
+# v0.9.13
+## 01/06/2016
+
+1. [](#improved)
+    * Added breadcrumbs plugin
+
+# v0.9.12
+## 01/02/2016
+
+1. [](#improved)
+    * Updated blog dependency to blog-injector
+
 # v0.9.11
 ## 12/23/2015
 

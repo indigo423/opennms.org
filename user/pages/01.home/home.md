@@ -1,8 +1,8 @@
 ---
-title: Welcome
+title: Home
 metadata:
-  description: Java based network management platform developed under the open source model.
-slug: welcome-to-opennms
+  description: Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to extend to start a new Bootstrap custom theme, to fit your needs.
+slug: welcome-to-gravstrap-theme
 
 gravstrap:
     jumbotron:
@@ -11,7 +11,7 @@ gravstrap:
             from_file: jumbotron.markdown
             section: content
             image:
-                name: wave.png
+                name: bg.jpg
 
 content:
     items: @self.modular
@@ -20,6 +20,7 @@ content:
         dir: asc
         custom:
             - _what_we_do
+            - _portfolio
             - _clients
             - _team
             - _where_we_are

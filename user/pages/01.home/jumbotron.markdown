@@ -1,3 +1,0 @@
-[SECTION content]
-
-[/SECTION]

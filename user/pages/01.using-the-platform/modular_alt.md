@@ -1,5 +1,5 @@
 ---
-title: Use The Platform
+title: Using the Platform
 onpage_menu: false
 body_classes: "modular header-lite fullwidth"
 bg_color: "#B4B093"

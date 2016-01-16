@@ -1211,7 +1211,8 @@ ul.pagination {
       .modular .features.big .feature-content h4, .modular .features.big .feature-content .archive-list label, .archive-list .modular .features.big .feature-content label, .modular .features.big .feature-content .bottom table th, .modular .bottom table .features.big .feature-content th, .modular .features.big .feature-content .contact label, .contact .modular .features.big .feature-content label, .modular .features.big .feature-content .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .modular .features.big .feature-content .name, .modular .features.big .feature-content .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .modular .features.big .feature-content .button, .modular .features.big .feature-content .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .modular .features.big .feature-content button, .modular .features.big .feature-content .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .modular .features.big .feature-content button, .modular .features.big .feature-content .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .modular .features.big .feature-content button, .modular .features.big .feature-content .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .modular .features.big .feature-content button {
         font-size: 1.2rem; }
       .modular .features.big .feature-content p {
-        padding: 0; }
+        padding: 0;
+        text-align: justify; }
 
 .modular .bottom {
   text-align: center;

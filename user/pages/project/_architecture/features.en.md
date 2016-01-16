@@ -8,7 +8,7 @@ features:
 	  icon: share-alt
 	  linkurl: "http://www.getgrav.org"
 	  linktext: "Find Out More"
-	- header: Extensible Framework
+	- header: Extensible & Flexible Framework
 	  text: "Some foobaz text about an extensible framework"
 	  icon: gears
 	  linkurl: "http://www.getgrav.org" 

@@ -1,6 +1,6 @@
 ---
 title: Stay Informed
-blog_url: blog
+blog_url: stay-informed
 menu: Stay Informed
 body_classes: header-lite fullwidth blogstyling
 bg_color: "#B4B093"

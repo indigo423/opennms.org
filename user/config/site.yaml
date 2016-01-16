@@ -73,7 +73,7 @@ routes:
   /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
 
 header_options:
-  arrows: 'false'                           # Create Next and previous button
+  arrows: 'true'                            # Create Next and previous button
   autoslide: 'false'                        # Auto slideshow mode
   autoslideHoverStop: 'false'               # Pause auto slideshow mode on mouseover
   interval: '2000'                          # The interval between each slide (Interval in millisecond)

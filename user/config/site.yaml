@@ -5,16 +5,33 @@ author:
   email: 'webmaster@opennms.org'            # Default author email
   copyright: "Copyright 2016 The OpenNMS Group, Inc. All Rights Reserved."
 social:
+  - url: 'http://demo.opennms.org'
+    icon: 'desktop'
+    description: 'Go to live demo'
+  - url: 'http://docs.opennms.org/opennms/releases/17.0.0/guide-install/guide-install.html'
+    icon: 'rocket'
+    description: 'Install your own instance of OpenNMS'
+  - url: 'http://docs.opennms.org'
+    icon: 'book'
+    description: 'Discover the documentation'
+  - url: 'https://github.com/OpenNMS'
+    icon: 'github'
+    description: 'Fork us on GitHub'
   - url: 'https://twitter.com/opennms/'
     icon: 'twitter'
+    description: 'Follow us on Twitter'
   - url: 'https://www.youtube.com/user/opennms'
     icon: 'youtube'
+    description: 'Show me videos about OpenNMS on YouTube'
   - url: 'https://plus.google.com/105624063334939417498'
     icon: 'google-plus'
+    description: 'Follow us on Google Plus'
   - url: 'blog.rss'
     icon: 'rss'
+    description: 'Subscribe news as RSS feed'
   - url: 'https://www.facebook.com/OpenNMS/'
     icon: 'facebook'
+    description: 'Follow on Facebook'
 contact:
   address:
     - line: "220 Chatham Business Drive"
@@ -52,7 +69,7 @@ routes:
   /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
 
 header_options:
-  arrows: 'true'                            # Create Next and previous button
+  arrows: 'false'                           # Create Next and previous button
   autoslide: 'false'                        # Auto slideshow mode
   autoslideHoverStop: 'false'               # Pause auto slideshow mode on mouseover
   interval: '2000'                          # The interval between each slide (Interval in millisecond)

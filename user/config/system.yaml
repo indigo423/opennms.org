@@ -1,5 +1,5 @@
 home:
-  alias: '/home'
+  alias: '/project'
 
 pages:
   theme: opennms
@@ -30,7 +30,7 @@ assets:
   js_minify: true
 
 debugger:
-  enabled: true
-  twig: true
+  enabled: false
+  twig: false
   shutdown:
     close_connection: true

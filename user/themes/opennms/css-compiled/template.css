@@ -133,7 +133,6 @@ b, strong, label, th {
       color: transparent;
       background: transparent;
       width: 4rem;
-      height: 1.3rem;
       margin-bottom: 0;
       font-size: 0.9rem;
       -webkit-transition: all 0.5s;
@@ -141,7 +140,7 @@ b, strong, label, th {
       transition: all 0.5s; }
       #header .search-box input[type=search]:focus {
         width: 10rem;
-        background-color: rgba(46, 52, 54, 0.3);
+        background-color: rgba(46, 52, 54, 0.5);
         cursor: auto;
         color: #2e3436; }
     #header .search-box input:-moz-placeholder {
@@ -1069,13 +1068,13 @@ ul.pagination {
     color: #2e3436;
     font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     padding: 0.3rem 1rem;
-    background: rgba(255, 255, 255, 0);
-    border: 2px solid #2e3436;
+    background: #fcaf3e;
+    border: 1px solid #2e3436;
     border-radius: 0;
     box-shadow: none;
     font-size: 1rem; }
     .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
-      background: rgba(0, 0, 0, 0.2); }
+      background: #f57900; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;

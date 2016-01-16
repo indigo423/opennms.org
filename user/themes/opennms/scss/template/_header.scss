@@ -60,14 +60,13 @@
             color: transparent;
             background: transparent;
             width: 4rem;
-            height: 1.3rem;
             margin-bottom: 0;
             font-size:  $core-font-size - 0.1rem;
             @include transition(all .5s);
 
             &:focus {
                 width: 10rem;
-                background-color: transparentize($header-text, 0.7);
+                background-color: transparentize($header-text, 0.5);
                 cursor: auto;
                 color: $header-text;
             }

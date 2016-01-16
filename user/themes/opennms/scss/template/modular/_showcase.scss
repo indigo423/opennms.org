@@ -69,14 +69,14 @@
         color: $header-text;
         font-family: $font-family-header;
         padding: 0.3rem 1rem;
-        background: rgba(255,255,255,0);
-        border: 2px solid $header-text;
+        background: $orange-light;
+        border: 1px solid $header-text;
         border-radius: $border-radius;
         box-shadow: none;
         font-size: $core-font-size;
 
         &:hover {
-            background: rgba(0,0,0,0.2);
+            background: $orange;
         }
     }
 }

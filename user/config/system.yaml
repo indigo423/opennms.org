@@ -1,6 +1,11 @@
 home:
   alias: '/project'
 
+languages:
+  supported:
+    - en
+    - de
+
 pages:
   theme: opennms
   process:

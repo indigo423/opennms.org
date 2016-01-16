@@ -1,5 +1,5 @@
 ---
-title: Do you need a website ?
+title: Benutze die Plattform
 buttons:
     - text: GET A FREE QUOTE
       url: http://learn.getgrav.org
@@ -7,6 +7,6 @@ buttons:
 ---
 ---
 
-## Do you need a website ?
+## Benutze die Plattform
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.
+Hier steht auf deutsch was die Plattform OpenNMS ist und wie man sie benutzen kann.

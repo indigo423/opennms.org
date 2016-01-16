@@ -2,31 +2,34 @@
 title: Portfolio
 menu: Portfolio
 portfolio:
-    - image: work1.jpg
-      title: First Item
+    - image: startpage.png
+      title: Availability Overview
       desc: "Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum."
       modalid: 13
-      client: Some Company
       url: "#"
       date: April 2014
-      category: Web Development
-    - image: work2.jpg
-      title: Second Item
+      category: Service Assurance
+    - image: resource-graphs.png
+      title: Performance Data Collection
       desc: "Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum."
       modalid: 14
-      client: Some Company
       url: "#"
       date: April 2014
       category: Web Development
-    - image: work3.jpg
-      title: Third Item
+    - image: geographical-map.png
+      title: Geographical Map
       desc: "Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum."
       modalid: 15
-      client: Some Company
-      url: "#"
+      url: "http://www.google.com"
       date: April 2014
       category: Web Development
-       
+    - image: grafana-support.png
+      title: Grafana Support
+      desc: "Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum."
+      modalid: 15
+      url: "http://www.google.com"
+      date: April 2014
+      category: Web Development
 ---
 
 ## Some of Our Latest Work

@@ -14,7 +14,6 @@ content:
             - _features
             - _architecture
             - _callout
-            - _bottom
             - _contact
 ---
 

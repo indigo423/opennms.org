@@ -11,9 +11,9 @@ content:
         dir: asc
         custom:
             - _showcase
-            - _highlights
+            - _features
+            - _architecture
             - _callout
-            - _bottom
             - _contact
 ---
 

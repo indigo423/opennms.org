@@ -13,6 +13,7 @@ images/*
 !images/.*
 user/data/*
 !user/data/.*
+.htaccess
 
 # OS Generated
 .DS_Store*

@@ -33,10 +33,11 @@
     text-align: center;
     color: $header-text;
     h1 {
-        font-size: 2.2rem;
-        margin-top: 0;
+        // font-size: 2.2rem;
+        // margin-top: 0;
         padding-left: $padding-horiz;
         padding-right: $padding-horiz;
+        background-color: rgba($aluminium-light,0.5);
         @include breakpoint(tablet-range) {
             font-size: 1.5rem;
         }
@@ -51,7 +52,7 @@
         strong {
             color: $core-accent;
         }
-        text-transform: uppercase;
+        // text-transform: uppercase;
     }
     h2 {
         text-transform: none;
@@ -68,7 +69,7 @@
         @extend .default-animation;
         color: $header-text;
         font-family: $font-family-header;
-        padding: 0.3rem 1rem;
+        // padding: 0.3rem 1rem;
         background: $orange-light;
         border: 1px solid $header-text;
         border-radius: $border-radius;
@@ -136,7 +137,7 @@
             li {
                 @extend .default-animation;
                 @include transition-duration(0.2s);
-                background: $white;
+                background: $black;
                 width: 0.5rem;
                 height: 0.5rem;
                 display: inline-block;

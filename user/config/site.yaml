@@ -32,6 +32,9 @@ social:
   - url: 'https://www.facebook.com/OpenNMS/'
     icon: 'facebook'
     description: 'Follow on Facebook'
+  - url: 'http://www.opennms.com'
+    icon: 'support'
+    description: 'Get professional support'
 contact:
   address:
     - line: "220 Chatham Business Drive"

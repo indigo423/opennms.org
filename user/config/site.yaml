@@ -1,5 +1,5 @@
 title: ''
-logo: user/assets/logo.png
+logo: /images/logo.png
 author:
   name: Webmaster                           # Default author name
   email: 'webmaster@opennms.org'            # Default author email

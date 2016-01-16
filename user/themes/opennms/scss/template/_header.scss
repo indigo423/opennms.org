@@ -6,7 +6,7 @@
     z-index: 10;
     width: 100%;
     height: $header-height;
-    background-color: $light-gray;
+    background-color: $white;
     box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
 
     > .grid, .logo, #navbar, .social-navigation {
@@ -258,17 +258,6 @@
         }
         li.active a {
             color: $core-accent;
-        }
-        .logo ul.social-icons li {
-            background: transparentize($light-gray, 0.8);
-            .fa {
-                color: white;
-            }
-            &:hover {
-                .fa {
-                    color: $light-gray;
-                }
-            }
         }
     }
 }

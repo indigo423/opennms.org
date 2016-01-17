@@ -3,7 +3,7 @@ title: Features
 menu: Features
 class: big
 features:
-	- header: Service Qualität
+	- header: Fehler-Management
 	  text: "Monitoring der Service Qualität durch synthentischen Transaktions-Tests. Messen und aufzeichnen von Service Latenzmessung und Alarmierung mit konfigurierbaren Schwellwerten. Direkte Unterstützung von Syslog und SNMP Traps die für die Generierung von Alarmend verwendet werden können."
 	  icon: heartbeat
 	  linkurl: "http://www.getgrav.org"

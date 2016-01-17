@@ -3,7 +3,7 @@ title: Features
 menu: Features
 class: big
 features:
-	- header: Service Assurance
+	- header: Fault Management
 	  text: "Synthentic polling with latency graphing and thresholding. Out-of-the-box support for many applications with configurable service monitors. Remote monitoring of application and services from users perspective. Generate Alarms based on Syslog and SNMP Traps."
 	  icon: heartbeat
 	  linkurl: "http://www.getgrav.org"

@@ -3,7 +3,7 @@ title: Showcase
 menu: Top
 slides:
   - image: wave.png
-    heading: "The Network Managemet Platform"
+    heading: "The Network Management Platform"
     subheading: "developed under the <strong>Open Source</strong> model"
     subheading: ""
     button_text: GET OPENNMS

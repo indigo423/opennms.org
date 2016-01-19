@@ -908,7 +908,7 @@ class Page
     }
 
     /**
-     * Gets and sets the name field.  If no name field is set, it will return 'default.md'.
+     * Gets and sets the name field.  If no name field is set, it will return 'bottom.md'.
      *
      * @param  string $var The name of this page.
      * @return string      The name of this page.
@@ -918,7 +918,7 @@ class Page
         if ($var !== null) {
             $this->name = $var;
         }
-        return empty($this->name) ? 'default.md' : $this->name;
+        return empty($this->name) ? 'bottom.md' : $this->name;
     }
 
     /**

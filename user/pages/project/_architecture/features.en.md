@@ -16,6 +16,6 @@ features:
 	- header: Community Area
 	  text: "Infrastructure for OpenNMS community members like public issue tracking, project management, continous integration, realtime chat, mailinglist, forum and conferences for developer and users."
 	  icon: users
-	  linkurl: "http://www.getgrav.org" 
+	  linkurl: "community-area" 
 	  linktext: "Find Out More"
 ---

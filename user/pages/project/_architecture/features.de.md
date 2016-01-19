@@ -16,6 +16,6 @@ features:
 	- header: Community
 	  text: "Open Source Gemeinschaft und so"
 	  icon: users
-	  linkurl: "http://www.getgrav.org" 
+	  linkurl: "community-area" 
 	  linktext: "Möchten Sie mehr wissen"
 ---

@@ -27,3 +27,13 @@ Attend conferences by the OpenNMS community:
 * OpenNMS in UK: [http://www.opennms.co.uk](http://www.opennms.co.uk)
 * OpenNMS Foundation Europe e.V.: [http://www.opennms.eu](http://www.opennms.eu)
 * Founder of OpenNMS Tarus Blog: [http://www.adventuresinoss.com](http://www.adventuresinoss.com)
+
+<script type="text/javascript" src="https://asciinema.org/a/7yxcofm8hmxjzn25tuhuplbln.js" id="asciicast-7yxcofm8hmxjzn25tuhuplbln" async></script>
+
+<pre class="prettyprint">class Voila {
+public:
+  // Voila
+  static const string VOILA = "Voila";
+
+  // will not interfere with embedded <a href="#voila2">tags</a>.
+}</pre>

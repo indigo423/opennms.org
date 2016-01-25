@@ -5,9 +5,8 @@ slides:
   - image: wave.png
     heading: "The Network Management Platform"
     subheading: "developed under the <strong>Open Source</strong> model"
-    subheading: ""
     button_text: GET OPENNMS
-    button_url: http://docs.opennms.org
+    button_url: install
   - image: uofm.jpg
     heading: "DevJam 2016"
     subheading: "... in planning get excited ..."

@@ -405,7 +405,7 @@ h1, h2, h3, h4, .archive-list label, .modular .bottom table th, .contact label, 
   text-rendering: optimizeLegibility; }
 
 h1 {
-  font-size: 3.2rem; }
+  font-size: 2.7rem; }
   @media only all and (max-width: 47.938em) {
     h1 {
       font-size: 2.5rem;
@@ -442,6 +442,9 @@ h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pr
   @media only all and (max-width: 47.938em) {
     h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
       font-size: 1.25rem; } }
+
+ul {
+  text-align: left; }
 
 h1 {
   text-align: center;
@@ -1136,8 +1139,7 @@ ul.pagination {
 
 .modular .features {
   padding: 4rem 0;
-  padding-bottom: 1rem;
-  text-align: center; }
+  padding-bottom: 1rem; }
   .modular .features:after {
     content: "";
     display: table;
@@ -1267,7 +1269,7 @@ ul.pagination {
         .modular .bottom .services .service {
           width: 100%; } }
       .modular .bottom .services .service .fa {
-        margin-top: 0.5rem;
+        margin: 1.0rem;
         width: 7rem;
         height: 6rem;
         font-size: 6rem;

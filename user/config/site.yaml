@@ -51,7 +51,8 @@ othermenu:
     url: "contact"
 quicklinks:
   - text: "Using the Platform"
-  - text: "using-the-platform"
+    url: "base_url:using-the-platform"
+  - text: "Participate"
     url: "base_url:participate"
   - text: "Stay Informed"
     url: "base_url:stay-informed"

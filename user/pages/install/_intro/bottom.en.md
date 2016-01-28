@@ -14,7 +14,7 @@ services:
     - icon: windows
       title: Windows Server
       desc: "Install on a Microsoft Windows Server operating system."
-      url: "https://docs.opennms.org/opennms/releases/17.0.0/guide-install/guide-install.html#gi-install-opennms-windows"
+      url: "install-windows"
       text: "Show me"
     - icon: cubes
       title: OpenNMS on Vagrant

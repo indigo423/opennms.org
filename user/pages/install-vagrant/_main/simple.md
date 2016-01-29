@@ -5,7 +5,7 @@ title: OpenNMS with Vagrant
 ## OpenNMS with Vagrant
 
 Run OpenNMS as virtual machine with [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).
-Test new configurations or just evaluate OpenNMS and Grafana with a pre-installed Vagrant basebox image with VirtualBox.
+Test new configurations or just evaluate OpenNMS and [Grafana](http://grafana.org) with a pre-installed Vagrant basebox image with VirtualBox.
 
 If you want a more customized installation, please see our [installation guide](http://docs.opennms.org/opennms/releases/17.0.0/guide-install/guide-install.html).
 

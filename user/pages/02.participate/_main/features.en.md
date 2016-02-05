@@ -1,5 +1,5 @@
 ---
-title: Community Area
+title: Participate
 class: small
 buttons:
     - text: Web Chat

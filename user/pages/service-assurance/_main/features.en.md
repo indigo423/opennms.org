@@ -3,4 +3,8 @@ title: Service Assurance Overview
 class: small
 ---
 
-![Service Assurance Overview](images)
+Some text above
+
+![Service Assurance Overview](/images/service-assurance.png)
+
+some text below

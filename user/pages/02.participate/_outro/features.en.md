@@ -1,5 +1,5 @@
 ---
-title: Community Area
+title: Participate
 ---
 
 ## Blogs and other content

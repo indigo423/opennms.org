@@ -75,20 +75,20 @@ b, strong, label, th {
 
 .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
   text-align: center;
-  padding-left: 14rem;
-  padding-right: 14rem; }
+  padding-left: 20rem;
+  padding-right: 20rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 7rem;
-      padding-right: 7rem; } }
+      padding-left: 13rem;
+      padding-right: 13rem; } }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 7rem;
-      padding-right: 7rem; } }
+      padding-left: 13rem;
+      padding-right: 13rem; } }
   @media only all and (max-width: 47.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 1rem;
-      padding-right: 1rem; } }
+      padding-left: 7rem;
+      padding-right: 7rem; } }
 
 .padding-vert {
   padding-top: 3rem;
@@ -217,8 +217,8 @@ b, strong, label, th {
   padding-left: 0;
   padding-right: 0; }
   .header-image.fullwidth #body > .listing-row {
-    padding-left: 14rem;
-    padding-right: 14rem; }
+    padding-left: 20rem;
+    padding-right: 20rem; }
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
 .header-image #body .flush-top {
@@ -1033,8 +1033,8 @@ ul.pagination {
   text-align: center;
   color: #2e3436; }
   .modular .showcase h1 {
-    padding-left: 14rem;
-    padding-right: 14rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
     background-color: rgba(238, 238, 236, 0.5); }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .modular .showcase h1 {
@@ -1051,8 +1051,8 @@ ul.pagination {
       color: #4e9a06; }
   .modular .showcase h2 {
     text-transform: none;
-    padding-left: 14rem;
-    padding-right: 14rem; }
+    padding-left: 20rem;
+    padding-right: 20rem; }
     @media only all and (max-width: 47.938em) {
       .modular .showcase h2 {
         padding-left: 0;
@@ -1173,9 +1173,7 @@ ul.pagination {
     display: block;
     float: left;
     width: 25%;
-    vertical-align: top;
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
+    vertical-align: top; }
     @media only all and (min-width: 30.063em) and (max-width: 47.938em) {
       .modular .features .feature {
         margin-top: 1rem;
@@ -1215,8 +1213,7 @@ ul.pagination {
         text-align: justify; }
 
 .modular .bottom {
-  text-align: center;
-  padding-bottom: 4rem; }
+  text-align: center; }
   .modular .bottom:after {
     content: "";
     display: table;
@@ -1500,16 +1497,16 @@ ul.pagination {
     margin-top: 4rem; }
     .portfolio .notebooks .notebook-row {
       box-shadow: inset 0px -90px 0px -20px #f7f7f7;
-      margin-left: -14rem;
-      margin-right: -14rem;
-      padding-left: 14rem;
-      padding-right: 14rem;
+      margin-left: -20rem;
+      margin-right: -20rem;
+      padding-left: 20rem;
+      padding-right: 20rem;
       background: #EEEEEE;
       padding-bottom: 2rem; }
       @media only all and (max-width: 47.938em) {
         .portfolio .notebooks .notebook-row {
-          margin-left: -10rem;
-          margin-right: -10rem; } }
+          margin-left: -16rem;
+          margin-right: -16rem; } }
       .portfolio .notebooks .notebook-row .notebook {
         min-width: 24%; }
         @media only all and (min-width: 48em) and (max-width: 59.938em) {

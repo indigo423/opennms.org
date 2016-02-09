@@ -3,22 +3,22 @@ title: Installation
 services:
     - icon: linux
       title: CentOS or RHEL
-      desc: "Install on CentOS / RHEL 64bit Linux operating system."
+      desc: "Install on CentOS / RHEL 64bit Linux"
       url: "install-centos"
       text: "Show me"
     - icon: linux
       title: Debian or Ubuntu
-      desc: "Install on Ubuntu / Debian 64bit Linux ooperating systems."
+      desc: "Install on Ubuntu / Debian 64bit Linux"
       url: "install-debian"
       text: "Show me"
     - icon: windows
       title: Windows Server
-      desc: "Install on a Microsoft Windows Server operating system."
+      desc: "Install on a Microsoft Windows Server"
       url: "install-windows"
       text: "Show me"
     - icon: cubes
       title: OpenNMS on Vagrant
-      desc: "Use a pre-installed Vagrant base images with VirtualBox."
+      desc: "Get a ready-to-run Vagrant base images"
       url: "install-vagrant"
       text: "Show me"
 ---

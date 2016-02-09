@@ -1227,7 +1227,8 @@ ul.pagination {
     line-height: 100%;
     color: #656161; }
   .modular .bottom p {
-    margin: 1rem 0; }
+    margin: 1rem 0;
+    text-align: justify; }
     @media only all and (max-width: 47.938em) {
       .modular .bottom p {
         font-size: 1rem; } }

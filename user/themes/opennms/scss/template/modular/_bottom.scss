@@ -14,6 +14,7 @@
 
         p {
             margin: 1rem 0;
+            text-align: justify;
 
             @include breakpoint(mobile-only) {
                 font-size: $core-font-size;

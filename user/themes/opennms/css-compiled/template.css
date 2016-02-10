@@ -20,7 +20,7 @@ html, body {
 
 body {
   background: #fff;
-  color: #9A9898;
+  color: #555753;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -264,14 +264,14 @@ b, strong, label, th {
     display: table;
     clear: both; }
   .footer a {
-    color: #9A9898; }
+    color: #555753; }
   .footer h4, .footer .archive-list label, .archive-list .footer label, .footer .modular .bottom table th, .modular .bottom table .footer th, .footer .contact label, .contact .footer label, .footer .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .footer .name, .footer .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .footer .button, .footer .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .footer button, .footer .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .footer button, .footer .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .footer button, .footer .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .footer button {
     line-height: 2rem;
     margin-top: 0;
     text-align: left;
     color: #fff; }
   .footer hr {
-    border-color: rgba(154, 152, 152, 0.5); }
+    border-color: rgba(85, 87, 83, 0.5); }
   @media only all and (max-width: 47.938em) {
     .footer .social-icons {
       float: none;
@@ -591,16 +591,12 @@ form .buttons {
 form input {
   font-weight: 400; }
 
-table {
-  border: 1px solid #d8d8d8; }
-
 th {
   background: #e5e5e5;
   padding: 0.5rem; }
 
 td {
-  padding: 0.5rem;
-  border: 1px solid #d8d8d8; }
+  padding: 0.5rem; }
 
 .button, .archive-list button, .contact button {
   background: #4e9a06;
@@ -697,9 +693,9 @@ td {
           border-bottom: 0; }
       #panel .navigation li.active > a {
         background: #fff;
-        color: #9A9898; }
+        color: #555753; }
         #panel .navigation li.active > a:hover {
-          color: #9A9898; }
+          color: #555753; }
       #panel .navigation li:first-child {
         border-top: 1px solid #3d3d3d; }
       #panel .navigation li ul {
@@ -826,7 +822,7 @@ td {
     margin-right: 0.5rem;
     font-size: 1rem;
     text-transform: uppercase;
-    color: #9A9898;
+    color: #555753;
     font-family: "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .list-item .list-blog-date, .list-item .list-blog-author {
@@ -857,7 +853,7 @@ td {
     text-transform: uppercase;
     font-family: "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
     .tags li a {
-      color: #9A9898; }
+      color: #555753; }
       .tags li a:after {
         content: ","; }
     .tags li:last-child a:after {
@@ -882,7 +878,7 @@ td {
     .archives li:last-child, .related-pages li:last-child {
       border-bottom: 0; }
   .archives a, .related-pages a {
-    color: #9A9898; }
+    color: #555753; }
     .archives a:hover, .related-pages a:hover {
       color: #4e9a06; }
 
@@ -946,7 +942,7 @@ ul.pagination {
       min-width: 90%; } }
 .archive-list input, .archive-list textarea {
   border: 0 none;
-  background: rgba(154, 152, 152, 0.2);
+  background: rgba(85, 87, 83, 0.2);
   box-shadow: none; }
 .archive-list label {
   font-size: 1rem; }
@@ -992,7 +988,7 @@ ul.pagination {
   margin-top: -2.5rem;
   font-weight: bold;
   font-size: 1rem;
-  color: #cdcccc; }
+  color: #888b85; }
   @media only all and (max-width: 47.938em) {
     .simplesearch .search-details {
       float: none;
@@ -1307,12 +1303,12 @@ ul.pagination {
       min-width: 90%; } }
 .contact input, .contact textarea {
   border: 0 none;
-  background: rgba(154, 152, 152, 0.2);
+  background: rgba(85, 87, 83, 0.2);
   box-shadow: none; }
   .contact input:focus, .contact textarea:focus {
     border-radius: 0 !important;
     box-shadow: none;
-    background: rgba(154, 152, 152, 0.11); }
+    background: rgba(85, 87, 83, 0.11); }
 .contact label {
   font-size: 1rem; }
 .contact button {
@@ -1550,7 +1546,7 @@ ul.pagination {
     margin: 0;
     float: left; }
     .logo h3 a {
-      color: #9A9898; }
+      color: #555753; }
   .logo h4, .logo .archive-list label, .archive-list .logo label, .logo .modular .bottom table th, .modular .bottom table .logo th, .logo .contact label, .contact .logo label, .logo .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .logo .name, .logo .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .logo .button, .logo .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .logo button, .logo .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .logo button, .logo .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .logo button, .logo .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .logo button {
     text-align: left; }
   .logo ul {

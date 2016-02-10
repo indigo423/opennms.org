@@ -20,7 +20,7 @@ features:
 	  linktext: "Go to Development Guide"
 ---
 
-The project divides documentation for personas with special use cases.
+The project divides documentation for persons with special use cases.
 It is helpful to start with the *User Guide*.
 He gives general insights how OpenNMS operates and concepts.
 The *Administrator Guide* is specialized to build or change configuration of OpenNMS to implement new monitoring use cases or maintenance in general.

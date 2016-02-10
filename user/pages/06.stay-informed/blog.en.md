@@ -14,14 +14,14 @@ content:
     order:
         by: date
         dir: desc
-    limit: 5
+    limit: 10
     pagination: true
 
 feed:
-    description: Sample Blog Description
+    description: Stay informed with the OpenNMS Project
     limit: 10
 
 pagination: true
 ---
 
-# Our Blog
+# Stay Informed

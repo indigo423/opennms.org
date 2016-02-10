@@ -4,12 +4,12 @@ menu: Features
 class: big
 features:
 	- header: Service Assurance
-	  text: "Synthentic polling to detect service outages and measure latency for graphing and thresholding. Out-of-the-box support for many applications with configurable service monitors. Remote monitoring of application and services from users perspective. Generate Alarms based on Syslog and SNMP Traps."
+	  text: "Synthentic polling to detect service outages and measure latency for graphing and thresholding. Out-of-the-box support for many applications with configurable service monitors. Remote monitoring of application and services from users perspective."
 	  icon: heartbeat
 	  linkurl: "service-assurance"
 	  linktext: "Find Out More"
 	- header: Performance Management
-	  text: "Collect performance metrics from industry standard agents via SNMP, JMX, WMI, NRPE, NSClient++ and XMP just by configuration. Integrate with customizable performance data collection via HTTP, JDBC and XML."
+	  text: "Collect performance metrics from industry standard agents via SNMP, JMX, WMI, NRPE, NSClient++ and XMP just by configuration. Gather performance data from applications with customizable generic collectors with HTTP, JDBC, XML or JSON."
 	  icon: tachometer
 	  linkurl: "http://www.getgrav.org" 
 	  linktext: "Find Out More"

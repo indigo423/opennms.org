@@ -1,7 +1,7 @@
 ---
-title: Get Help
+title: Documentation
 onpage_menu: false
-body_classes: "modular header-lite fullwidth"
+body_classes: "modular header-lite fullwidth services"
 bg_color: "#B4B093"
 
 content:
@@ -9,9 +9,4 @@ content:
     order:
         by: default
         dir: asc
-        custom:
-            - _portfolio
-            - _bottom
 ---
-
-

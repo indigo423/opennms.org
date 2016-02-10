@@ -11,12 +11,12 @@ features:
 	- header: Administrator Guide
 	  text: "OpenNMS Administrators introduce OpenNMS or architecture configuration and configuration to monitor services and applications. The concepts from a user guide should be known."
 	  icon: terminal
-	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-user/guide-admin.html"
+	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-admin/guide-admin.html"
 	  linktext: "Go to Administrator Guide"
 	- header: Developer Guide
 	  text: "Developer enhance send patches to the OpenNMS platform. They usually build new features for example creating new collectors, monitors or send patches to fix bugs."
 	  icon: wrench
-	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-user/guide-development.html"
+	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-development/guide-development.html"
 	  linktext: "Go to Development Guide"
 ---
 

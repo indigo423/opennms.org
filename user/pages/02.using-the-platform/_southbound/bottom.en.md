@@ -2,6 +2,8 @@
 title: Southbound Integration
 ---
 
+![plattform-overview](/images/platform-plugin-overview.png)
+
 ## Southbound Integration
 
 Gather performance measurements and log messages from network applications and devices supporting industry standard management protocols.

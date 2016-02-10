@@ -11,7 +11,7 @@ Extend the platform by using the native Java API or just run scripts on the unde
 * Jabber and XMPP as direct message or in XMPP chatrooms
 * Support for Microblog notifications via Identica / StatusNet / Twitter
 * Run external scripts
-* Extend the Java native notification statrategy API
+* Extend the Java native notification strategy API
 
 ## Ticketing Integration
 

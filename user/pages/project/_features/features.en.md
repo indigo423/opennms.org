@@ -20,6 +20,7 @@ features:
 	  linktext: "Find Out More"
 ---
 
-> bla bla
-> dfjlf
-> dfasdlkf
+**OpenNMS** is a carrier-grade, integrated, open source platform to build network monitoring solutions.
+It is available in two versions.
+**Meridian** is developed for **Enterprised** and **Businesses** with stability and long term support in mind, while **Horizon** is the place where **innovation** happens **quickly**.
+It addresses the requirements for monitoring new technologies and IT ecosystems.

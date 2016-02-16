@@ -1,5 +1,5 @@
 ---
-title: Participate
+title: Features
 class: big
 features:
     - header: "Talk with People"

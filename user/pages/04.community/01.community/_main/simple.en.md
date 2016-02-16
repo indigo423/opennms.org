@@ -36,19 +36,15 @@ We value your attendance.
 
 We expect participants to follow these rules at all related venues and social events.
 
-Staff Contact Information
-Tarus Balog
-Jeff Gehlbach
-Ronny Trommer
-
-tarus@opennms.org
-Tarus Balog (US)
-
-jeff@opennms.org
-Jeff Gehlbach (US)
-
-ronny@opennms.org
-Ronny Trommer (EU)
+Staff Contact Information<br/>
+tarus@opennms.org</br>
+Tarus Balog (US)</br>
+</br>
+jeff@opennms.org</br>
+Jeff Gehlbach (US)</br>
+</br>
+ronny@opennms.org</br>
+Ronny Trommer (EU)</br>
 
 ## License
 

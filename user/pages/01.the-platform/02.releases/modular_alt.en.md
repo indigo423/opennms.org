@@ -1,5 +1,5 @@
 ---
-title: Horizon vs. Meridian
+title: Releases
 onpage_menu: false
 body_classes: "modular header-lite fullwidth"
 bg_color: "#B4B093"

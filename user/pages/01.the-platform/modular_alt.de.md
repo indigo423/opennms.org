@@ -1,5 +1,5 @@
 ---
-title: Benutze die Plattform
+title: Die Plattform
 onpage_menu: false
 body_classes: "modular header-lite fullwidth"
 bg_color: "#B4B093"

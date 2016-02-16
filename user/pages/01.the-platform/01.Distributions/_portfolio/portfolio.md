@@ -1,21 +1,31 @@
 ---
 title: Horizon vs. Merdian
 ---
+The OpenNMS platform is delivered as _**Horizon**_ and _**Meridian**_ distribution.
+With the commercial distribution _**Meridian**_ the OpenNMS Group, Inc. offers a subscription distribution.
+The source code is exactly the same, the release cycle is slowed down and is used to provide support.
 
-Meridian is offered under the same license as Horizon, the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License).
+_**Horizon**_ is offered under the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License).
+When you download _**Horizon**_ you get the latest and newest features in the development tree.
+It follows the release early, release often model and allows to develop all new features in the platform.
+The development is driven by the OpenNMS Community and one of the largest upstream contributor is the OpenNMS Group, Inc.
+Contribution is done via [Pull Requests](https://help.github.com/articles/using-pull-requests/) against the [GitHub repository](https://github.com/OpenNMS/opennms).
+
+_**Meridian**_ is offered under the same license as Horizon, the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License).
 When you download Meridian binaries you will get the code as well.
 There are some organizations that have a policy of not using software published under the AGPL.
 They will have the option of using Meridian under a proprietary license.
 In either case, the Meridian software is yours to use no matter if your subscription expires.
 You will lose access to the Meridian repositories and all future updates, however, and our goal is to make them so useful you would never consider doing without.
+This is the choice if you require support and you don't require as quickly new features in favor of stability and maintenance.
 
 Meridian is initially offered via RPMs [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) and [CentOS](http://www.centos.org/).
 
 <table class="table">
   <tr>
     <td></td>
-    <td><img src="images/meridian_logo_small.png" /></td>
-    <td><img src="images/horizon_small.png" /></td>
+    <td><img src="../images/meridian_logo_small.png" /></td>
+    <td><img src="../images/horizon_small.png" /></td>
   </tr>
   <tr>
     <th align="left">

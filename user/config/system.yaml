@@ -10,9 +10,9 @@ pages:
   theme: opennms
   process:
     markdown: true
-    twig: false
+    twig: true
   markdown:
-    extra: false  
+    extra: true
 
 cache:
   enabled: false

@@ -20,6 +20,8 @@ features:
 	  linktext: "Go to Development Guide"
 ---
 
+# Guides
+
 The project divides documentation for persons with special use cases.
 It is helpful to start with the *User Guide*.
 He gives general insights how OpenNMS operates and concepts.
@@ -27,5 +29,3 @@ The *Administrator Guide* is specialized to build or change configuration of Ope
 With the *Developer Guide* you get all information to change the OpenNMS source code.
 
 This documentation is released and tight to specific OpenNMS versions and is part of the OpenNMS Source Code on [GitHub](https://github.com/OpenNMS/opennms/tree/develop/opennms-doc).
-
-![Documentation Overview](/images/documentation-overview.png)

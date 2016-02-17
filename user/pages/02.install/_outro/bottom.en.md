@@ -1,7 +1,9 @@
 # Configuration Management
 
-You are interested to run and maintain OpenNMS with modern configuration management tools?
-Please see the repositories which are built by the community and help with reporting issues and improve with patches.
+
+Are you interested in running and maintaining OpenNMS with modern configuration management tools such as Chef or Ansible?
+
+Please take a look at our repositories, which are built by the OpenNMS community:
 
 * Chef Cookbook: <https://supermarket.chef.io/cookbooks/opennms>
 * Ansible Playbook: <https://github.com/mrlesmithjr/ansible-opennms>

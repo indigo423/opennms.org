@@ -759,7 +759,7 @@ td {
         font-weight: normal; }
   .modal .modal-content {
     margin: 0 auto;
-    width: 35rem;
+    width: 55rem;
     min-height: 100%;
     margin-top: 10rem; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -770,7 +770,7 @@ td {
         margin-top: 0;
         width: 100%; } }
     .modal .modal-content img {
-      max-height: 15rem; }
+      max-height: 45rem; }
 
 .blog-header {
   padding-top: 1rem !important;

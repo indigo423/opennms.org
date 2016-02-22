@@ -37,6 +37,7 @@ class ShortcodeManager
         $this->config = $this->grav['config'];
         $this->handlers = new HandlerContainer();
         $this->events = new EventContainer();
+        $this->states = [];
         $this->assets = [];
         $this->objects = [];
     }
@@ -187,7 +188,7 @@ class ShortcodeManager
 
         $markdown->blockShortCodes = function($Line) {
             $valid_shortcodes = implode('|', $this->handlers->getNames());
-            $regex = '/^(?:\[\/?(?:'.$valid_shortcodes.'))(.*)(?:\])$/';
+            $regex = '/^\[\/?(?:'.$valid_shortcodes.')[^\]]*\]$/';
 
             if (preg_match($regex, $Line['body'], $matches)) {
                 $Block = array(

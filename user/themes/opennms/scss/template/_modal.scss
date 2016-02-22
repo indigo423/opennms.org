@@ -54,9 +54,9 @@
     }
     .modal-content {
         margin: 0 auto;
-        width: 55rem;
+        width: 45rem;
         min-height: 100%;
-        margin-top: 10rem;
+        // margin-top: 10rem;
         @include breakpoint(tablet-range) {
             width: 100%;
         }

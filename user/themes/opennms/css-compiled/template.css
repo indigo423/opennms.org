@@ -759,9 +759,8 @@ td {
         font-weight: normal; }
   .modal .modal-content {
     margin: 0 auto;
-    width: 55rem;
-    min-height: 100%;
-    margin-top: 10rem; }
+    width: 45rem;
+    min-height: 100%; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .modal .modal-content {
         width: 100%; } }

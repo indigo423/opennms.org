@@ -1,5 +1,5 @@
 home:
-  alias: '/project'
+  alias: '/opennms'
 
 languages:
   supported:

@@ -1,7 +1,7 @@
 ---
-title: Stay Informed
-blog_url: stay-informed
-menu: Stay Informed
+title: Blog
+blog_url: blog
+menu: Blog
 body_classes: header-lite fullwidth blogstyling
 bg_color: "#B4B093"
 
@@ -14,14 +14,14 @@ content:
     order:
         by: date
         dir: desc
-    limit: 10
+    limit: 5
     pagination: true
 
 feed:
-    description: Stay informed with the OpenNMS Project
+    description: Sample Blog Description
     limit: 10
 
 pagination: true
 ---
 
-# Stay Informed
+# Our Blog

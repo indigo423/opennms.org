@@ -1,7 +1,7 @@
 ---
-title: Neuigkeiten
-blog_url: neuigkeiten
-menu: Neuigkeiten
+title: Blog
+blog_url: blog
+menu: Blog
 body_classes: header-lite fullwidth blogstyling
 bg_color: "#B4B093"
 
@@ -14,14 +14,14 @@ content:
     order:
         by: date
         dir: desc
-    limit: 5
+    limit: 10
     pagination: true
 
 feed:
-    description: Sample Blog Description
+    description: Stay informed with the OpenNMS Project
     limit: 10
 
 pagination: true
 ---
 
-# Our Blog
+# Stay Informed

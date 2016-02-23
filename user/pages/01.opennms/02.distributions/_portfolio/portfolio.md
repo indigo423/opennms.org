@@ -5,6 +5,8 @@ The OpenNMS platform is delivered as _**Horizon**_ and _**Meridian**_ distributi
 With the commercial distribution _**Meridian**_ the OpenNMS Group, Inc. offers a subscription distribution.
 The source code is exactly the same, the release cycle is slowed down and is used to provide support.
 
+<img src="../images/horizon-vs-meridian-comparison-tall.png" />
+
 _**Horizon**_ is offered under the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License).
 When you download _**Horizon**_ you get the latest and newest features in the development tree.
 It follows the release early, release often model and allows to develop all new features in the platform.

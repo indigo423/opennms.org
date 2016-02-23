@@ -221,12 +221,6 @@
         background-color: rgba($header-text,0);
         box-shadow: none;
 
-        #logo h3, #logo a {
-            color: $header-text;
-        }
-        a, .menu-btn {
-            color: $header-text;
-        }
         a:before, a:after {
             background-color: rgba($header-text,0.7) !important;
         }
@@ -247,17 +241,15 @@
     }
     #header {
         box-shadow: none;
-        color: $light-gray;
-        a, .menu-btn {
-            color: $light-gray;
-        }
+        color: $header-text;
+
         .search-box {
             i {
-                color: $light-gray;
+                color: $header-text;
             }
             input[type=search] {
                 &:focus {
-                    background-color: transparentize($light-gray, 0.8);
+                    background-color: transparentize($header-text, 0.8);
                 }
             }
         }

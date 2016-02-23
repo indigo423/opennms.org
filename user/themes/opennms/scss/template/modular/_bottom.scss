@@ -9,7 +9,7 @@
             padding-top: 3rem;
             margin: 0;
             line-height: 100%;
-            color: $light-gray; 
+            color: $light-gray;
         }
 
         p {
@@ -25,13 +25,13 @@
             @extend .default-animation;
             background-color: $core-accent;
             color: $header-text;
-            font-family: $font-family-header;
+
             border-radius: $border-radius;
-            box-shadow: none;
-            font-size: $core-font-size;
-            border: 0 none;
+            border: 1px solid;
+            transition: all 0.5s ease;
             &:hover {
-                background-color: darken($core-accent, 20%);
+                background-color: $white;
+                color: $core-accent;
             }
         }
         &.borderbottom {
@@ -45,13 +45,13 @@
             th {
                 background: none;
                 @extend h4;
-                text-align: left; 
+                text-align: left;
                 @include breakpoint(mobile-only) {
                     display: none;
                 }
             }
             td {
-                text-align: left;  
+                text-align: left;
                 vertical-align: top;
                 border: 0 none;
                 @include breakpoint(mobile-only) {
@@ -82,7 +82,7 @@
                     margin-right: 1rem;
                 }
                 h4 {
-                    text-align: left; 
+                    text-align: left;
                     margin-bottom: 0;
                 }
             }

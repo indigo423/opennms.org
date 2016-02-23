@@ -7,3 +7,17 @@
 	@extend %button;
 	@include button-color($secondary-link);
 }
+
+.link-button {
+    @include button-color($core-accent);
+
+    a.hover {
+        color: $core-accent;
+    }
+
+    color: $header-text;
+    padding: 0.3rem;
+    border: 1px solid;
+    border-radius: $border-radius;
+    transition: all 0.5s ease;
+}

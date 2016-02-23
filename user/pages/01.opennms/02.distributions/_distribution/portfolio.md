@@ -26,8 +26,8 @@ Meridian is initially offered via RPMs [Red Hat Enterprise Linux](http://www.red
 <table class="table">
   <tr>
     <td></td>
-    <td><img src="../images/meridian_logo_small.png" /></td>
-    <td><img src="../images/horizon_small.png" /></td>
+    <td><img style="max-width: 75%" src="../images/meridian.svg" /></td>
+    <td><img style="max-width: 75%" src="../images/horizon.svg" /></td>
   </tr>
   <tr>
     <th align="left">

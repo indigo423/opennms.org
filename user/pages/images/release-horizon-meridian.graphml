@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.14.4-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="267.0" x="135.0" y="421.0"/>
+          <y:Fill color="#267DB6" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="76.671875" x="95.1640625" y="3.3359375">12 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="135.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="224.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="313.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="402.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="491.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="267.0" x="402.0" y="421.0"/>
+          <y:Fill color="#267DB6" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="76.671875" x="95.1640625" y="3.3359375">12 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="580.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="53.60200119018555" width="201.75" x="-96.75" y="409.1989994049072"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="98.875" y="57.60200119018555"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="72.13320541381836" width="198.39748910488083" x="-93.39748910488083" y="244.43339729309082"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="97.19874455244042" y="76.13320541381836"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="669.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="758.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="89.0" x="847.0" y="273.0"/>
+          <y:Fill color="#4D9C2D" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Arvo" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="23.328125" modelName="custom" textColor="#FFFFFF" visible="true" width="71.1484375" x="8.92578125" y="3.3359375">4 Month<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n1" target="n0">
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.edge.framed">
+          <y:Path sx="89.0" sy="16.25000000000091" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#4D9C2D" type="line" width="6.0"/>
+          <y:Arrows source="standard" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arvo" fontSize="12" fontStyle="plain" hasLineColor="false" height="32.9921875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="101.423828125" x="-50.7119140625" y="41.25390625">Bugfixes
+Security patches<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="71.25" distanceToCenter="true" position="center" ratio="0.5" segment="0"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n5" target="n6">
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.edge.framed">
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#267DB6" type="line" width="7.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arvo" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.49609375" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="81.150390625" x="-40.5751953125" y="49.751953125">New features<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="center" ratio="0.5" segment="0"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+        </y:GenericEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="170.558px" height="44px" viewBox="0 0 170.558 44" enable-background="new 0 0 170.558 44" xml:space="preserve"&gt;
+&lt;g&gt;
+	&lt;path fill="#237CB7" d="M19.612,0c-50.803,21.895,19.933,53.602,65.442,29.668C39.853,47.345-17.164,20.189,19.612,0z"/&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;path stroke="#010101" stroke-width="1.3373" d="M95.747,39.93c-0.645-0.011-1.216-0.145-1.713-0.402
+				c-0.503-0.25-0.912-0.576-1.22-0.97c-0.641-0.836-0.963-1.709-0.963-2.614c0.021-1.379,0.54-2.549,1.546-3.509
+				c0.974-0.97,2.187-1.47,3.643-1.499c0.742,0,1.375,0.127,1.894,0.384c0.507,0.265,0.916,0.594,1.224,0.988
+				c0.315,0.402,0.547,0.833,0.699,1.29c0.119,0.466,0.181,0.919,0.181,1.358c0,1.234-0.438,2.35-1.318,3.356
+				C98.835,39.354,97.51,39.89,95.747,39.93z M96.033,38.395c0.058,0.011,0.181-0.011,0.373-0.069
+				c0.181-0.043,0.373-0.178,0.576-0.395c0.102-0.13,0.207-0.282,0.312-0.463c0.112-0.174,0.203-0.391,0.271-0.655
+				c0.167-0.503,0.275-1.228,0.322-2.169c0.043-0.612-0.004-1.123-0.138-1.532c-0.148-0.417-0.387-0.626-0.731-0.641
+				c-0.337,0.011-0.626,0.134-0.876,0.362c-0.25,0.231-0.46,0.532-0.634,0.908c-0.336,0.808-0.503,1.59-0.503,2.347
+				c0,0.681,0.076,1.227,0.235,1.647C95.388,38.174,95.656,38.395,96.033,38.395z"/&gt;
+			&lt;path stroke="#010101" stroke-width="1.3467" d="M106.091,32.041c0.391-0.33,0.818-0.608,1.289-0.844
+				c0.453-0.213,0.927-0.329,1.416-0.348c1.583,0.019,2.375,1.17,2.386,3.455c-0.032,1.781-0.514,3.157-1.445,4.131
+				c-0.901,0.967-1.825,1.456-2.766,1.467c-0.822-0.011-1.542-0.308-2.147-0.895L103.89,44h-3.107l2.434-12.933h3.052
+				L106.091,32.041z M107.163,32.729c-0.192,0-0.384,0.08-0.58,0.235c-0.203,0.167-0.409,0.438-0.623,0.818
+				c-0.423,0.735-0.702,1.963-0.84,3.679c0.231,0.503,0.612,0.756,1.137,0.756c0.195,0,0.405-0.097,0.625-0.297
+				c0.203-0.195,0.388-0.466,0.555-0.807c0.369-0.702,0.557-1.593,0.568-2.665C108.025,33.304,107.738,32.729,107.163,32.729z"/&gt;
+			&lt;path stroke="#010101" stroke-width="1.3373" d="M119.76,38.558c-0.583,0.351-1.256,0.662-2.027,0.938
+				c-0.761,0.279-1.564,0.423-2.408,0.434c-0.546-0.011-1.003-0.145-1.361-0.402c-0.376-0.224-0.677-0.518-0.912-0.887
+				c-0.112-0.196-0.206-0.384-0.282-0.568c-0.076-0.189-0.145-0.376-0.203-0.562c-0.043-0.185-0.076-0.362-0.098-0.536
+				c-0.022-0.156-0.033-0.304-0.033-0.442c0.043-1.006,0.243-1.868,0.598-2.588c0.167-0.37,0.369-0.695,0.601-0.981
+				c0.217-0.286,0.456-0.536,0.71-0.753c0.518-0.445,1.079-0.771,1.683-0.978c0.59-0.196,1.152-0.293,1.691-0.293
+				c0.84,0,1.542,0.174,2.104,0.521c0.565,0.352,0.854,0.935,0.865,1.749c-0.011,0.467-0.159,0.873-0.445,1.213
+				c-0.293,0.37-0.688,0.674-1.185,0.913c-1.028,0.503-2.175,0.742-3.45,0.72c-0.011,0.091-0.011,0.232,0,0.428
+				c0,0.206,0.04,0.416,0.12,0.637c0.076,0.207,0.213,0.384,0.416,0.529c0.2,0.174,0.486,0.26,0.858,0.26
+				c0.391,0,0.757-0.076,1.097-0.224c0.337-0.134,0.677-0.3,1.028-0.496L119.76,38.558z M117.493,32.417
+				c-0.475,0.043-0.855,0.275-1.137,0.688c-0.275,0.409-0.478,0.912-0.608,1.513c1.662,0.043,2.516-0.406,2.57-1.347
+				c0.022-0.261-0.043-0.478-0.195-0.637C117.971,32.489,117.757,32.417,117.493,32.417z"/&gt;
+			&lt;path stroke="#010101" stroke-width="1.3478" d="M125.252,32.624l0.032,0.032c0.478-0.594,1.007-1.042,1.583-1.351
+				c0.572-0.29,1.112-0.438,1.622-0.438c1.231,0,1.85,0.619,1.85,1.857c0.011,0.398-0.032,0.876-0.13,1.434l-1.003,5.555h-3.005
+				l0.97-5.424c0.022-0.152,0.033-0.297,0.033-0.431c-0.043-0.362-0.126-0.59-0.253-0.691c-0.13-0.094-0.253-0.145-0.369-0.145
+				c-0.275,0-0.518,0.087-0.717,0.261c-0.213,0.173-0.395,0.405-0.546,0.691c-0.293,0.612-0.497,1.242-0.602,1.883l-0.688,3.856
+				h-3.005l1.557-8.628h2.98L125.252,32.624z"/&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M95.015,39.097c-0.645-0.011-1.217-0.145-1.712-0.402
+				c-0.503-0.25-0.913-0.576-1.22-0.971c-0.641-0.836-0.959-1.709-0.959-2.614c0.021-1.376,0.536-2.545,1.546-3.505
+				c0.97-0.971,2.184-1.47,3.639-1.499c0.746,0,1.376,0.126,1.894,0.384c0.507,0.26,0.916,0.59,1.228,0.988
+				c0.315,0.402,0.546,0.833,0.695,1.289c0.12,0.471,0.181,0.924,0.181,1.358c0,1.234-0.438,2.35-1.318,3.356
+				C98.104,38.521,96.782,39.061,95.015,39.097z M95.301,37.562c0.058,0.011,0.181-0.012,0.373-0.069
+				c0.177-0.044,0.369-0.178,0.572-0.395c0.102-0.131,0.207-0.282,0.312-0.464c0.108-0.174,0.199-0.391,0.268-0.655
+				c0.167-0.503,0.275-1.228,0.322-2.169c0.043-0.612-0.004-1.119-0.138-1.528c-0.145-0.416-0.387-0.626-0.731-0.637
+				c-0.333,0.011-0.626,0.131-0.876,0.359c-0.25,0.231-0.464,0.535-0.637,0.909c-0.337,0.807-0.503,1.589-0.503,2.346
+				c0,0.681,0.08,1.231,0.235,1.647C94.66,37.345,94.925,37.562,95.301,37.562z"/&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M105.399,31.291c0.388-0.327,0.812-0.604,1.275-0.836
+				c0.453-0.213,0.919-0.33,1.405-0.348c1.571,0.019,2.361,1.163,2.372,3.433c-0.029,1.771-0.511,3.136-1.438,4.103
+				c-0.895,0.959-1.807,1.444-2.745,1.455c-0.818-0.011-1.528-0.308-2.129-0.891l-0.931,4.957h-3.085l2.416-12.842h3.031
+				L105.399,31.291z M106.46,31.975c-0.188,0-0.38,0.08-0.572,0.235c-0.203,0.163-0.409,0.431-0.616,0.811
+				c-0.42,0.731-0.699,1.948-0.833,3.65c0.232,0.503,0.608,0.753,1.13,0.753c0.196,0,0.402-0.097,0.623-0.292
+				c0.2-0.196,0.384-0.464,0.547-0.804c0.37-0.699,0.554-1.582,0.568-2.646C107.315,32.543,107.036,31.975,106.46,31.975z"/&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M119.028,37.729c-0.583,0.351-1.257,0.662-2.028,0.935
+				c-0.76,0.278-1.561,0.423-2.408,0.434c-0.546-0.011-1.003-0.145-1.361-0.402c-0.376-0.221-0.681-0.518-0.912-0.887
+				c-0.112-0.196-0.207-0.384-0.279-0.568c-0.076-0.188-0.145-0.377-0.203-0.562c-0.043-0.184-0.072-0.361-0.094-0.536
+				c-0.022-0.159-0.033-0.304-0.033-0.445c0.043-1.003,0.243-1.865,0.597-2.586c0.167-0.369,0.366-0.699,0.598-0.98
+				c0.221-0.286,0.457-0.536,0.713-0.753c0.518-0.446,1.075-0.771,1.68-0.978c0.587-0.195,1.151-0.293,1.691-0.293
+				c0.84,0,1.543,0.174,2.1,0.518c0.568,0.352,0.854,0.938,0.865,1.752c-0.011,0.468-0.159,0.873-0.445,1.213
+				c-0.293,0.37-0.685,0.673-1.185,0.912c-1.028,0.503-2.176,0.742-3.45,0.72c-0.011,0.091-0.011,0.232,0,0.428
+				c0,0.206,0.04,0.419,0.123,0.637c0.076,0.207,0.213,0.384,0.413,0.529c0.199,0.173,0.485,0.261,0.857,0.261
+				c0.388,0,0.753-0.077,1.094-0.228c0.337-0.135,0.677-0.297,1.032-0.493L119.028,37.729z M116.762,31.584
+				c-0.475,0.044-0.854,0.272-1.133,0.688c-0.279,0.409-0.482,0.912-0.608,1.513c1.658,0.043,2.517-0.402,2.571-1.347
+				c0.022-0.264-0.043-0.478-0.196-0.637C117.239,31.656,117.026,31.584,116.762,31.584z"/&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M124.564,31.845l0.033,0.033c0.474-0.586,0.996-1.032,1.567-1.339
+				c0.568-0.29,1.101-0.431,1.608-0.431c1.224,0,1.836,0.612,1.836,1.839c0.01,0.395-0.033,0.873-0.127,1.423l-0.992,5.514h-2.983
+				l0.963-5.384c0.021-0.149,0.033-0.293,0.033-0.427c-0.043-0.358-0.127-0.586-0.25-0.685c-0.13-0.097-0.253-0.141-0.362-0.141
+				c-0.279,0-0.514,0.086-0.713,0.256c-0.21,0.174-0.391,0.402-0.543,0.688c-0.293,0.608-0.492,1.231-0.597,1.868l-0.677,3.828
+				h-2.987l1.542-8.563h2.961L124.564,31.845z"/&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;path d="M142.523,40.053h-2.346c-0.909-1.133-1.854-2.331-2.835-3.595c-0.988-1.264-1.781-2.408-2.375-3.429h-0.033v7.028h-2.741
+				V28.064h2.535c0.898,1.104,1.843,2.311,2.839,3.618c0.988,1.3,1.716,2.386,2.18,3.254h0.032v-6.872h2.741v11.988L142.523,40.053
+				L142.523,40.053z"/&gt;
+			&lt;path d="M158.039,40.053h-3.617V31.66h-0.033c-0.891,3.045-1.807,5.84-2.741,8.39h-2.19c-0.945-2.549-1.876-5.345-2.788-8.39
+				h-0.033v8.39h-2.741V28.064h4.768c0.797,2.205,1.586,4.667,2.375,7.383h0.033c0.757-2.719,1.528-5.178,2.303-7.383h4.664V40.053z
+				"/&gt;
+			&lt;path d="M165.986,30.53c-0.475-0.296-1.043-0.445-1.709-0.445c-0.783,0.021-1.169,0.268-1.169,0.735
+				c0,0.152,0.068,0.308,0.199,0.471c0.116,0.166,0.279,0.337,0.493,0.511c0.427,0.34,0.949,0.782,1.557,1.321
+				c0.735,0.699,1.231,1.318,1.496,1.854c0.257,0.546,0.376,1.129,0.366,1.752c0,0.264-0.058,0.586-0.17,0.97
+				c-0.119,0.402-0.347,0.797-0.681,1.192c-0.308,0.387-0.742,0.703-1.303,0.956c-0.576,0.268-1.303,0.406-2.176,0.417
+				c-0.688,0-1.343-0.09-1.966-0.275c-0.641-0.174-1.203-0.445-1.677-0.815l1.061-1.984c0.253,0.195,0.543,0.38,0.873,0.546
+				c0.337,0.199,0.71,0.297,1.119,0.297c0.362,0,0.692-0.105,0.989-0.312c0.304-0.178,0.46-0.493,0.471-0.941
+				c0-0.24-0.062-0.475-0.185-0.703c-0.12-0.207-0.279-0.406-0.478-0.604c-0.423-0.384-0.88-0.779-1.376-1.181
+				c-0.641-0.524-1.147-1.017-1.51-1.477c-0.373-0.445-0.554-1.025-0.554-1.734c0.007-0.974,0.427-1.752,1.253-2.338
+				c0.774-0.583,1.738-0.876,2.889-0.888c0.764,0.011,1.423,0.109,1.98,0.293c0.528,0.181,0.898,0.351,1.115,0.507L165.986,30.53z"
+				/&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;g&gt;
+				&lt;path fill="#010101" d="M168.948,28.221c0.901,0,1.611,0.706,1.611,1.604c0,0.898-0.709,1.604-1.619,1.604
+					c-0.908,0-1.622-0.706-1.622-1.604c0-0.898,0.713-1.604,1.622-1.604H168.948z M168.934,28.496c-0.735,0-1.314,0.587-1.314,1.332
+					c0,0.747,0.579,1.333,1.321,1.333c0.742,0,1.322-0.586,1.322-1.333c0-0.745-0.58-1.332-1.322-1.332H168.934z M168.285,28.876
+					h0.576c0.341,0,0.518,0.051,0.648,0.138c0.127,0.086,0.207,0.224,0.207,0.405c0,0.293-0.221,0.442-0.417,0.511l0.511,0.822
+					h-0.42l-0.471-0.774h-0.235v0.774h-0.395v-1.875L168.285,28.876L168.285,28.876z M168.68,29.73h0.258
+					c0.228,0,0.369-0.116,0.369-0.297c0-0.243-0.207-0.286-0.445-0.286h-0.177v0.583H168.68z"/&gt;
+			&lt;/g&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;path fill="#237CB7" d="M23.968,25.208L28.74,0.836l7.781,17.619l8.06-17.619l4.287,24.372H45.36l-2.19-13.683L36.463,26.25
+			l-6.517-14.74l-2.437,13.697L23.968,25.208L23.968,25.208z"/&gt;
+		&lt;path fill="#237CB7" d="M66.179,5.753h-9.088v5.446h8.824v3.215h-8.824v7.575h9.088v3.215H53.67V2.539h12.509V5.753z"/&gt;
+		&lt;path fill="#237CB7" d="M78.345,15.548l7.017,9.66h-4.186l-6.47-9.28H74.09v9.28h-3.421V2.539h4.008
+			c2.998,0,5.16,0.561,6.489,1.687c1.466,1.253,2.201,2.908,2.201,4.96c0,1.608-0.459,2.987-1.383,4.139
+			C81.068,14.483,79.855,15.222,78.345,15.548z M74.091,12.948h1.086c3.24,0,4.859-1.238,4.859-3.715
+			c0-2.321-1.575-3.479-4.725-3.479h-1.22V12.948z"/&gt;
+		&lt;path fill="#237CB7" d="M92.191,2.538v22.67H88.77V2.538H92.191z"/&gt;
+		&lt;path fill="#237CB7" d="M97.64,25.208V2.538h4.754c2.281,0,4.081,0.225,5.402,0.674c1.419,0.441,2.705,1.191,3.86,2.245
+			c2.343,2.133,3.512,4.939,3.512,8.415c0,3.483-1.22,6.304-3.657,8.454c-1.22,1.076-2.506,1.825-3.845,2.246
+			c-1.253,0.423-3.027,0.633-5.33,0.633H97.64V25.208L97.64,25.208z M101.058,21.993h1.542c1.535,0,2.813-0.163,3.831-0.485
+			c1.018-0.344,1.937-0.887,2.763-1.629c1.683-1.535,2.523-3.538,2.523-6.003c0-2.484-0.833-4.504-2.495-6.05
+			c-1.499-1.379-3.705-2.071-6.623-2.071h-1.542L101.058,21.993L101.058,21.993z"/&gt;
+		&lt;path fill="#237CB7" d="M122.892,2.538v22.67h-3.421V2.538H122.892z"/&gt;
+		&lt;path fill="#237CB7" d="M141.654,19.701h-9.703l-2.528,5.503h-3.686l11.218-24.092l10.822,24.092h-3.744L141.654,19.701z
+			 M140.261,16.486l-3.364-7.709l-3.523,7.709H140.261z"/&gt;
+		&lt;path fill="#237CB7" d="M150.608,25.208V0.996l16.529,17.293V2.538h3.421v24.049L154.03,9.338v15.87H150.608L150.608,25.208z"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="2">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="138px" height="44px" viewBox="0 0 138 44" enable-background="new 0 0 138 44" xml:space="preserve"&gt;
+&lt;g&gt;
+	&lt;path fill="#4E9D2D" d="M18.256,30.928C-22.866,13.203,34.39-12.459,71.23,6.913C34.64-7.395-11.515,14.586,18.256,30.928z"/&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;path stroke="#010101" stroke-width="1.3373" d="M73.715,40.705c-0.524-0.009-0.985-0.117-1.389-0.325
+				c-0.408-0.202-0.735-0.466-0.991-0.785c-0.516-0.677-0.777-1.384-0.777-2.113c0.018-1.117,0.434-2.063,1.252-2.84
+				c0.785-0.786,1.77-1.19,2.948-1.213c0.604,0,1.114,0.103,1.536,0.311c0.41,0.211,0.741,0.478,0.99,0.8
+				c0.255,0.326,0.443,0.672,0.566,1.044c0.096,0.38,0.146,0.744,0.146,1.099c0,1-0.354,1.905-1.067,2.717
+				C76.215,40.239,75.143,40.673,73.715,40.705z M73.947,39.462c0.047,0.009,0.146-0.009,0.302-0.053
+				c0.144-0.035,0.302-0.144,0.463-0.319c0.085-0.103,0.167-0.229,0.252-0.375c0.091-0.141,0.161-0.317,0.22-0.53
+				c0.135-0.408,0.22-0.994,0.261-1.756c0.035-0.495-0.003-0.908-0.114-1.24c-0.117-0.334-0.313-0.507-0.589-0.516
+				c-0.273,0.009-0.507,0.109-0.709,0.293c-0.202,0.188-0.372,0.431-0.513,0.736c-0.272,0.653-0.408,1.286-0.408,1.899
+				c0,0.548,0.062,0.993,0.191,1.333C73.425,39.287,73.643,39.462,73.947,39.462z"/&gt;
+			&lt;path stroke="#010101" stroke-width="1.3467" d="M82.089,34.319c0.316-0.267,0.663-0.495,1.041-0.683
+				c0.369-0.173,0.75-0.267,1.146-0.281c1.281,0.014,1.923,0.946,1.932,2.796c-0.027,1.442-0.416,2.556-1.172,3.344
+				c-0.73,0.783-1.475,1.178-2.239,1.187c-0.668-0.009-1.249-0.249-1.738-0.724L80.301,44h-2.514l1.969-10.469h2.471L82.089,34.319z
+				 M82.956,34.876c-0.155,0-0.313,0.064-0.469,0.19c-0.164,0.132-0.331,0.354-0.504,0.662c-0.343,0.595-0.569,1.586-0.68,2.975
+				c0.188,0.411,0.495,0.613,0.92,0.613c0.159,0,0.329-0.079,0.507-0.237c0.164-0.158,0.313-0.378,0.448-0.656
+				c0.299-0.569,0.451-1.287,0.46-2.157C83.651,35.342,83.422,34.876,82.956,34.876z"/&gt;
+			&lt;path stroke="#010101" stroke-width="1.3373" d="M93.153,39.594c-0.472,0.284-1.018,0.536-1.639,0.759
+				c-0.616,0.226-1.266,0.342-1.949,0.352c-0.443-0.009-0.812-0.117-1.102-0.326c-0.305-0.182-0.551-0.419-0.739-0.718
+				c-0.091-0.158-0.167-0.311-0.229-0.46c-0.062-0.152-0.117-0.305-0.164-0.454c-0.035-0.149-0.059-0.293-0.076-0.434
+				c-0.018-0.126-0.027-0.246-0.027-0.36c0.036-0.812,0.197-1.512,0.484-2.096c0.134-0.299,0.298-0.563,0.483-0.794
+				c0.179-0.231,0.373-0.434,0.578-0.609c0.419-0.36,0.873-0.625,1.363-0.792c0.478-0.159,0.932-0.238,1.369-0.238
+				c0.68,0,1.248,0.141,1.7,0.422c0.46,0.284,0.695,0.756,0.701,1.416c-0.009,0.378-0.129,0.706-0.36,0.981
+				c-0.238,0.299-0.557,0.545-0.959,0.739c-0.832,0.407-1.761,0.601-2.793,0.583c-0.009,0.073-0.009,0.188,0,0.345
+				c0,0.167,0.033,0.337,0.097,0.516c0.062,0.167,0.173,0.311,0.334,0.428c0.161,0.141,0.396,0.21,0.694,0.21
+				c0.317,0,0.613-0.062,0.885-0.182c0.272-0.108,0.551-0.244,0.835-0.398L93.153,39.594z M91.315,34.624
+				c-0.384,0.039-0.691,0.223-0.918,0.56c-0.225,0.332-0.386,0.739-0.492,1.225c1.345,0.036,2.037-0.325,2.081-1.09
+				c0.018-0.214-0.035-0.384-0.155-0.516C91.702,34.682,91.532,34.624,91.315,34.624z"/&gt;
+			&lt;path stroke="#010101" stroke-width="1.3478" d="M97.599,34.791l0.026,0.027c0.387-0.48,0.812-0.844,1.281-1.093
+				c0.463-0.235,0.9-0.355,1.313-0.355c0.997,0,1.498,0.501,1.498,1.501c0.009,0.322-0.026,0.709-0.105,1.16L100.8,40.53h-2.433
+				l0.782-4.39c0.018-0.123,0.027-0.24,0.027-0.349c-0.036-0.293-0.103-0.478-0.206-0.56c-0.105-0.079-0.205-0.117-0.296-0.117
+				c-0.226,0-0.419,0.07-0.581,0.211c-0.173,0.141-0.319,0.328-0.442,0.56c-0.238,0.495-0.398,1.005-0.487,1.523l-0.557,3.122
+				h-2.433l1.26-6.984h2.412L97.599,34.791z"/&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M73.124,40.031c-0.522-0.009-0.985-0.117-1.389-0.326
+				c-0.407-0.202-0.736-0.465-0.991-0.785c-0.516-0.677-0.773-1.383-0.773-2.116c0.018-1.117,0.434-2.061,1.251-2.84
+				c0.785-0.786,1.767-1.19,2.945-1.214c0.601,0,1.114,0.103,1.533,0.311c0.411,0.214,0.741,0.481,0.993,0.801
+				c0.255,0.325,0.443,0.674,0.563,1.043c0.097,0.378,0.146,0.745,0.146,1.099c0,0.997-0.354,1.902-1.067,2.717
+				C75.624,39.565,74.554,40.001,73.124,40.031z M73.355,38.789c0.047,0.009,0.146-0.009,0.302-0.056
+				c0.144-0.036,0.299-0.144,0.463-0.32c0.085-0.105,0.17-0.228,0.252-0.375c0.091-0.141,0.164-0.316,0.22-0.53
+				c0.135-0.408,0.223-0.994,0.261-1.756c0.035-0.495-0.003-0.908-0.111-1.239c-0.117-0.337-0.313-0.51-0.592-0.516
+				c-0.272,0.009-0.51,0.105-0.709,0.293c-0.199,0.188-0.372,0.431-0.513,0.736c-0.272,0.653-0.407,1.287-0.407,1.899
+				c0,0.548,0.061,0.994,0.19,1.333C72.836,38.613,73.05,38.789,73.355,38.789z"/&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M81.529,33.712c0.314-0.264,0.657-0.49,1.032-0.677
+				c0.366-0.173,0.745-0.267,1.134-0.281c1.272,0.015,1.914,0.941,1.92,2.778c-0.026,1.433-0.413,2.538-1.164,3.321
+				c-0.724,0.776-1.465,1.169-2.222,1.178c-0.662-0.009-1.237-0.249-1.723-0.721l-0.753,4.012h-2.497l1.955-10.396h2.453
+				L81.529,33.712z M82.388,34.266c-0.152,0-0.308,0.064-0.466,0.191c-0.161,0.129-0.328,0.349-0.499,0.656
+				c-0.342,0.592-0.568,1.577-0.674,2.954c0.188,0.408,0.492,0.61,0.914,0.61c0.159,0,0.326-0.079,0.504-0.237
+				c0.161-0.158,0.311-0.375,0.442-0.651c0.299-0.565,0.449-1.278,0.46-2.142C83.079,34.726,82.851,34.266,82.388,34.266z"/&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M92.561,38.923c-0.472,0.284-1.02,0.537-1.641,0.756
+				c-0.616,0.226-1.264,0.343-1.949,0.352c-0.442-0.009-0.812-0.117-1.102-0.326c-0.305-0.182-0.551-0.421-0.738-0.718
+				c-0.091-0.158-0.167-0.311-0.229-0.46c-0.062-0.152-0.114-0.305-0.165-0.455c-0.035-0.149-0.062-0.293-0.079-0.434
+				c-0.018-0.125-0.027-0.246-0.027-0.36c0.035-0.812,0.197-1.509,0.483-2.093c0.135-0.299,0.296-0.563,0.484-0.794
+				c0.179-0.229,0.369-0.434,0.577-0.609c0.419-0.361,0.871-0.625,1.36-0.794c0.475-0.158,0.932-0.237,1.369-0.237
+				c0.68,0,1.249,0.141,1.7,0.419c0.46,0.285,0.691,0.756,0.7,1.416c-0.009,0.377-0.129,0.706-0.361,0.981
+				c-0.237,0.299-0.554,0.545-0.958,0.739c-0.833,0.407-1.761,0.601-2.793,0.583c-0.009,0.073-0.009,0.188,0,0.346
+				c0,0.167,0.032,0.339,0.1,0.516c0.062,0.167,0.173,0.311,0.334,0.428c0.164,0.141,0.396,0.211,0.698,0.211
+				c0.313,0,0.61-0.062,0.885-0.185c0.27-0.108,0.548-0.24,0.833-0.398L92.561,38.923z M90.726,33.95
+				c-0.387,0.035-0.692,0.223-0.92,0.557c-0.223,0.332-0.387,0.739-0.492,1.225c1.342,0.036,2.037-0.325,2.081-1.09
+				c0.018-0.214-0.035-0.384-0.158-0.516C91.11,34.008,90.94,33.95,90.726,33.95z"/&gt;
+			&lt;path fill="#FFFFFF" stroke="#010101" stroke-width="0.25" d="M97.042,34.164l0.027,0.026c0.384-0.475,0.806-0.838,1.269-1.084
+				c0.458-0.235,0.892-0.349,1.301-0.349c0.991,0,1.486,0.496,1.486,1.489c0.009,0.323-0.026,0.707-0.105,1.152l-0.803,4.463h-2.415
+				l0.779-4.358c0.018-0.123,0.027-0.237,0.027-0.346c-0.036-0.291-0.103-0.475-0.203-0.554c-0.105-0.076-0.205-0.118-0.296-0.118
+				c-0.223,0-0.413,0.07-0.574,0.211c-0.173,0.141-0.317,0.325-0.44,0.557c-0.237,0.492-0.398,0.997-0.486,1.512l-0.548,3.098
+				h-2.415l1.249-6.931h2.397L97.042,34.164z"/&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;path d="M111.579,40.805h-1.899c-0.736-0.917-1.5-1.887-2.298-2.91c-0.8-1.025-1.438-1.949-1.923-2.775h-0.026v5.686h-2.218
+				v-9.704h2.054c0.727,0.894,1.491,1.87,2.297,2.928c0.8,1.052,1.39,1.932,1.765,2.635h0.026v-5.562h2.219v9.704h0.003V40.805z"/&gt;
+			&lt;path d="M124.134,40.805h-2.925v-6.79h-0.026c-0.721,2.464-1.463,4.727-2.219,6.79h-1.776c-0.765-2.063-1.518-4.326-2.26-6.79
+				h-0.026v6.79h-2.218v-9.704h3.86c0.645,1.785,1.286,3.778,1.922,5.976h0.026c0.612-2.198,1.237-4.191,1.864-5.976h3.778V40.805
+				L124.134,40.805z"/&gt;
+			&lt;path d="M130.57,33.097c-0.387-0.24-0.847-0.361-1.383-0.361c-0.633,0.018-0.947,0.217-0.947,0.598
+				c0,0.123,0.053,0.249,0.161,0.381c0.091,0.134,0.226,0.272,0.399,0.413c0.343,0.275,0.765,0.633,1.26,1.073
+				c0.592,0.565,0.997,1.063,1.21,1.5c0.206,0.442,0.305,0.917,0.293,1.419c0,0.214-0.044,0.474-0.135,0.788
+				c-0.097,0.325-0.281,0.645-0.551,0.961c-0.249,0.313-0.601,0.568-1.055,0.774c-0.465,0.217-1.055,0.331-1.761,0.337
+				c-0.557,0-1.088-0.073-1.592-0.223c-0.521-0.138-0.973-0.361-1.357-0.66l0.859-1.606c0.205,0.158,0.439,0.308,0.706,0.442
+				c0.27,0.158,0.572,0.237,0.903,0.237c0.293,0,0.56-0.085,0.8-0.252c0.246-0.144,0.369-0.399,0.381-0.762
+				c0-0.193-0.05-0.384-0.153-0.568c-0.093-0.167-0.226-0.332-0.387-0.49c-0.343-0.311-0.712-0.63-1.114-0.958
+				c-0.519-0.425-0.929-0.824-1.225-1.196c-0.299-0.36-0.449-0.83-0.449-1.404c0.009-0.789,0.349-1.419,1.017-1.894
+				c0.627-0.472,1.407-0.712,2.339-0.718c0.615,0.009,1.151,0.088,1.603,0.238c0.428,0.149,0.727,0.287,0.903,0.41L130.57,33.097z"
+				/&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;g&gt;
+				&lt;path fill="#010101" d="M132.967,31.227c0.73,0,1.304,0.572,1.304,1.298c0,0.727-0.578,1.298-1.31,1.298
+					s-1.313-0.571-1.313-1.298s0.578-1.298,1.313-1.298H132.967z M132.956,31.45c-0.592,0-1.061,0.475-1.061,1.078
+					c0,0.604,0.469,1.079,1.07,1.079s1.07-0.475,1.07-1.079s-0.469-1.078-1.07-1.078H132.956z M132.431,31.757h0.469
+					c0.275,0,0.419,0.042,0.524,0.114c0.1,0.07,0.165,0.179,0.165,0.325c0,0.237-0.179,0.358-0.337,0.414l0.413,0.665h-0.346
+					l-0.381-0.627h-0.194v0.627h-0.319v-1.519L132.431,31.757L132.431,31.757z M132.75,32.449h0.208
+					c0.185,0,0.299-0.093,0.299-0.243c0-0.197-0.17-0.231-0.36-0.231h-0.146L132.75,32.449L132.75,32.449z"/&gt;
+			&lt;/g&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;path fill="#4E9D2D" d="M22.506,17.552h7.913v-7.178h2.772v18.347h-2.77v-8.566h-7.913v8.566h-2.77V10.375h2.77v7.178
+			L22.506,17.552L22.506,17.552z"/&gt;
+		&lt;path fill="#4E9D2D" d="M36.673,19.466c0-2.582,0.947-4.801,2.84-6.656c1.885-1.853,4.15-2.781,6.796-2.781
+			c2.614,0,4.856,0.935,6.726,2.805c1.879,1.87,2.816,4.115,2.816,6.738c0,2.638-0.94,4.877-2.828,6.715
+			c-1.893,1.846-4.179,2.77-6.855,2.77c-2.368,0-4.496-0.821-6.38-2.459C37.711,24.782,36.673,22.405,36.673,19.466z M39.463,19.495
+			c0,2.025,0.683,3.693,2.046,5c1.354,1.307,2.919,1.958,4.695,1.958c1.926,0,3.549-0.665,4.871-1.996
+			c1.322-1.345,1.984-2.983,1.984-4.915c0-1.955-0.654-3.593-1.961-4.915c-1.298-1.331-2.907-1.996-4.824-1.996
+			c-1.908,0-3.522,0.665-4.835,1.996C40.123,15.94,39.463,17.563,39.463,19.495z"/&gt;
+		&lt;path fill="#4E9D2D" d="M65.548,20.902l5.683,7.819h-3.388l-5.241-7.511h-0.498v7.511h-2.769V10.375h3.244
+			c2.424,0,4.176,0.455,5.252,1.366c1.187,1.014,1.782,2.354,1.782,4.016c0,1.298-0.373,2.415-1.117,3.353
+			C67.751,20.043,66.77,20.641,65.548,20.902z M62.104,18.801h0.879c2.623,0,3.933-1.002,3.933-3.007
+			c0-1.878-1.275-2.816-3.828-2.816h-0.985L62.104,18.801L62.104,18.801z"/&gt;
+		&lt;path fill="#4E9D2D" d="M76.754,10.375v18.347h-2.769V10.375H76.754z"/&gt;
+		&lt;path fill="#4E9D2D" d="M84.337,26.119h8.804v2.603H79.782l9.009-15.744h-7.534v-2.603h12.086L84.337,26.119z"/&gt;
+		&lt;path fill="#4E9D2D" d="M95.462,19.466c0-2.582,0.946-4.801,2.84-6.656c1.884-1.853,4.15-2.781,6.796-2.781
+			c2.614,0,4.856,0.935,6.727,2.805c1.878,1.87,2.816,4.115,2.816,6.738c0,2.638-0.941,4.877-2.828,6.715
+			c-1.894,1.846-4.179,2.77-6.855,2.77c-2.368,0-4.495-0.821-6.38-2.459C96.497,24.782,95.462,22.405,95.462,19.466z M98.252,19.495
+			c0,2.025,0.68,3.693,2.042,5c1.357,1.307,2.919,1.958,4.695,1.958c1.922,0,3.549-0.665,4.871-1.996
+			c1.325-1.345,1.984-2.983,1.984-4.915c0-1.955-0.653-3.593-1.96-4.915c-1.298-1.331-2.907-1.996-4.824-1.996
+			c-1.908,0-3.52,0.665-4.836,1.996C98.912,15.94,98.252,17.563,98.252,19.495z"/&gt;
+		&lt;path fill="#4E9D2D" d="M118.123,28.721V9.126l13.382,13.998V10.375h2.77V29.84l-13.379-13.962V28.72L118.123,28.721
+			L118.123,28.721z"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>

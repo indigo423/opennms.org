@@ -2,7 +2,7 @@
 title: OpenNMS
 menu: OpenNMS
 onpage_menu: false
-body_classes: "modular header-image fullwidth"
+body_classes: "modular header-image header-image fullwidth"
 
 content:
     items: @self.modular

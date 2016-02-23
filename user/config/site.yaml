@@ -62,10 +62,6 @@ metadata:
     description: 'Project home page of OpenNMS - a java based network managememnt platform developed under the Open Source model'
 summary:
   size: 300                                 # Maximum length of summary (characters)
-routes:
-  /something/else: '/blog/sample-3'         # Alias for /blog/sample-3
-  /another/one/here: '/blog/sample-3'       # Another alias for /blog/sample-3
-  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
 
 header_options:
   arrows: 'true'                            # Create Next and previous button

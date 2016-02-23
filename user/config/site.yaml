@@ -5,9 +5,6 @@ author:
   email: 'webmaster@opennms.org'            # Default author email
   copyright: "Copyright 2016 The OpenNMS Group, Inc. All Rights Reserved."
 social:
-  - url: 'http://demo.opennms.org'
-    icon: 'desktop'
-    description: 'Go to live demo'
   - url: 'https://github.com/OpenNMS'
     icon: 'github'
     description: 'Fork us on GitHub'
@@ -26,9 +23,7 @@ social:
   - url: 'https://www.facebook.com/OpenNMS/'
     icon: 'facebook'
     description: 'Follow on Facebook'
-  - url: 'http://www.opennms.com'
-    icon: 'support'
-    description: 'Get professional support'
+
 contact:
   address:
     - line: "220 Chatham Business Drive"
@@ -52,8 +47,6 @@ quicklinks:
     url: "base_url:blog"
   - text: "Code of Conduct"
     url: "base_url:code-of-conduct"
-  - text: "Get Support"
-    url: "http://www.opennms.com"
 
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 blog:

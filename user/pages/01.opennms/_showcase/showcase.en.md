@@ -14,5 +14,3 @@ slides:
     button_url: http://www.opennms.org/wiki/Dev-Jam
 ---
 
-
-

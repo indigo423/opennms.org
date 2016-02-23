@@ -11,6 +11,7 @@ content:
         dir: asc
         custom:
             - _showcase
+            - _comparison
             - _features
             - _architecture
             - _callout

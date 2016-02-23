@@ -13,85 +13,85 @@
     <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="scale(3,3) translate(-43,-278)" stroke="white">
       <rect x="43" width="735" height="318" y="278" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
-    <g fill="rgb(115,210,22)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(115,210,22)">
+    <g fill="rgb(141,198,63)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(141,198,63)">
       <rect x="48" y="283.5" clip-path="url(#clipPath2)" width="725" rx="4" ry="4" height="70" stroke="none"/>
     </g>
-    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="320.42" xml:space="preserve" y="324.564" clip-path="url(#clipPath2)" stroke="none">OpenNMS Components</text>
+    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="313.2031" xml:space="preserve" y="324.2109" clip-path="url(#clipPath2)" stroke="none">OpenNMS Components</text>
     </g>
-    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(252,175,62)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(252,175,62)" stroke-opacity="0.4667">
+    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(255,178,56)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(255,178,56)" stroke-opacity="0.4667">
       <rect x="48" y="469" clip-path="url(#clipPath2)" width="102" rx="4" ry="4" height="87" stroke="none"/>
     </g>
-    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="58.673" xml:space="preserve" y="517.806" clip-path="url(#clipPath2)" stroke="none">PostgreSQL</text>
+    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="56.7437" xml:space="preserve" y="517.4971" clip-path="url(#clipPath2)" stroke="none">PostgreSQL</text>
     </g>
-    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(114,159,207)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(114,159,207)" stroke-opacity="0.4667">
+    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(39,170,225)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(39,170,225)" stroke-opacity="0.4667">
       <rect x="163" y="469" clip-path="url(#clipPath2)" width="102" rx="4" ry="4" height="87" stroke="none"/>
     </g>
-    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="185.881" xml:space="preserve" y="517.806" clip-path="url(#clipPath2)" stroke="none">RRDtool</text>
+    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="184.6123" xml:space="preserve" y="517.4971" clip-path="url(#clipPath2)" stroke="none">RRDtool</text>
     </g>
-    <g fill="rgb(252,175,62)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(252,175,62)">
+    <g fill="rgb(255,178,56)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(255,178,56)">
       <rect x="48" y="415.5" clip-path="url(#clipPath2)" width="102" rx="4" ry="4" height="45" stroke="none"/>
     </g>
-    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="61.672" xml:space="preserve" y="444.064" clip-path="url(#clipPath2)" stroke="none">Hibernate</text>
+    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="56.0039" xml:space="preserve" y="443.7109" clip-path="url(#clipPath2)" stroke="none">Hibernate</text>
     </g>
-    <g fill="rgb(114,159,207)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(114,159,207)">
+    <g fill="rgb(39,170,225)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(39,170,225)">
       <rect x="163" y="415.5" clip-path="url(#clipPath2)" width="332" rx="4" ry="4" height="45" stroke="none"/>
     </g>
-    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="268.736" xml:space="preserve" y="444.064" clip-path="url(#clipPath2)" stroke="none">Time Series API</text>
+    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="263.7578" xml:space="preserve" y="443.7109" clip-path="url(#clipPath2)" stroke="none">Time Series API</text>
     </g>
-    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(114,159,207)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(114,159,207)" stroke-opacity="0.4667">
+    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(39,170,225)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(39,170,225)" stroke-opacity="0.4667">
       <rect x="278" y="469" clip-path="url(#clipPath2)" width="102" rx="4" ry="4" height="87" stroke="none"/>
     </g>
-    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="305.543" xml:space="preserve" y="517.806" clip-path="url(#clipPath2)" stroke="none">JRobin</text>
+    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="305.0195" xml:space="preserve" y="517.4971" clip-path="url(#clipPath2)" stroke="none">JRobin</text>
     </g>
-    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(114,159,207)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(114,159,207)" stroke-opacity="0.4667">
+    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(39,170,225)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(39,170,225)" stroke-opacity="0.4667">
       <rect x="393" y="469" clip-path="url(#clipPath2)" width="102" rx="4" ry="4" height="40" stroke="none"/>
     </g>
-    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="420.277" xml:space="preserve" y="494.306" clip-path="url(#clipPath2)" stroke="none">NewTS</text>
+    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="418.5122" xml:space="preserve" y="493.9971" clip-path="url(#clipPath2)" stroke="none">NewTS</text>
     </g>
-    <g fill="rgb(115,210,22)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(115,210,22)">
+    <g fill="rgb(141,198,63)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(141,198,63)">
       <rect x="508" y="415.5" clip-path="url(#clipPath2)" width="126" rx="4" ry="4" height="45" stroke="none"/>
     </g>
-    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="531.304" xml:space="preserve" y="444.064" clip-path="url(#clipPath2)" stroke="none">Properties</text>
+    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="526.8711" xml:space="preserve" y="443.7109" clip-path="url(#clipPath2)" stroke="none">Properties</text>
     </g>
-    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(138,226,52)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(138,226,52)" stroke-opacity="0.4667">
+    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(141,198,63)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(141,198,63)" stroke-opacity="0.4667">
       <rect x="508" y="469" clip-path="url(#clipPath2)" width="265" rx="4" ry="4" height="122" stroke="none"/>
     </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="'Helvetica Neue'" transform="matrix(3,0,0,3,-129,-834)" stroke-linecap="butt">
-      <text x="604.278" xml:space="preserve" y="534.434" clip-path="url(#clipPath2)" stroke="none">Configuration</text>
+    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="'Arvo'" transform="matrix(3,0,0,3,-129,-834)" stroke-linecap="butt">
+      <text x="599.0684" xml:space="preserve" y="534.2832" clip-path="url(#clipPath2)" stroke="none">Configuration</text>
     </g>
-    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(114,159,207)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(114,159,207)" stroke-opacity="0.4667">
+    <g transform="matrix(3,0,0,3,-129,-834)" fill-opacity="0.4667" fill="rgb(39,170,225)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(39,170,225)" stroke-opacity="0.4667">
       <rect x="393" y="516" clip-path="url(#clipPath2)" width="102" rx="4" ry="4" height="40" stroke="none"/>
     </g>
-    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="408.09" xml:space="preserve" y="541.306" clip-path="url(#clipPath2)" stroke="none">Cassandra</text>
-      <text x="233.444" font-size="12px" y="581.464" clip-path="url(#clipPath2)" font-style="italic" stroke="none" font-weight="normal" xml:space="preserve">Options persisting Time Series Data</text>
+    <g font-size="14px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="404.4609" xml:space="preserve" y="540.9971" clip-path="url(#clipPath2)" stroke="none">Cassandra</text>
+      <text x="220.3584" font-size="12px" y="581.2832" clip-path="url(#clipPath2)" font-style="italic" stroke="none" font-weight="normal" xml:space="preserve">Options persisting Time Series Data</text>
       <rect x="163" y="563" clip-path="url(#clipPath2)" fill="none" width="332" rx="4" ry="4" height="28"/>
     </g>
-    <g fill="rgb(115,210,22)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(115,210,22)">
+    <g fill="rgb(141,198,63)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(141,198,63)">
       <rect x="48" y="362" clip-path="url(#clipPath2)" width="725" rx="4" ry="4" height="45" stroke="none"/>
     </g>
-    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="339.084" xml:space="preserve" y="390.564" clip-path="url(#clipPath2)" stroke="none">Data Access Layer</text>
+    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="336.0781" xml:space="preserve" y="390.2109" clip-path="url(#clipPath2)" stroke="none">Data Access Layer</text>
     </g>
-    <g fill="rgb(252,175,62)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(252,175,62)">
+    <g fill="rgb(255,178,56)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(255,178,56)">
       <rect x="48" y="563" clip-path="url(#clipPath2)" width="102" rx="4" ry="4" height="28" stroke="none"/>
     </g>
-    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="62.128" xml:space="preserve" y="583.064" clip-path="url(#clipPath2)" stroke="none">Liquibase</text>
+    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="57.8203" xml:space="preserve" y="582.7109" clip-path="url(#clipPath2)" stroke="none">Liquibase</text>
     </g>
-    <g fill="rgb(115,210,22)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(115,210,22)">
+    <g fill="rgb(141,198,63)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(3,0,0,3,-129,-834)" stroke="rgb(141,198,63)">
       <rect x="647" y="415.5" clip-path="url(#clipPath2)" width="126" rx="4" ry="4" height="45" stroke="none"/>
     </g>
-    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Helvetica Neue'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="689.104" xml:space="preserve" y="444.064" clip-path="url(#clipPath2)" stroke="none">JAXB</text>
+    <g font-size="16px" stroke-linecap="butt" transform="matrix(3,0,0,3,-129,-834)" text-rendering="geometricPrecision" font-family="'Arvo'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="689.9219" xml:space="preserve" y="443.7109" clip-path="url(#clipPath2)" stroke="none">JAXB</text>
     </g>
   </g>
 </svg>

@@ -37,7 +37,6 @@
         // margin-top: 0;
         padding-left: $padding-horiz;
         padding-right: $padding-horiz;
-        background-color: rgba($aluminium-light,0.5);
         @include breakpoint(tablet-range) {
             font-size: 1.5rem;
         }
@@ -93,13 +92,13 @@
         z-index: 50;
         text-align: center;
         line-height: 3.8rem;
-        background: $white;
+        background: $aluminium-light;
         top: 50%;
         border-radius: 100%;
         font-size: 2.5rem;
         opacity: 0.5;
         color: $black;
-        @include breakpoint(mobile-only) { 
+        @include breakpoint(mobile-only) {
             font-size: 1.5rem;
             line-height: 2.8rem;
         }
@@ -117,7 +116,7 @@
              }
         }
         &:disabled {opacity: 0.1}
-        @include breakpoint(mobile-only) { 
+        @include breakpoint(mobile-only) {
             width: 2.7rem;
             height: 2.7rem;
         }

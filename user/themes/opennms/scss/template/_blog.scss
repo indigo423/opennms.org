@@ -63,10 +63,10 @@
     .list-blog-date, .list-blog-author {
         text-align: center;
         background-color: transparentize($light-gray, 0.9);
-        padding: 0.7rem 1rem;
+        padding: 0.25rem 0.25rem;
         margin-bottom: 0.2rem;
         margin-right: 0.5rem;
-        font-size: $core-font-size;
+        font-size: $blog-tag-font-size;
         text-transform: uppercase;
         color: $core-text;
         font-family: $font-family-header;
@@ -97,13 +97,13 @@
     padding: 0;
     display: inline;
     background-color: transparentize($light-gray, 0.9);
-    padding: 0.7rem 1rem;
+    padding: 0.25rem 0.25rem;
     margin-bottom: 0.2rem;
     list-style: none;
     text-align: center;
     li {
         display: inline-block;
-        font-size: $core-font-size;
+        font-size: $blog-tag-font-size;
         text-transform: uppercase;
         font-family: $font-family-header;
         a {
@@ -113,7 +113,7 @@
             }
         }
         &:last-child {
-            a:after {display: none;} 
+            a:after {display: none;}
         }
     }
     @include breakpoint(tablet-range) {

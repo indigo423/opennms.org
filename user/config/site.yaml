@@ -44,16 +44,16 @@ othermenu:
   - text: "Contact"
     url: "contact"
 quicklinks:
-  - text: "Using the Platform"
-    url: "base_url:using-the-platform"
+  - text: "OpenNMS"
+    url: "base_url:opennms"
   - text: "Participate"
     url: "base_url:participate"
-  - text: "Stay Informed"
-    url: "base_url:stay-informed"
-  - text: "Use the platform"
-    url: "base_url:use-platform"
-  - text: "Get Help"
-    url: "base_url:get-help"
+  - text: "Blog"
+    url: "base_url:blog"
+  - text: "Code of Conduct"
+    url: "base_url:code-of-conduct"
+  - text: "Get Support"
+    url: "http://www.opennms.com"
 
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 blog:

@@ -8,13 +8,13 @@ features:
       linkurl: "http://chat.opennms.com/opennms"
       linktext: "Web Chat"
     - header: "Discussions and Help"
-      text: Ask questions or help others using our topic driven Mailinglists or use our Q&A board ask.opennms.eu.
+      text: Talk and get in contact with people using OpenNMS in our community with our topic driven Mailinglists.
       icon: envelope-o
       linkurl: "https://www.opennms.org/wiki/Mailing_lists"
       linktext: "Mailing Lists"
-    - header: Meet People
-      text: Attend and share your experience at DevJam or the OUCE conference organized by OpenNMS community.
-      icon: group
-      linkurl: "https://www.opennms.org/wiki/Category:DevJam"
-      linktext: "DevJam"
+    - header: Q&A Board
+      text: Get answers to most frequently asked questions and see how you can use OpenNMS in several use cases.
+      icon: commenting
+      linkurl: "http://ask.opennms.eu"
+      linktext: "Ask OpenNMS"
 ---

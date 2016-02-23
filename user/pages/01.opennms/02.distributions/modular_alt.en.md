@@ -9,6 +9,9 @@ content:
     order:
         by: default
         dir: asc
+        custom:
+            - _distribution
+            - _release
 ---
 
 

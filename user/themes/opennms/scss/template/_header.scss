@@ -182,7 +182,7 @@
             display: none;
             font-size: 1.8rem;
             cursor: pointer;
-            float: right;
+            float: left;
             @include breakpoint(desktop-only) {
                 display: inline-block;
             }

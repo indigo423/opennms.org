@@ -1,5 +1,4 @@
 <ul class="social-icons">
-    <a class="link-button" href="http://demo.opennms.org" target="_BLANK">Live Demo</a>
     {% for social in site.social %}
         <li>
             <a href="{{ social.url }}" title="{{ social.description }}">
@@ -7,4 +6,5 @@
             </a>
         </li>
     {% endfor %}
+    <a class="link-button" href="http://demo.opennms.org" target="_BLANK">Live Demo</a>
 </ul>

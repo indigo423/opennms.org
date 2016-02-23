@@ -7,7 +7,7 @@ title: Using the Platform
 The open source friendly and rich Java ecosystem allows to build a powerful monitoring application stack.
 OpenNMS persists monitoring and node inventory information with [PostgreSQL](http://postgres.org).
 
-![plattform-overview](/images/overview-api-architecture.png)
+![plattform-overview](/images/overview-api-architecture.svg)
 
 ## Java-based Framework
 

@@ -10,4 +10,4 @@ An event-driven architecture allows flexibility workflow integration in existing
 OpenNMS normalizes device and vendor specific messages and protocol specific performance measurements.
 Based on open source technologies, the data are accessible through ReST API and can be used in high level management workflow application.
 
-![plattform-overview](/images/platform-plugin-overview.png)
+![plattform-overview](/images/platform-plugin-overview.svg)

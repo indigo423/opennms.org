@@ -254,14 +254,13 @@ b, strong, label, th {
 .footer {
   font-size: 0.9rem;
   background: #333;
+  color: #eeeeec;
   width: 100%;
   padding-top: 2rem; }
   .footer:after {
     content: "";
     display: table;
     clear: both; }
-  .footer a {
-    color: #555753; }
   .footer h4, .footer .archive-list label, .archive-list .footer label, .footer .modular .bottom table th, .modular .bottom table .footer th, .footer .contact label, .contact .footer label, .footer .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .footer .name, .footer .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .footer .button, .footer .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .footer button, .footer .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .footer button, .footer .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .footer button, .footer .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .footer button {
     line-height: 2rem;
     margin-top: 0;
@@ -296,7 +295,7 @@ b, strong, label, th {
   .footer .footer-module {
     display: block;
     float: left;
-    width: 20%;
+    width: 25%;
     vertical-align: top;
     padding-right: 2rem; }
     .footer .footer-module.large {

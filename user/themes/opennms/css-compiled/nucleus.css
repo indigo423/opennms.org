@@ -86,7 +86,8 @@ sub {
   bottom: -0.25em; }
 
 img {
-  height: 50px;
+  width: auto\9;
+  height: auto;
   max-width: 100%;
   display: inline-block;
   vertical-align: middle;

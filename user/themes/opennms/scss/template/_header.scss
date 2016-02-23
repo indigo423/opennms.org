@@ -12,11 +12,17 @@
     > .grid, .logo, #navbar, .social-navigation {
         height: 50%;
     }
+
     .fa {
         color: $black;
     }
 
+    img#logo-size {
+        height: 45px;
+    }
+
     .logo {
+
         h3 {
             @extend %vertical-align;
 
@@ -46,7 +52,7 @@
         }
         input::-webkit-search-decoration,
         input::-webkit-search-cancel-button {
-            display: none; 
+            display: none;
         }
         input[type=search] {
             outline: none;
@@ -130,7 +136,7 @@
                     ul ul {
                         left: 100%;
                         top: 0;
-                    }	
+                    }
 
 
                     &:hover {
@@ -167,7 +173,7 @@
                 @include breakpoint(desktop-only) {
                     display: none;
                 }
-            }	
+            }
         }
 
         .panel-activation {

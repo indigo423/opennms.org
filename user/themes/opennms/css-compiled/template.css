@@ -105,6 +105,8 @@ b, strong, label, th {
     height: 50%; }
   #header .fa {
     color: #000; }
+  #header img#logo-size {
+    height: 45px; }
   @media only all and (max-width: 47.938em) {
     #header .logo h3 {
       font-size: 1.9rem; } }

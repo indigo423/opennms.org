@@ -46,7 +46,7 @@
         {% block header %}
         <header id="header">
                 <div class="logo">
-                    <h3><a href="{{ base_url_absolute }}"><img src="{{ theme_url }}/images/{{  config.site.logo }}" /></a></h3>
+                    <h3><a href="{{ base_url_absolute }}"><img id="logo-size" src="{{ theme_url }}/images/{{  config.site.logo }}" /></a></h3>
                     {% block social %}
                         {% include 'partials/social.html.twig' %}
                     {% endblock %}

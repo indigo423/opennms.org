@@ -12,7 +12,7 @@ features:
       icon: group
       linkurl: "http://ouce.opennms.eu"
       linktext: "OUCE"
-    - header: OpenNMS Foundation Europe e.V. - OFE
+    - header: OpenNMS Foundation Europe
       text: The OFE is an independent non-profit organization for people who want to contribute to the OpenNMS project.
       icon: share-alt
       linktext: "OFE"

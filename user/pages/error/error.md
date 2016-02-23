@@ -1,7 +1,7 @@
 ---
 title: Page not Found
 robots: 'noindex,nofollow'
-body_classes: "modular header-lite fullwidth error"
+body_classes: "modular header-image header-lite fullwidth error"
 template: error
 routable: false
 http_response_code: 404

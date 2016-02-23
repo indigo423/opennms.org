@@ -201,8 +201,8 @@ b, strong, label, th {
               #header #navbar ul.navigation li:hover li a:before, #header #navbar ul.navigation li:hover li a:after {
                 display: none; }
             #header #navbar ul.navigation li:hover li.active > a {
-              background: #d3d7cf;
-              color: #4e9a06; }
+              background: #83b850;
+              color: #2e3436; }
         @media only all and (max-width: 59.938em) {
           #header #navbar ul.navigation {
             display: none; } }

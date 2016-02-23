@@ -121,9 +121,9 @@
                         font-family: $font-family-header;
                         display: inline-block;
                         padding: 0.3rem 0.8rem;
-
+                        color: $header-text;
                         &.active, &:hover {
-                            color: $core-accent;
+                            color: $chameleon-dark;
                         }
                     }
 
@@ -143,7 +143,7 @@
                         & > ul {
                             display: block;
                             position: absolute;
-                            background: rgba($white, 0.9);
+                            background: $white;
                             width: 10rem;
                         }
 
@@ -163,8 +163,8 @@
 
                             &.active {
                                 & > a {
-                                    background: $core-accent;
-                                    color: $white;
+                                    background: $aluminium;
+                                    color: $chameleon-dark;
                                 }
                             }
                         }
@@ -233,9 +233,9 @@
 
         #navbar ul.navigation  {
             ul li a {
-                color: $core-accent;
+                color: $header-text;
                 &:hover {
-                    color: darken($core-accent, 20%);
+                    color: $chameleon-dark;
                 }
             }
         }

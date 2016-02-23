@@ -1,6 +1,6 @@
 ---
-title: Das OpenNMS Projekt
-menu: Projekt
+title: OpenNMS
+menu: OpenNMS
 onpage_menu: false
 body_classes: "modular header-image header-image fullwidth"
 

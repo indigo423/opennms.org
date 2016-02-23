@@ -10,18 +10,16 @@
     {% if base_url == base_url_relative %}
         {% set feed_url = base_url~'/'~page.parent.slug %}
     {% endif  %}
-   
+
 	{% block content %}
         {% set blog_image = page.parent.media.images|first %}
-        
+
 		{% if blog_image %}
 		<div class="flush-top blog-header blog-header-image" style="background: {{ page.parent.header.bg_color }} url({{ blog_image.url }}) no-repeat right;">
             <h1>{{ page.title }}</h1>
         </div>
         {% endif %}
-    
-        {% include 'partials/breadcrumbs.html.twig' %}
-		
+
 		<div class="blog-content-item g-grid pure-g-r">
 			<div id="item" class="g-block pure-u-2-3">
 			    {% include 'partials/blog_item.html.twig' with {'truncate':false,'big_header':true} %}

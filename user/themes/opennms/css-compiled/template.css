@@ -1075,6 +1075,9 @@ ul.pagination {
     font-size: 1rem; }
     .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
       background: #f57900; }
+.modular .slideme_container h1, .modular .slideme_container h2 {
+  background-color: rgba(78, 156, 73, 0.85);
+  color: #fff; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;
@@ -1085,7 +1088,7 @@ ul.pagination {
   text-align: center;
   line-height: 3.8rem;
   background: #eeeeec;
-  top: 58%;
+  top: 67%;
   border-radius: 100%;
   font-size: 2.5rem;
   opacity: 0.5;

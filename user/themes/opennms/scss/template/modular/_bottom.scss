@@ -66,6 +66,7 @@
                 text-align: left;
                 display: block;
                 float: left;
+                padding-bottom: 3rem;
                 @include breakpoint(mobile-only) {
                     width: 100%;
                 }
@@ -73,7 +74,7 @@
                     margin: 1.0rem;
                     width: 7rem;
                     height: 6rem;
-                    font-size: 6rem;
+                    font-size: 5rem;
                     float: left;
                 }
                 p {

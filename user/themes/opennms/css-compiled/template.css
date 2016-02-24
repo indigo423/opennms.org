@@ -1272,7 +1272,8 @@ ul.pagination {
       width: 50%;
       text-align: left;
       display: block;
-      float: left; }
+      float: left;
+      padding-bottom: 3rem; }
       @media only all and (max-width: 47.938em) {
         .modular .bottom .services .service {
           width: 100%; } }
@@ -1280,7 +1281,7 @@ ul.pagination {
         margin: 1.0rem;
         width: 7rem;
         height: 6rem;
-        font-size: 6rem;
+        font-size: 5rem;
         float: left; }
       .modular .bottom .services .service p {
         margin-left: 7rem;

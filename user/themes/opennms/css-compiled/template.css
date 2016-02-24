@@ -75,20 +75,20 @@ b, strong, label, th {
 
 .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
   text-align: center;
-  padding-left: 18rem;
-  padding-right: 18rem; }
+  padding-left: 16rem;
+  padding-right: 16rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 8rem;
-      padding-right: 8rem; } }
+      padding-left: 6rem;
+      padding-right: 6rem; } }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 11rem;
-      padding-right: 11rem; } }
+      padding-left: 9rem;
+      padding-right: 9rem; } }
   @media only all and (max-width: 47.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 5rem;
-      padding-right: 5rem; } }
+      padding-left: 3rem;
+      padding-right: 3rem; } }
 
 .padding-vert {
   padding-top: 1rem;
@@ -220,13 +220,13 @@ b, strong, label, th {
   padding-left: 0;
   padding-right: 0; }
   .header-image.fullwidth #body > .listing-row {
-    padding-left: 18rem;
-    padding-right: 18rem; }
+    padding-left: 16rem;
+    padding-right: 16rem; }
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
 .header-image #body .flush-top {
-  margin-top: -2rem;
-  padding-top: 12rem; }
+  margin-top: -1rem;
+  padding-top: 8rem; }
 .header-image #breadcrumbs {
   margin-top: 1rem; }
 .header-image #header {
@@ -1057,8 +1057,8 @@ ul.pagination {
     color: #83b850; }
   .modular .showcase h2 {
     text-transform: none;
-    padding-left: 18rem;
-    padding-right: 18rem; }
+    padding-left: 16rem;
+    padding-right: 16rem; }
     @media only all and (max-width: 47.938em) {
       .modular .showcase h2 {
         padding-left: 0;
@@ -1088,7 +1088,7 @@ ul.pagination {
   text-align: center;
   line-height: 3.8rem;
   background: #eeeeec;
-  top: 67%;
+  top: 58%;
   border-radius: 100%;
   font-size: 2.5rem;
   opacity: 0.5;
@@ -1506,16 +1506,16 @@ ul.pagination {
     margin-top: 4rem; }
     .portfolio .notebooks .notebook-row {
       box-shadow: inset 0px -90px 0px -20px #f7f7f7;
-      margin-left: -18rem;
-      margin-right: -18rem;
-      padding-left: 18rem;
-      padding-right: 18rem;
+      margin-left: -16rem;
+      margin-right: -16rem;
+      padding-left: 16rem;
+      padding-right: 16rem;
       background: #EEEEEE;
       padding-bottom: 2rem; }
       @media only all and (max-width: 47.938em) {
         .portfolio .notebooks .notebook-row {
-          margin-left: -14rem;
-          margin-right: -14rem; } }
+          margin-left: -12rem;
+          margin-right: -12rem; } }
       .portfolio .notebooks .notebook-row .notebook {
         min-width: 24%; }
         @media only all and (min-width: 48em) and (max-width: 59.938em) {

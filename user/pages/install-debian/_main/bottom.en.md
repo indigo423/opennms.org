@@ -2,11 +2,10 @@
 title: Quick Install DEB
 ---
 
-## Quick Installation Debian/Ubuntu
+## Debian and Ubuntu
 
 Installation script installs all components of OpenNMS on a single machine and is ready to run.
 This setup works for most small environments.
-
 If you want a more customized installation, please see our [installation guide](http://docs.opennms.org/opennms/releases/17.0.0/guide-install/guide-install.html#gi-install-opennms-debian).
 
 <pre class="prettyprint">

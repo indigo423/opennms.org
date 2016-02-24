@@ -1,5 +1,5 @@
 ---
-title: Install Windows Server
+title: Quick Installation Guide
 onpage_menu: false
 body_classes: "modular header-image header-lite fullwidth services"
 

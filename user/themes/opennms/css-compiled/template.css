@@ -42,7 +42,7 @@ b, strong, label, th {
 
 #body {
   background: #fff;
-  padding-top: 15rem; }
+  padding-top: 11rem; }
 
 .left {
   float: left; }
@@ -75,20 +75,20 @@ b, strong, label, th {
 
 .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
   text-align: center;
-  padding-left: 20rem;
-  padding-right: 20rem; }
+  padding-left: 17rem;
+  padding-right: 17rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 13rem;
-      padding-right: 13rem; } }
-  @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 13rem;
-      padding-right: 13rem; } }
-  @media only all and (max-width: 47.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
       padding-left: 7rem;
       padding-right: 7rem; } }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+      padding-left: 10rem;
+      padding-right: 10rem; } }
+  @media only all and (max-width: 47.938em) {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+      padding-left: 4rem;
+      padding-right: 4rem; } }
 
 .padding-vert {
   padding-top: 3rem;
@@ -98,7 +98,7 @@ b, strong, label, th {
   position: absolute;
   z-index: 10;
   width: 100%;
-  height: 12rem;
+  height: 8rem;
   background-color: #fff;
   box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15); }
   #header > .grid, #header .logo, #header #navbar, #header .social-navigation {
@@ -220,13 +220,13 @@ b, strong, label, th {
   padding-left: 0;
   padding-right: 0; }
   .header-image.fullwidth #body > .listing-row {
-    padding-left: 20rem;
-    padding-right: 20rem; }
+    padding-left: 17rem;
+    padding-right: 17rem; }
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
 .header-image #body .flush-top {
-  margin-top: -15.5rem;
-  padding-top: 16rem; }
+  margin-top: -2rem;
+  padding-top: 12rem; }
 .header-image #breadcrumbs {
   margin-top: 1rem; }
 .header-image #header {
@@ -240,7 +240,7 @@ b, strong, label, th {
       color: #4e9a06; }
 
 .header-lite #body {
-  padding-top: 12rem; }
+  padding-top: 9rem; }
 .header-lite #header {
   box-shadow: none;
   color: #2e3436; }
@@ -918,7 +918,8 @@ div#breadcrumbs {
     #sidebar {
       padding-left: 0; } }
   #sidebar .sidebar-content {
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    text-align: left; }
     #sidebar .sidebar-content h4, #sidebar .sidebar-content .archive-list label, .archive-list #sidebar .sidebar-content label, #sidebar .sidebar-content .modular .bottom table th, .modular .bottom table #sidebar .sidebar-content th, #sidebar .sidebar-content .contact label, .contact #sidebar .sidebar-content label, #sidebar .sidebar-content .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item #sidebar .sidebar-content .name, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content .button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list #sidebar .sidebar-content button, #sidebar .sidebar-content .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact #sidebar .sidebar-content button, #sidebar .sidebar-content .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button {
       margin-bottom: 1rem;
       text-align: left; }
@@ -1025,8 +1026,8 @@ ul.pagination {
     color: #2e3436; }
 .modular .slideme_container {
   overflow: hidden;
-  margin-top: -15rem;
-  padding-top: 15rem;
+  margin-top: -11rem;
+  padding-top: 11rem;
   height: 34.7rem; }
   .modular .slideme_container:after {
     content: "";
@@ -1041,26 +1042,23 @@ ul.pagination {
   background-position: center;
   text-align: center;
   color: #2e3436; }
-  .modular .showcase h1 {
-    padding-left: 20rem;
-    padding-right: 20rem; }
-    @media only all and (min-width: 48em) and (max-width: 59.938em) {
-      .modular .showcase h1 {
-        font-size: 1.5rem; } }
-    @media only all and (max-width: 47.938em) {
-      .modular .showcase h1 {
-        font-size: 1.3rem;
-        line-height: 1.2;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 4rem;
-        margin-right: 4rem; } }
-    .modular .showcase h1 strong, .modular .showcase h1 label, .modular .showcase h1 th {
-      color: #83b850; }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    .modular .showcase h1 {
+      font-size: 1.5rem; } }
+  @media only all and (max-width: 47.938em) {
+    .modular .showcase h1 {
+      font-size: 1.3rem;
+      line-height: 1.2;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 4rem;
+      margin-right: 4rem; } }
+  .modular .showcase h1 strong, .modular .showcase h1 label, .modular .showcase h1 th {
+    color: #83b850; }
   .modular .showcase h2 {
     text-transform: none;
-    padding-left: 20rem;
-    padding-right: 20rem; }
+    padding-left: 17rem;
+    padding-right: 17rem; }
     @media only all and (max-width: 47.938em) {
       .modular .showcase h2 {
         padding-left: 0;
@@ -1087,7 +1085,7 @@ ul.pagination {
   text-align: center;
   line-height: 3.8rem;
   background: #eeeeec;
-  top: 50%;
+  top: 58%;
   border-radius: 100%;
   font-size: 2.5rem;
   opacity: 0.5;
@@ -1129,7 +1127,7 @@ ul.pagination {
   left: 0;
   right: 0;
   vertical-align: middle;
-  bottom: 5%; }
+  bottom: 0%; }
   .modular .slideme_container .pagination .numbers li {
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
@@ -1504,16 +1502,16 @@ ul.pagination {
     margin-top: 4rem; }
     .portfolio .notebooks .notebook-row {
       box-shadow: inset 0px -90px 0px -20px #f7f7f7;
-      margin-left: -20rem;
-      margin-right: -20rem;
-      padding-left: 20rem;
-      padding-right: 20rem;
+      margin-left: -17rem;
+      margin-right: -17rem;
+      padding-left: 17rem;
+      padding-right: 17rem;
       background: #EEEEEE;
       padding-bottom: 2rem; }
       @media only all and (max-width: 47.938em) {
         .portfolio .notebooks .notebook-row {
-          margin-left: -16rem;
-          margin-right: -16rem; } }
+          margin-left: -13rem;
+          margin-right: -13rem; } }
       .portfolio .notebooks .notebook-row .notebook {
         min-width: 24%; }
         @media only all and (min-width: 48em) and (max-width: 59.938em) {

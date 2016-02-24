@@ -208,7 +208,7 @@
 
     #body {
         .flush-top {
-            margin-top: - $header-height - $padding-vert - 0.5rem;
+            margin-top: - $header-height + 6rem;
             padding-top: $header-height + 4rem;
         }
     }
@@ -237,7 +237,7 @@
 }
 .header-lite {
     #body {
-        padding-top: 12rem;
+        padding-top: 9rem;
     }
     #header {
         box-shadow: none;

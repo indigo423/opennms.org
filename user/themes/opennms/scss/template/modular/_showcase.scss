@@ -35,8 +35,7 @@
     h1 {
         // font-size: 2.2rem;
         // margin-top: 0;
-        padding-left: $padding-horiz;
-        padding-right: $padding-horiz;
+
         @include breakpoint(tablet-range) {
             font-size: 1.5rem;
         }
@@ -93,7 +92,7 @@
         text-align: center;
         line-height: 3.8rem;
         background: $aluminium-light;
-        top: 50%;
+        top: 58%;
         border-radius: 100%;
         font-size: 2.5rem;
         opacity: 0.5;
@@ -131,7 +130,7 @@
         left: 0;
         right: 0;
         vertical-align: middle;
-        bottom: 5%;
+        bottom: 0%;
         .numbers {
             li {
                 @extend .default-animation;

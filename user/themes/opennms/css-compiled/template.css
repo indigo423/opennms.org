@@ -1076,8 +1076,8 @@ ul.pagination {
     .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
       background: #f57900; }
 .modular .slideme_container h1, .modular .slideme_container h2 {
-  background-color: rgba(78, 156, 73, 0.85);
-  color: #fff; }
+  background-color: #d3d7cf;
+  color: #2e3436; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;

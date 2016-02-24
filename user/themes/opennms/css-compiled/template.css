@@ -13,7 +13,7 @@
   padding: 7px 20px; }
   .button-small.button, .archive-list button.button-small, .contact button.button-small, .button-small.button-secondary {
     padding: 3px 10px;
-    font-size: 0.9rem; }
+    font-size: 1.1rem; }
 
 html, body {
   height: 100%; }
@@ -137,7 +137,7 @@ b, strong, label, th {
       background: transparent;
       width: 4rem;
       margin-bottom: 0;
-      font-size: 0.9rem;
+      font-size: 1.1rem;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       transition: all 0.5s; }
@@ -161,7 +161,7 @@ b, strong, label, th {
           #header .search-box input[type=search]:focus {
             width: 8rem; } }
   #header #navbar {
-    font-size: 1.1rem; }
+    font-size: 1.3rem; }
     #header #navbar ul {
       margin: 0;
       padding: 0;
@@ -252,7 +252,7 @@ b, strong, label, th {
     color: #83b850; }
 
 .footer {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   background: #333;
   color: #eeeeec;
   width: 100%;
@@ -393,7 +393,7 @@ b, strong, label, th {
     vertical-align: top; }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Khula", "Open Sans", sans-serif;
   font-weight: 400; }
 
 h1, h2, h3, h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, h5, h6 {
@@ -401,7 +401,7 @@ h1, h2, h3, h4, .archive-list label, .modular .bottom table th, .contact label, 
   text-rendering: optimizeLegibility; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2.7rem; }
   @media only all and (max-width: 47.938em) {
     h1 {
       font-size: 2.5rem;
@@ -414,17 +414,17 @@ h2 {
   font-size: 1.4rem; }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     h2 {
-      font-size: -1rem; } }
+      font-size: -0.8rem; } }
   @media only all and (max-width: 47.938em) {
     h2 {
-      font-size: -1.1rem; } }
+      font-size: -0.9rem; } }
 
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
   h3 {
-    font-size: -0.9rem; } }
+    font-size: -0.7rem; } }
 @media only all and (max-width: 47.938em) {
   h3 {
-    font-size: -1rem; } }
+    font-size: -0.8rem; } }
 
 h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
   font-size: 1.2rem;
@@ -434,10 +434,10 @@ h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pr
   color: #656161; }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
-      font-size: 1.35rem; } }
+      font-size: 1.55rem; } }
   @media only all and (max-width: 47.938em) {
     h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
-      font-size: 1.25rem; } }
+      font-size: 1.45rem; } }
 
 ul {
   text-align: left; }
@@ -453,7 +453,7 @@ h1 + h2 {
   margin: -2rem 0 2rem 0;
   font-size: 1.4rem;
   text-align: center;
-  font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Khula", "Open Sans", sans-serif;
   font-weight: 300; }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     h1 + h2 {
@@ -467,7 +467,7 @@ h2 + h3 {
   font-size: 1.3rem;
   line-height: 1;
   text-align: center;
-  font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Khula", "Open Sans", sans-serif;
   font-weight: normal; }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     h2 + h3 {
@@ -557,7 +557,7 @@ hr {
   line-height: 1rem;
   display: inline-block;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-family: "Comfortaa", "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   margin-right: 0.75rem; }
 
@@ -576,8 +576,8 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
 
 .form-field .required {
   color: #F3443F;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
   vertical-align: top;
   height: 1.5rem;
   display: inline-block; }
@@ -849,7 +849,7 @@ td {
         clear: both; } }
 
 .blog-content-item .list-blog-padding > p:nth-child(2) {
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
 
 .tags {
   margin: 0;
@@ -887,7 +887,7 @@ td {
   padding: 0;
   list-style: none; }
   .archives li, .related-pages li {
-    line-height: 2rem; }
+    line-height: 2.2rem; }
     .archives li:last-child, .related-pages li:last-child {
       border-bottom: 0; }
   .archives a, .related-pages a {
@@ -972,7 +972,7 @@ ul.pagination {
   height: 100%;
   padding-bottom: 12rem; }
   #error h1 {
-    font-size: 5rem; }
+    font-size: 5.2rem; }
   #error p {
     margin: 1rem 0; }
 
@@ -1072,14 +1072,12 @@ ul.pagination {
     border: 1px solid #2e3436;
     border-radius: 0;
     box-shadow: none;
-    font-size: 1rem; }
+    font-size: 1.2rem; }
     .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
       background: #f57900; }
 .modular .slideme_container h1, .modular .slideme_container h2 {
   background-color: #babdb6;
   color: #2e3436; }
-.modular .slideme_container h1 {
-  font-size: 2.0rem; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;
@@ -1090,7 +1088,7 @@ ul.pagination {
   text-align: center;
   line-height: 3.8rem;
   background: #eeeeec;
-  top: 65%;
+  top: 67%;
   border-radius: 100%;
   font-size: 2.5rem;
   opacity: 0.5;
@@ -1166,14 +1164,14 @@ ul.pagination {
     margin: 1rem 0; }
     @media only all and (max-width: 47.938em) {
       .modular .features p {
-        font-size: 1rem; } }
+        font-size: 1.2rem; } }
   .modular .features .button, .modular .features .archive-list button, .archive-list .modular .features button, .modular .features .contact button, .contact .modular .features button {
     background-color: #83b850;
     color: #2e3436;
     font-family: "Comfortaa", "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     border-radius: 0;
     box-shadow: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0.5em; }
   .modular .features .feature-items {
     margin-top: 2rem; }
@@ -1200,7 +1198,7 @@ ul.pagination {
       font-size: 1.1rem; }
     .modular .features .feature p {
       display: inline-block;
-      font-size: 1rem;
+      font-size: 1.2rem;
       margin: 0.2rem 0 1rem; }
   .modular .features.big {
     text-align: center; }
@@ -1239,7 +1237,7 @@ ul.pagination {
     text-align: left; }
     @media only all and (max-width: 47.938em) {
       .modular .bottom p {
-        font-size: 1rem; } }
+        font-size: 1.2rem; } }
   .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button {
     background-color: #83b850;
     color: #2e3436;

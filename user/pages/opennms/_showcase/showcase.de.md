@@ -2,7 +2,7 @@
 title: Schaufenster
 menu: Top
 slides:
-  - image: wave.png
+  - image: neutral.png
     heading: "Die Netzwerk Management Platform"
     subheading: "entwickelt unter dem <strong>Open Source</strong> Modell."
     subheading: ""

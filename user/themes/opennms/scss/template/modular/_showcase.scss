@@ -87,10 +87,6 @@
             color: $dark-gray;
         }
 
-        h1 {
-            font-size: 2.0rem;
-        }
-
         .arrow {
             @extend .default-animation;
             position: absolute;
@@ -102,7 +98,7 @@
             text-align: center;
             line-height: 3.8rem;
             background: $aluminium-light;
-            top: 65%;
+            top: 67%;
             border-radius: 100%;
             font-size: 2.5rem;
             opacity: 0.5;

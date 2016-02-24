@@ -1078,6 +1078,8 @@ ul.pagination {
 .modular .slideme_container h1, .modular .slideme_container h2 {
   background-color: #babdb6;
   color: #2e3436; }
+.modular .slideme_container h1 {
+  font-size: 2.0rem; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;
@@ -1088,7 +1090,7 @@ ul.pagination {
   text-align: center;
   line-height: 3.8rem;
   background: #eeeeec;
-  top: 67%;
+  top: 65%;
   border-radius: 100%;
   font-size: 2.5rem;
   opacity: 0.5;

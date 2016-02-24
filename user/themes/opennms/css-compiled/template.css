@@ -42,7 +42,7 @@ b, strong, label, th {
 
 #body {
   background: #fff;
-  padding-top: 11rem; }
+  padding-top: 9rem; }
 
 .left {
   float: left; }
@@ -75,24 +75,24 @@ b, strong, label, th {
 
 .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
   text-align: center;
-  padding-left: 20rem;
-  padding-right: 20rem; }
+  padding-left: 18rem;
+  padding-right: 18rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 10rem;
-      padding-right: 10rem; } }
+      padding-left: 8rem;
+      padding-right: 8rem; } }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 13rem;
-      padding-right: 13rem; } }
+      padding-left: 11rem;
+      padding-right: 11rem; } }
   @media only all and (max-width: 47.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 7rem;
-      padding-right: 7rem; } }
+      padding-left: 5rem;
+      padding-right: 5rem; } }
 
 .padding-vert {
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 #header {
   position: absolute;
@@ -220,8 +220,8 @@ b, strong, label, th {
   padding-left: 0;
   padding-right: 0; }
   .header-image.fullwidth #body > .listing-row {
-    padding-left: 20rem;
-    padding-right: 20rem; }
+    padding-left: 18rem;
+    padding-right: 18rem; }
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
 .header-image #body .flush-top {
@@ -807,11 +807,11 @@ td {
         font-size: 1.5rem;
         line-height: 1.2; } }
   .blog-header + .blog-content {
-    padding-top: 3rem; }
+    padding-top: 1rem; }
 
 .list-item {
   border-bottom: 1px solid #dadada;
-  margin-bottom: 3rem; }
+  margin-bottom: 1rem; }
   .list-item:last-child {
     border-bottom: 0; }
   .list-item .list-blog-header {
@@ -918,7 +918,7 @@ div#breadcrumbs {
     #sidebar {
       padding-left: 0; } }
   #sidebar .sidebar-content {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     text-align: left; }
     #sidebar .sidebar-content h4, #sidebar .sidebar-content .archive-list label, .archive-list #sidebar .sidebar-content label, #sidebar .sidebar-content .modular .bottom table th, .modular .bottom table #sidebar .sidebar-content th, #sidebar .sidebar-content .contact label, .contact #sidebar .sidebar-content label, #sidebar .sidebar-content .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item #sidebar .sidebar-content .name, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content .button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list #sidebar .sidebar-content button, #sidebar .sidebar-content .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact #sidebar .sidebar-content button, #sidebar .sidebar-content .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button {
       margin-bottom: 1rem;
@@ -927,7 +927,7 @@ div#breadcrumbs {
       margin-top: 1rem; }
 
 ul.pagination {
-  margin: 0 0 3rem;
+  margin: 0 0 1rem;
   text-align: center; }
 
 .prev-next {
@@ -1057,8 +1057,8 @@ ul.pagination {
     color: #83b850; }
   .modular .showcase h2 {
     text-transform: none;
-    padding-left: 20rem;
-    padding-right: 20rem; }
+    padding-left: 18rem;
+    padding-right: 18rem; }
     @media only all and (max-width: 47.938em) {
       .modular .showcase h2 {
         padding-left: 0;
@@ -1506,16 +1506,16 @@ ul.pagination {
     margin-top: 4rem; }
     .portfolio .notebooks .notebook-row {
       box-shadow: inset 0px -90px 0px -20px #f7f7f7;
-      margin-left: -20rem;
-      margin-right: -20rem;
-      padding-left: 20rem;
-      padding-right: 20rem;
+      margin-left: -18rem;
+      margin-right: -18rem;
+      padding-left: 18rem;
+      padding-right: 18rem;
       background: #EEEEEE;
       padding-bottom: 2rem; }
       @media only all and (max-width: 47.938em) {
         .portfolio .notebooks .notebook-row {
-          margin-left: -16rem;
-          margin-right: -16rem; } }
+          margin-left: -14rem;
+          margin-right: -14rem; } }
       .portfolio .notebooks .notebook-row .notebook {
         min-width: 24%; }
         @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -1567,7 +1567,8 @@ ul.pagination {
   .logo ul.social-icons {
     float: right;
     line-height: 2rem;
-    margin: 0; }
+    margin: 0;
+    padding-top: 1rem; }
     .logo ul.social-icons li {
       float: left;
       width: 2.1rem;

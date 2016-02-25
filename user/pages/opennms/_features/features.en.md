@@ -4,7 +4,7 @@ menu: Features
 class: big
 features:
 	- header: Service Assurance
-	  text: "Synthentic polling to detect service outages and measure latency for graphing and thresholding. Out-of-the-box support for many applications with configurable service monitors. Remote monitoring of application and services from users perspective."
+	  text: "Synthentic polling to detect service outages and measure latency for graphing and thresholding. Out-of-the-box support for many applications with configurable service monitors. Remote monitoring of application and services from user's perspective."
 	  icon: heartbeat
 	  linkurl: "service-assurance"
 	  linktext: "Find Out More"

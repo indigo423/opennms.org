@@ -4,7 +4,7 @@ menu: Architecture
 class: big
 features:
 	- header: Event-Driven
-	  text: "OpenNMS has an event-driven architecture. Events will be created from OpenNMS if services, interfaces or nodes went down or thresholds are exceeded. SNMP Traps and Syslog messages are normalized to events and can be correlated for high-level alarm workflows."
+	  text: "OpenNMS is built on an event-driven architecture. Events are created from OpenNMS if services, interfaces, or nodes go down or thresholds are exceeded. SNMP traps and syslog messages are normalized into events and can be correlated to create high-level alarm workflows."
 	  icon: paper-plane-o
 	  linkurl: "http://www.getgrav.org"
 	  linktext: "Find Out More"
@@ -14,7 +14,7 @@ features:
 	  linkurl: "http://www.getgrav.org" 
 	  linktext: "Find Out More"
 	- header: Provisioning
-	  text: "Getting devices, applications and services into monitoring is an important part for monitoring solutions. The Provisioning system provides a variety of mechanisms to get your network and applications in monitoring through manual, detected or ReST API driven interfaces."
+	  text: "Discover your network and applications through manual, detected, or ReST API driven interfaces through the OpenNMS provisioning system. Control device management with the ability to add, change, and remove devices. "
 	  icon: cogs
 	  linkurl: "community-area" 
 	  linktext: "Find Out More"

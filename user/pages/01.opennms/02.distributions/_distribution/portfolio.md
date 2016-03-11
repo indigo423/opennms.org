@@ -1,25 +1,12 @@
 ---
 title: Horizon vs. Merdian
 ---
-The OpenNMS platform is delivered as _**Horizon**_ and _**Meridian**_ distribution.
-With the commercial distribution _**Meridian**_ the OpenNMS Group, Inc. offers a subscription distribution.
-The source code is exactly the same, the release cycle is slowed down and is used to provide support.
+OpenNMS is delivered as two different, completely open source, distributions: _**Meridian**_  and  _**Horizon**_. The source code for both distributions is exactly the same; however, the release cycle and the support options available vary for each.
 
-<img src="../images/horizon-vs-meridian-comparison-tall.png" />
+OpenNMS _**Meridian**_ is a subscription service that provides access to an optimized and very stable version of OpenNMS that maximizes the platform’s value and minimizes the effort required to maintain it. OpenNMS Horizon is freely available to download and contains the newest features that are updated on a rapid release schedule. Features that have proven to be stable and effective in Horizon will eventually be merged into Meridian.
 
-_**Horizon**_ is offered under the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License).
-When you download _**Horizon**_ you get the latest and newest features in the development tree.
-It follows the release early, release often model and allows to develop all new features in the platform.
-The development is driven by the OpenNMS Community and one of the largest upstream contributor is the OpenNMS Group, Inc.
-Contribution is done via [Pull Requests](https://help.github.com/articles/using-pull-requests/) against the [GitHub repository](https://github.com/OpenNMS/opennms).
-
-_**Meridian**_ is offered under the same license as Horizon, the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License).
-When you download Meridian binaries you will get the code as well.
-There are some organizations that have a policy of not using software published under the AGPL.
-They will have the option of using Meridian under a proprietary license.
-In either case, the Meridian software is yours to use no matter if your subscription expires.
-You will lose access to the Meridian repositories and all future updates, however, and our goal is to make them so useful you would never consider doing without.
-This is the choice if you require support and you don't require as quickly new features in favor of stability and maintenance.
+Following the “release early, release often” model, OpenNMS _**Horizon**_ contains all of the newest features developed for the platform. The OpenNMS community drives the development of Horizon along with The OpenNMS Group, one of the largest upstream contributors. Community members may contribute via [Pull Requests](https://help.github.com/articles/using-pull-requests/) against the [GitHub repository](https://github.com/OpenNMS/opennms). _**Horizon**_ is licensed under the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License). 
+_**Meridian**_ is licensed under the AGPLv3, the same as Horizon. Purchasing a subscription to Meridian will provide access to the Meridian binaries accompanied by the Meridian code. For organizations that have a policy against using software published under the AGPL, Meridian is also available under an optional proprietary license.
 
 Meridian is initially offered via RPMs [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) and [CentOS](http://www.centos.org/).
 

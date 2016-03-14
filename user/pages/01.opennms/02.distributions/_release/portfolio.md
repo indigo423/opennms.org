@@ -7,6 +7,8 @@ title: Releases
 
 After new features are proven to be stable and useful in Horizon, they get integrated into the upcoming release of Meridian. The OpenNMS community decides which features to release in Horizon while The OpenNMS Group selects features to integrate into Meridian. Releases are managed through JIRA, a publicly available issue tracking software.
 
+#Horizon Release Workflow
+
 ![OpenNMS Horizon 4 month release phases](../../../images/release.png)
 
 * **Development:** New features are developed and changes in architecture and major bug fixes are implemented. To install this version, download the OpenNMS Horizon SNAPSHOT release. Changes are merged from pull requests after reviewing and testing them. Major releases can require configuration changes or data migration.

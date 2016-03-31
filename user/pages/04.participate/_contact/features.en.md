@@ -8,7 +8,7 @@ features:
       linkurl: "http://chat.opennms.com/opennms"
       linktext: "Web Chat"
     - header: "Discussions and Help"
-      text: Talk and get in contact with people using OpenNMS in our community with our topic driven Mailinglists.
+      text: Get into contact with OpenNMS users in our community through our topic-driven mailing lists.
       icon: envelope-o
       linkurl: "https://www.opennms.org/wiki/Mailing_lists"
       linktext: "Mailing Lists"

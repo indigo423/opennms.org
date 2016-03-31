@@ -8,7 +8,7 @@ features:
       linkurl: "http://issues.opennms.org"
       linktext: "Go to JIRA"
     - header: Source Repository
-      text: The source code is managed by git and is hosted on GitHub. We use also pull request driven approach to submit patches for bug fixes or enhancements.
+      text: The source code is managed by git and is hosted on GitHub. We also use a pull request driven approach to submit patches for bug fixes or enhancements.
       icon: code-fork
       linkurl: "http://issues.opennms.org"
       linktext: "Fork me on GitHub"

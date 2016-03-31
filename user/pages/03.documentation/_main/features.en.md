@@ -4,7 +4,7 @@ menu: Features
 class: big
 features:
 	- header: User Guide
-	  text: "Users of OpenNMS have a generic network monitoring skill set. This guide describes everything you need to understand concepts and how to use OpenNMS for day-to-day monitoring."
+	  text: "OpenNMS users tend to have a broad network monitoring skill set. This guide contains an overview of concepts and how to use OpenNMS for day-to-day monitoring."
 	  icon: user
 	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-user/guide-user.html"
 	  linktext: "Go to User Guide"
@@ -14,7 +14,7 @@ features:
 	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-admin/guide-admin.html"
 	  linktext: "Go to Administrator Guide"
 	- header: Developer Guide
-	  text: "Developer enhance send patches to the OpenNMS platform. They usually build new features for example creating new collectors, monitors or send patches to fix bugs."
+	  text: "Developers enhance and send patches to improve the OpenNMS platform. They can also contribute by submitting bug fixes or building new features like creating new collectors and monitors."
 	  icon: wrench
 	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-development/guide-development.html"
 	  linktext: "Go to Development Guide"
@@ -22,10 +22,9 @@ features:
 
 # Guides
 
-The project divides documentation for persons with special use cases.
-It is helpful to start with the *User Guide*.
-He gives general insights how OpenNMS operates and concepts.
-The *Administrator Guide* is specialized to build or change configuration of OpenNMS to implement new monitoring use cases or maintenance in general.
-With the *Developer Guide* you get all information to change the OpenNMS source code.
+The project divides documentation for individuals with special use cases.
++ It is helpful to start with the *User Guide*, which gives general insights into OpenNMS operations and concepts.
++ The *Administrator Guide* will help those who want to build or change the configuration of OpenNMS to implement new monitoring use cases or to perform general maintenance.
++ The *Developer Guide* provides all information required to change the OpenNMS source code.
 
-This documentation is released and tight to specific OpenNMS versions and is part of the OpenNMS Source Code on [GitHub](https://github.com/OpenNMS/opennms/tree/develop/opennms-doc).
+This documentation is released and tied to specific OpenNMS versions and is part of the OpenNMS Source Code on [GitHub](https://github.com/OpenNMS/opennms/tree/develop/opennms-doc).

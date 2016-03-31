@@ -2,15 +2,10 @@
     <div class="footer-items">
         <div class="footer-module large">
             <div class="logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
                 {% block social %}
                     {% include 'partials/social.html.twig' %}
                 {% endblock %}
-
             </div>
-            {% if site.footer.description %}
-                <p>{{ site.footer.description }}</p>
-            {% endif %}
         </div>
         <div class="footer-module"><h4>{{ site.footer.contact_title }}</h4>
             <p>

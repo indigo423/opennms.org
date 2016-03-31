@@ -2,7 +2,7 @@
 title: Showcase
 menu: Top
 slides:
-  - image: neutral.png
+  - image: wave.png
     heading: "The Network Management Platform"
     subheading: "developed under the <strong>Open Source</strong> model"
     button_text: Get OpenNMS
@@ -13,4 +13,3 @@ slides:
     button_text: Get me there
     button_url: http://www.opennms.org/wiki/Dev-Jam
 ---
-

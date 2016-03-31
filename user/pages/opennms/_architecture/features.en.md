@@ -9,12 +9,12 @@ features:
 	  linkurl: "http://www.getgrav.org"
 	  linktext: "Find Out More"
 	- header: Topology Discovery
-	  text: "Discovery of layer 2 network topologies based on SNMP information from industry standards like LLDP, CDP and Bridge-MIB discovery. Support for discovering layer 3 routing topologies based on OSPF and IS-IS. Topologies are enriched with monitoring information."
+	  text: "Discover layer 2 network topologies based on SNMP information from industry standards like LLDP, CDP and Bridge-MIB discovery. OpenNMS supports layer 3 routing topology discovery based on OSPF and IS-IS. Topologies are enriched with monitoring information."
 	  icon: share-alt
 	  linkurl: "http://www.getgrav.org" 
 	  linktext: "Find Out More"
 	- header: Provisioning
-	  text: "Discover your network and applications through manual, detected, or ReST API driven interfaces through the OpenNMS provisioning system. Control device management with the ability to add, change, and remove devices. "
+	  text: "Discover your network and applications through manual, detected, or ReST API driven interfaces via the OpenNMS provisioning system. Control device management with the ability to add, change, and remove devices. "
 	  icon: cogs
 	  linkurl: "community-area" 
 	  linktext: "Find Out More"

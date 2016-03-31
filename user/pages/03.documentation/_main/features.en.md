@@ -23,8 +23,8 @@ features:
 # Guides
 
 The project divides documentation for individuals with special use cases.
-+It is helpful to start with the *User Guide*, which gives general insights into OpenNMS operations and concepts.
-+The *Administrator Guide* will help those who want to build or change the configuration of OpenNMS to implement new monitoring use cases or to perform general maintenance.
-+The *Developer Guide* provides all information required to change the OpenNMS source code.
++ It is helpful to start with the *User Guide*, which gives general insights into OpenNMS operations and concepts.
++ The *Administrator Guide* will help those who want to build or change the configuration of OpenNMS to implement new monitoring use cases or to perform general maintenance.
++ The *Developer Guide* provides all information required to change the OpenNMS source code.
 
 This documentation is released and tied to specific OpenNMS versions and is part of the OpenNMS Source Code on [GitHub](https://github.com/OpenNMS/opennms/tree/develop/opennms-doc).

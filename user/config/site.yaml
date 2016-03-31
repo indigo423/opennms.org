@@ -23,6 +23,9 @@ social:
   - url: 'https://www.facebook.com/OpenNMS/'
     icon: 'facebook'
     description: 'Follow on Facebook'
+  - url: 'http://chat.opennms.com/opennms'
+    icon: 'comments-o'
+    description: 'Talk with people in the community'
 
 contact:
   address:

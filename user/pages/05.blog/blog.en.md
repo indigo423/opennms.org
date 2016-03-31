@@ -17,10 +17,10 @@ content:
     pagination: true
 
 feed:
-    description: Stay informed with the OpenNMS Project
+    description: Blog of the OpenNMS Community
     limit: 10
 
 pagination: true
 ---
 
-# Stay Informed
+# Blog

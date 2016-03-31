@@ -11,16 +11,16 @@ features:
 	- header: Performance Management
 	  text: "Collect performance metrics from industry standard agents via SNMP, JMX, WMI, NRPE, NSClient++ and XMP just by configuration. Gather performance data from applications with customizable generic collectors with HTTP, JDBC, XML or JSON."
 	  icon: tachometer
-	  linkurl: "http://www.getgrav.org" 
+	  linkurl: "http://www.getgrav.org"
 	  linktext: "Find Out More"
 	- header: Easy Integration
 	  text: "Based on the flexible and extensible architecture, it is possible to extend the service polling and performance data collection framework. Integration OpenNMS in your existing infrastructure with strong north bound interfaces for Alarms and ReST API."
 	  icon: cubes
-	  linkurl: "http://www.getgrav.org" 
+	  linkurl: "http://www.getgrav.org"
 	  linktext: "Find Out More"
 ---
 
-**OpenNMS** is a carrier-grade, integrated, open source platform to build network monitoring solutions.
+**OpenNMS** is a carrier-grade, integrated, open source platform to build scalable network monitoring solutions.
 It is available in two versions.
 **Meridian** is developed for **Enterprises** and **Businesses** with stability and long term support in mind, while **Horizon** is the place where **innovation** happens **quickly**.
 It addresses the requirements for monitoring new technologies and IT ecosystems.

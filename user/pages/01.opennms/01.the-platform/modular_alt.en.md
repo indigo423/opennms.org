@@ -1,5 +1,5 @@
 ---
-title: The Machinery
+title: The Platform
 onpage_menu: false
 body_classes: "modular header-image header-lite fullwidth"
 

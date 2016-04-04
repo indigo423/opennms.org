@@ -1,14 +1,17 @@
 ---
 title: Horizon vs. Merdian
 ---
-OpenNMS is delivered as two different, completely open source, distributions: _**Meridian**_  and  _**Horizon**_. The source code for both distributions is exactly the same; however, the release cycle and the support options available vary for each.
+OpenNMS is delivered as two different, completely open source, distributions: _**Meridian**_  and  _**Horizon**_.
+The source code for both distributions is exactly the same; however, the release cycle and the support options available vary for each.
 
 #Horizon
-Following the “release early, release often” model, OpenNMS _**Horizon**_ contains all of the newest features developed for the platform. Horizon is freely available to download and contains the newest features that are updated on a rapid release schedule. 
+Following the “release early, release often” model, OpenNMS _**Horizon**_ contains all of the newest features developed for the platform.
+Horizon is freely available to download and contains the newest features that are updated on a rapid release schedule.
 
-The OpenNMS community drives the development of Horizon along with The OpenNMS Group, one of the largest upstream contributors. Community members may contribute via [Pull Requests](https://help.github.com/articles/using-pull-requests/) against the [GitHub repository](https://github.com/OpenNMS/opennms).
+The OpenNMS community drives the development of Horizon along with The OpenNMS Group, one of the largest upstream contributors.
+Community members may contribute via [Pull Requests](https://help.github.com/articles/using-pull-requests/) against the [GitHub repository](https://github.com/OpenNMS/opennms).
 
- _**Horizon**_ is licensed under the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License). 
+ _**Horizon**_ is licensed under the [Affero General Public License (AGPLv3)](http://en.wikipedia.org/wiki/Affero_General_Public_License).
 
 
 #Meridian
@@ -36,7 +39,7 @@ More information about Meridian can be found on the commercial website of [The O
       Enterprises and businesses looking for stable platforms with long term support
     </td>
     <td align="left">
-      Monitoring of new technologies and IT ecosystems such as Docker, SDN/NFV, and virtual systems. 
+      Monitoring of new technologies and IT ecosystems such as Docker, SDN/NFV, and virtual systems.
     </td>
   </tr>
   <tr>
@@ -121,7 +124,7 @@ More information about Meridian can be found on the commercial website of [The O
       <strong>Price</strong>
     </td>
     <td align="left">
-      Yearly subscription per management server. 
+      Yearly subscription per management server.
     </td>
     <td align="left">
       Free download

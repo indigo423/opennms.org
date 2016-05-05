@@ -2,7 +2,7 @@
 title: Horizon vs. Merdian
 ---
 OpenNMS is delivered as two different, completely open source, distributions: _**Meridian**_  and  _**Horizon**_.
-The source code for both distributions is exactly the same; however, the release cycle and the support options available vary for each.
+Both distributions are built from the same open-source code base; however, the release cycle and the support options available vary for each.
 
 #Horizon
 Following the “release early, release often” model, OpenNMS _**Horizon**_ contains all of the newest features developed for the platform.

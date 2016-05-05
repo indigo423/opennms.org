@@ -22,7 +22,7 @@ It allows to interactively create your data collection configuration for your Ja
 
 ![JMX Configuration](jmx-configuration.png)
 
-The [documentation](http://docs.opennms.org/opennms/releases/17.0.0/index.html) is improved and we have removed unnecessary modules and focus on Release Notes, Installation Guide, User Guide, Administration Guide and Developer Guide.
+The [documentation](https://docs.opennms.org/opennms/releases/latest/index.html) is improved and we have removed unnecessary modules and focus on Release Notes, Installation Guide, User Guide, Administration Guide and Developer Guide.
 We moved the content how to develop new documentation from the Documentation Guide to a Developers Guide section.
 
 The distributed components with [OpenNMS Minion](https://github.com/OpenNMS/smnnepo) is introduced in the admin area.
@@ -53,7 +53,7 @@ We have added support for following devices:
 * [Dell Equallogic](https://en.wikipedia.org/wiki/EqualLogic) Events
 * Add [Sonicwall](https://en.wikipedia.org/wiki/SonicWall) Firewall Events
 
-For more details you can go to our [Release Notes](http://docs.opennms.org/opennms/releases/17.0.0/releasenotes/releasenotes.html#_release_17_0_0).
+For more details you can go to our [Release Notes](https://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html).
 
 Looking forward to upgrade my systems and Happy Upgrading
 

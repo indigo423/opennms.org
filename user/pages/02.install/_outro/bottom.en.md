@@ -1,7 +1,7 @@
 # Configuration Management
 
 
-Are you interested in running and maintaining OpenNMS with modern configuration management tools such as Chef or Ansible?
+Interested in running and maintaining OpenNMS with modern configuration management tools such as Chef or Ansible?
 
 Please take a look at our repositories, which are built by the OpenNMS community:
 

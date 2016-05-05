@@ -71,7 +71,7 @@ header_options:
   swipe : 'true'                            # Enable swipe for touch device
 
 footer:
-    description: "Java base network management platform developed under the Open Source model."
+    description: "Java based network management platform developed under the Open Source model."
     contact_title: "Contact Info"
     links_title: "Quick Links"
     copyright_text: "Copyright 2016 The OpenNMS Group, Inc. All Rights Reserved."

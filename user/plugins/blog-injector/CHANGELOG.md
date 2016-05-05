@@ -1,3 +1,22 @@
+# v1.2.1
+## 04/10/2016
+
+1. [](#bugfix)
+    * Plugin is not loaded in admin mode
+
+# v1.2.1
+## 03/20/2016
+
+1. [](#improved)
+    * Added French translation
+
+# v1.2.0
+## 03/19/2016
+
+1. [](#improved)
+    * Added multi language support
+    * Added Italian translation
+
 # v1.1.8
 ## 02/10/2016
 

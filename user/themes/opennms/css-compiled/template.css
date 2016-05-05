@@ -620,9 +620,9 @@ td {
   border: 1px solid #83b850;
   font-family: "Comfortaa", "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   color: #2e3436;
-  padding: 0.6rem;
+  padding: 0.3rem;
   border: 1px solid;
-  border-radius: 7px;
+  border-radius: 3px;
   transition: all 0.5s ease;
   white-space: nowrap; }
   .link-button:hover {
@@ -827,7 +827,7 @@ td {
     .list-item .list-blog-header img {
       display: block;
       margin-top: 1rem;
-      border-radius: 7px; }
+      border-radius: 3px; }
   .list-item .list-blog-date, .list-item .list-blog-author {
     text-align: center;
     background-color: rgba(101, 97, 97, 0.1);
@@ -1071,7 +1071,7 @@ ul.pagination {
     font-family: "Comfortaa", "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     background: #fcaf3e;
     border: 1px solid #2e3436;
-    border-radius: 7px;
+    border-radius: 3px;
     box-shadow: none;
     font-size: 1rem; }
     .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
@@ -1170,7 +1170,7 @@ ul.pagination {
     background-color: #83b850;
     color: #2e3436;
     font-family: "Comfortaa", "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    border-radius: 7px;
+    border-radius: 3px;
     box-shadow: none;
     font-size: 1rem;
     margin: 0.5em; }
@@ -1242,7 +1242,7 @@ ul.pagination {
   .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button {
     background-color: #83b850;
     color: #2e3436;
-    border-radius: 7px;
+    border-radius: 3px;
     border: 1px solid;
     transition: all 0.5s ease; }
     .modular .bottom .button:hover, .modular .bottom .archive-list button:hover, .archive-list .modular .bottom button:hover, .modular .bottom .contact button:hover, .contact .modular .bottom button:hover {

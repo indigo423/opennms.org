@@ -6,17 +6,17 @@ features:
 	- header: User Guide
 	  text: "OpenNMS users tend to have a broad network monitoring skill set. This guide contains an overview of concepts and how to use OpenNMS for day-to-day monitoring."
 	  icon: user
-	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-user/guide-user.html"
+	  linkurl: "https://docs.opennms.org/opennms/releases/latest/guide-user/guide-user.html"
 	  linktext: "Go to User Guide"
 	- header: Administrator Guide
-	  text: "OpenNMS Administrators introduce OpenNMS or architecture configuration and configuration to monitor services and applications. The concepts from a user guide should be known."
+	  text: "OpenNMS Administrators builds upon the foundation of the User Guide to introduce OpenNMS architecture and configuration to monitor services and applications."
 	  icon: terminal
-	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-admin/guide-admin.html"
+	  linkurl: "https://docs.opennms.org/opennms/releases/latest/guide-admin/guide-admin.html"
 	  linktext: "Go to Administrator Guide"
 	- header: Developer Guide
 	  text: "Developers enhance and send patches to improve the OpenNMS platform. They can also contribute by submitting bug fixes or building new features like creating new collectors and monitors."
 	  icon: wrench
-	  linkurl: "http://docs.opennms.org/opennms/releases/17.0.0/guide-development/guide-development.html"
+	  linkurl: "https://docs.opennms.org/opennms/releases/latest/guide-development/guide-development.html"
 	  linktext: "Go to Development Guide"
 ---
 

@@ -40,7 +40,7 @@ Staff Contact Information<br/>
 tarus@opennms.org</br>
 Tarus Balog (US)</br>
 </br>
-jeff@opennms.org</br>
+jeffg@opennms.org</br>
 Jeff Gehlbach (US)</br>
 </br>
 ronny@opennms.org</br>

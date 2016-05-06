@@ -9,7 +9,7 @@ slides:
     button_url: install
   - image: uofm.jpg
     heading: "DevJam 2016"
-    subheading: "... in planning get excited ..."
+    subheading: "24-30 July 2016, Minneapolis, Minnesota, US"
     button_text: Get me there
-    button_url: http://www.opennms.org/wiki/Dev-Jam
+    button_url: http://www.opennms.org/wiki/Dev-Jam_2016
 ---

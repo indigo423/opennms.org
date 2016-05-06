@@ -3,7 +3,7 @@ title: Participate
 class: big
 features:
     - header: Software Management
-      text: The OpenNMS project is supported by Atlassian as an Open Source licensed project and we use JIRA for project management.
+      text: The OpenNMS project uses Atlassian's JIRA project management platform. We thank Atlassian for providing a no-cost license to the project.
       icon: leaf
       linkurl: "http://issues.opennms.org"
       linktext: "Go to JIRA"

@@ -1,3 +1,15 @@
+# v2.2.1
+## 05/09/2016
+
+1. [](#bugfix)
+    * Always initialize current page even if collection exists [#3](https://github.com/getgrav/grav-plugin-shortcode-ui/issues/3)
+
+# v2.2.0
+## 04/23/2016
+
+1. [](#new)
+    * Added **new** `fa` FontAwesome shortcode
+
 # v2.1.0
 ## 04/21/2016
 

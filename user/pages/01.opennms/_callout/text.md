@@ -33,5 +33,5 @@ portfolio:
 
 ## Some of Our Latest Work
 
-Here are some of our latest projects! Some projects are currently in development and others have been recently finished. 
+Here are some of our latest projects which are currently in development and others have been recently finished.
 The newest features will be merged into OpenNMS Horizon, where they will be tested and improved upon until they are stable enough to be released into OpenNMS Meridian.

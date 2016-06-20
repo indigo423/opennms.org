@@ -623,7 +623,7 @@ td {
   padding: 0.3rem;
   border: 1px solid;
   border-radius: 3px;
-  transition: all 0.5s ease;
+  transition: all 0.25s ease;
   white-space: nowrap; }
   .link-button:hover {
     background: #fff;

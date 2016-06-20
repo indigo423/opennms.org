@@ -5,7 +5,7 @@ author: Ronny Trommer
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: release
-    tag: [release, vagrant, ubuntu, opennms]
+    tag: [release, vagrant, ubuntu]
 ---
 
 We have updated our [Vagrant](https://www.vagrantup.com/) box hosted on the [Atlas platform](https://atlas.hashicorp.com/opennms/boxes/vagrant-opennms-ubuntu-stable) with latest OpenNMS Horizon 17 pre-configured with RRDtool.

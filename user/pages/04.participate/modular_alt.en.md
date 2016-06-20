@@ -9,8 +9,7 @@ content:
         by: default
         dir: asc
         custom:
-            - _intro
-            - _events
+            - _meet-in-real-life
+            - _change-the-code
+            - _talk-online
 ---
-
-# bla bla

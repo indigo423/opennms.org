@@ -16,8 +16,6 @@ summary:
   delimiter: ===                            # The summary delimiter
 
 redirects:
-    /opennms: '/'
-
 #  /redirect-test: /                         # Redirect test goes to home page
 #  /old/(.*): /new/$1                        # Would redirect /old/my-page to /new/my-page
 

@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Docs
 onpage_menu: false
 body_classes: "modular header-image header-lite fullwidth services"
 

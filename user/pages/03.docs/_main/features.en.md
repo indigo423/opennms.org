@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Docs
 menu: Features
 class: big
 features:

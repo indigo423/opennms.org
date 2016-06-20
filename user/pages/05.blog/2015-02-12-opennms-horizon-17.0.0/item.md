@@ -5,7 +5,7 @@ author: Ronny Trommer
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: release
-    tag: [release, opennms]
+    tag: [release]
 ---
 
 We welcome our new release of OpenNMS Horizon 17 with code name [Glen Moray](https://en.wikipedia.org/wiki/Glen_Moray_distillery).

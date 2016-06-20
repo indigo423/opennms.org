@@ -11,12 +11,12 @@ features:
 	- header: Performance Management
 	  text: "Collect performance metrics from industry standard agents via SNMP, JMX, WMI, Ws-Management / WInRM, NRPE, NSClient++ and XMP just by configuration. Gather performance data from applications with customizable generic collectors with HTTP, JDBC, XML or JSON."
 	  icon: tachometer
-	  linkurl: "http://www.getgrav.org"
+	  linkurl: "performance-management"
 	  linktext: "Find Out More"
 	- header: Easy Integration
 	  text: "Based on a flexible and extensible architecture, it is possible to extend the service polling and performance data collection framework. Integrate OpenNMS into your existing infrastructure with strong north-bound interfaces for Alarms and ReST API."
 	  icon: cubes
-	  linkurl: "http://www.getgrav.org"
+	  linkurl: "easy-integration"
 	  linktext: "Find Out More"
 ---
 

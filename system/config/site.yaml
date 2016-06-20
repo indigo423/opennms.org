@@ -1,13 +1,13 @@
-title: Grav                                 # Name of the site
+title: OpenNMS                              # Name of the site
 
 author:
-  name: John Appleseed                      # Default author name
-  email: 'john@email.com'                   # Default author email
+  name: Ronny Trommer                       # Default author name
+  email: 'ronny@opennms.org'                   # Default author email
 
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 
 metadata:
-  description: 'My Grav Site'               # Site description
+  description: 'The OpenNMS Project'        # Site description
 
 summary:
   enabled: true                             # enable or disable summary of page
@@ -16,6 +16,8 @@ summary:
   delimiter: ===                            # The summary delimiter
 
 redirects:
+    /opennms: '/'
+
 #  /redirect-test: /                         # Redirect test goes to home page
 #  /old/(.*): /new/$1                        # Would redirect /old/my-page to /new/my-page
 
@@ -29,6 +31,6 @@ blog:
 #menu:                                      # Sample Menu Example
 #    - text: Source
 #      icon: github
-#      url: https://github.com/getgrav/grav
+#     url: https://github.com/getgrav/grav
 #    - icon: twitter
 #      url: http://twitter.com/getgrav

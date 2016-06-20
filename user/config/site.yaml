@@ -61,9 +61,9 @@ summary:
 
 header_options:
   arrows: 'true'                            # Create Next and previous button
-  autoslide: 'false'                        # Auto slideshow mode
+  autoslide: 'true'                         # Auto slideshow mode
   autoslideHoverStop: 'true'                # Pause auto slideshow mode on mouseover
-  interval: '4000'                          # The interval between each slide (Interval in millisecond)
+  interval: '7000'                          # The interval between each slide (Interval in millisecond)
   loop: 'true'                              # Infinite slideshow
   transition : zoom                         # Set the animation kind (fade/slide/page/zoom)
   itemsForSlide: '0'                        # Wrap each 'n' item

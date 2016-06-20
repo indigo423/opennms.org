@@ -37,17 +37,19 @@ othermenu:
     url: "opennms"
   - text: "Trademark Policy"
     url: "trademark-policy"
-  - text: "Contact"
-    url: "participate"
+  - text: "Code of Conduct"
+    url: "code-of-conduct"
 quicklinks:
   - text: "OpenNMS"
     url: "base_url:opennms"
+  - text: "Docs"
+    url: "docs"
+  - text: "Install"
+    url: "install"
   - text: "Participate"
     url: "base_url:participate"
   - text: "Blog"
     url: "base_url:blog"
-  - text: "Code of Conduct"
-    url: "base_url:code-of-conduct"
 
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 blog:

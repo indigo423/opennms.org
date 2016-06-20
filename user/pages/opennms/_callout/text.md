@@ -29,6 +29,20 @@ portfolio:
       url: "#"
       date: Horizon 16.0.0
       category: Performance Management
+    - image: bsm.png
+      title: Business Service Monitoring
+      desc: "Monitor high level Business Services and tree view visualization. The status can be calculated with several map and reduce functions and the root cause and impact is visualized."
+      modalid: 5
+      url: "#"
+      date: Horizon 18.0.0
+      category: Service Assurance
+    - image: kibana.png
+      title: ElasticSearch Forwarder
+      desc: "Forward unified and enriched OpenNMS Alarms into ElasticSearch and visualize data with Kibana."
+      modalid: 6
+      url: "#"
+      date: Horizon 18.0.0
+      category: Data Analysis
 ---
 
 ## Some of Our Latest Work

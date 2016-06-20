@@ -34,13 +34,11 @@ contact:
     - line: "United States"
 othermenu:
   - text: "About"
-    url: "about"
-  - text: "Privacy Policy"
-    url: "privacy-policy"
+    url: "opennms"
   - text: "Trademark Policy"
     url: "trademark-policy"
   - text: "Contact"
-    url: "contact"
+    url: "participate"
 quicklinks:
   - text: "OpenNMS"
     url: "base_url:opennms"

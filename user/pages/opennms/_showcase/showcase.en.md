@@ -17,4 +17,9 @@ slides:
     subheading: "13-15 September 2016, Fulda, Hessen, Germany"
     button_text: Would you like to know more?
     button_url: https://ouce.opennms.eu
+  - image: opennms-com.jpg
+    heading: "The OpenNMS Group"
+    subheading: "Get Meridian"
+    button_text: Would you like to know more?
+    button_url: http://www.opennms.com
 ---

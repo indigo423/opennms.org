@@ -17,7 +17,7 @@ social:
   - url: 'https://plus.google.com/105624063334939417498'
     icon: 'google-plus'
     description: 'Follow us on Google Plus'
-  - url: 'stay-informed.rss'
+  - url: 'blog.rss'
     icon: 'rss'
     description: 'Subscribe news as RSS feed'
   - url: 'https://www.facebook.com/OpenNMS/'

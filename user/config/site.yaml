@@ -54,6 +54,10 @@ quicklinks:
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 blog:
   route: '/blog'                            # Route to blog
+
+redirects:
+  /wiki: 'http://wiki.opennms.org/wiki/Main_Page'
+
 metadata:
     description: 'Project home page of OpenNMS - a java based network managememnt platform developed under the Open Source model'
 summary:

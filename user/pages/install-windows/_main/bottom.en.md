@@ -15,3 +15,8 @@ If you want a better community support experience, please consider running on Li
 <img src="../images/windows-install.png" />
 
 <br/>
+
+The webapplication is available on _http://your-host:8980/opennms_.
+Default login for the webapplication is _admin_ with password _admin_.
+Please change the default password immediately to a safe password by click on the user name in the top right navigation and choose _Change Password_.
+

@@ -18,3 +18,8 @@ vagrant up
 </pre>
 
 <script type="text/javascript" src="https://asciinema.org/a/34722.js" id="asciicast-34722" async></script>
+
+OpenNMS can be started with `systemctl {start,stop} opennms`.
+The webapplication is available on _http://localhost:8980/opennms_.
+Default login for the webapplication is _admin_ with password _admin_.
+Please change the default password immediately to a safe password by click on the user name in the top right navigation and choose _Change Password_.

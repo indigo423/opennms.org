@@ -16,4 +16,8 @@ bash bootstrap-yum.sh
 
 <script type="text/javascript" src="https://asciinema.org/a/7yxcofm8hmxjzn25tuhuplbln.js" id="asciicast-7yxcofm8hmxjzn25tuhuplbln" async></script>
 
+OpenNMS can be started with `systemctl {start,stop} opennms`.
+The webapplication is available on _http://your-host:8980/opennms_.
+Default login for the webapplication is _admin_ with password _admin_.
+Please change the default password immediately to a safe password by click on the user name in the top right navigation and choose _Change Password_.
 

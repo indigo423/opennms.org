@@ -8,6 +8,8 @@ Installation script installs all components of OpenNMS on a single machine and i
 This setup works for most small environments.
 If you want a more customized installation, please see our [installation guide](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html#gi-install-opennms-debian).
 
+<i class="fa fa-info-circle" aria-hidden="true"></i> The installation script is tested with Debian 8 "Jessie", Ubuntu 14.04 LTS and Ubuntu 16.04 LTS.
+
 <pre class="prettyprint">
 curl -L https://github.com/opennms-forge/opennms-install/archive/1.1.tar.gz | tar xz
 cd opennms-install-1.1

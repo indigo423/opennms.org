@@ -5,6 +5,7 @@ Interested in running and maintaining OpenNMS with modern configuration manageme
 
 Please take a look at our repositories, which are built by the OpenNMS community:
 
+* OpenNMS as Linux container on [Docker Hub](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=opennms&starCount=0])
 * Chef Cookbook: <https://supermarket.chef.io/cookbooks/opennms>
 * Ansible Playbook: <https://github.com/mrlesmithjr/ansible-opennms>
 

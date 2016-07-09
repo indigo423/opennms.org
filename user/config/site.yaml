@@ -57,7 +57,7 @@ blog:
 
 redirects:
   /wiki: 'http://wiki.opennms.org/wiki/Main_Page'
-  /get-opennms/index.php: 'install'
+  /get-opennms/index.php: '/install'
 
 metadata:
     description: 'Project home page of OpenNMS - a java based network managememnt platform developed under the Open Source model'

@@ -35,98 +35,98 @@ More information about Meridian can be found on the commercial website of [The O
     <th align="left">
        Environment
     </th>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       Enterprises and businesses looking for stable platforms with long term support
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       Monitoring of new technologies and IT ecosystems such as Docker, SDN/NFV, and virtual systems.
     </td>
   </tr>
   <tr>
-    <th align="left">
-      Development Model
-    </th>
     <td align="left">
+      <strong>Development Model</strong>
+    </td>
+    <td align="left" style="vertical-align: top">
       Open Source
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       Open Source
     </td>
   </tr>
   <tr>
-    <td align="left">
-      <strong>License</strong>
-    </td>
-    <td align="left">
+    <th align="left">
+      License
+    </th>
+    <td align="left" style="vertical-align: top">
       AGPLv3 or optional <a href="http://www.opennms.com/meridian-license/" target="_BLANK">Proprietary License</a>
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       AGPLv3
     </td>
   </tr>
   <tr>
-    <th align="left">
-      Release Cycle
-    </th>
     <td align="left">
+      <strong>Release Cycle</strong>
+    </td>
+    <td align="left" style="vertical-align: top">
       12 months
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       3-4 months
     </td>
   </tr>
   <tr>
-    <td align="left">
-      <strong>Support</strong>
-    </td>
-    <td align="left">
+    <th align="left">
+      Support
+    </th>
+    <td align="left" style="vertical-align: top">
       Several options available, access to the OpenNMS Connect forums
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       Community supported mailing lists and wiki, OpenNMS ULTRA support product
     </td>
   </tr>
   <tr>
-    <th align="left">
-      Feature Selection
-    </th>
     <td align="left">
+      <strong>Feature Selection</strong>
+    </td>
+    <td align="left" style="vertical-align: top">
       Features chosen for level of stability, usefulness and quality of integration with existing code
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       Exploration of new technologies to test value to drive rapid advances in management technology
     </td>
   </tr>
   <tr>
-    <td align="left">
-      <strong>Configuration</strong>
-    </td>
-    <td align="left">
+    <th align="left">
+      Configuration
+    </th>
+    <td align="left" style="vertical-align: top">
       Preconfigured events, notices, data collection, workflows and reports
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       User and community configured and maintained
     </td>
   </tr>
   <tr>
-    <th align="left">
-      Maintenance
-    </th>
     <td align="left">
+      <strong>Maintenance</strong>
+    </td>
+    <td align="left" style="vertical-align: top">
       Access to update server for latest bug fixes and performance enhancements
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       Community driven
     </td>
   </tr>
   <tr>
-    <td align="left">
-      <strong>Price</strong>
-    </td>
-    <td align="left">
+    <th align="left">
+      Price
+    </th>
+    <td align="left" style="vertical-align: top">
       Yearly subscription per management server.
     </td>
-    <td align="left">
+    <td align="left" style="vertical-align: top">
       Free download
     </td>
   </tr>

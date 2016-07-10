@@ -2,8 +2,8 @@
 title: Events
 class: big
 features:
-    - header: DevJam - Developer Meetup
-      text: DevJam is a one week OpenNMS hack-a-thon with people from all over the world held annually at the University of Minnesota.
+    - header: Dev-Jam - Developer Meetup
+      text: Dev-Jam is a one week OpenNMS hack-a-thon with people from all over the world held annually at the University of Minnesota.
       icon: star
       linkurl: "http://www.opennms.org/wiki/Dev-Jam_2016"
       linktext: "Dev-Jam"

@@ -8,7 +8,7 @@ slides:
     button_text: Get OpenNMS
     button_url: install
   - image: uofm.jpg
-    heading: "DevJam 2016"
+    heading: "Dev-Jam 2016"
     subheading: "24-30 July 2016, Minneapolis, Minnesota, US"
     button_text: Would you like to know more?
     button_url: http://www.opennms.org/wiki/Dev-Jam_2016

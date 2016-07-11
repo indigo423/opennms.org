@@ -15,6 +15,7 @@ content:
             - _features
             - _architecture
             - _callout
+            - _awards
             - _contact
 ---
 

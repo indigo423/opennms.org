@@ -33,8 +33,6 @@ contact:
     - line: "Pittsboro, North Carolina 27312"
     - line: "United States"
 othermenu:
-  - text: "About"
-    url: "opennms"
   - text: "Trademark Policy"
     url: "trademark-policy"
   - text: "Code of Conduct"

@@ -26,7 +26,7 @@ Github Project Updates
 
 * __Business Service Monitor__
 
-  Markus, Christian, Dustin, and Jesse have been continuing work on polishing up the BSM codebase and doing more work on related performance and features, including adding a lot of useful data to the “info pane” on the left side of the topology UI. Jesse has also been working on adding a “simulator” to the BSM so you can test out workflows. We also spent some time thinking about color blindness in the UI and how to better represent alarms in the topology UI for color-blind users.
+  Markus, Christian, Dustin, and Jesse have been continuing work on polishing up the BSM codebase and doing more work on related performance and features, including adding a lot of useful data to the "info pane" on the left side of the topology UI. Jesse has also been working on adding a "simulator" to the BSM so you can test out workflows. We also spent some time thinking about color blindness in the UI and how to better represent alarms in the topology UI for color-blind users.
 
 * __Requisitions UI__
 
@@ -38,7 +38,7 @@ Github Project Updates
 
   Some of these statistics are visualized on stats.opennms.org.
 
-  You can opt-in the first time you log into the OpenNMS web UI, or proactively opt-out of the dialog by setting enabled=false in $OPENNMS_HOME/etc/org.opennms.features.datachoices.cfg. For more details, see the “Data Choices” section of the admin guide.
+  You can opt-in the first time you log into the OpenNMS web UI, or proactively opt-out of the dialog by setting enabled=false in `$OPENNMS_HOME/etc/org.opennms.features.datachoices.cfg`. For more details, see the "Data Choices" section of the admin guide.
 
 * __Enlinkd__
 

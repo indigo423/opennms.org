@@ -38,7 +38,7 @@ It will be a pretty small release compared to 17.1.0, with fixes to the requisit
 OpenNMS 18 (end of March)
 -------------------------
 
-If you’ve been following development for a while, we’ve been planning for OpenNMS 18 to be the first release with a new feature called “Minion” (more on that below).
+If you’ve been following development for a while, we’ve been planning for OpenNMS 18 to be the first release with a new feature called "Minion" (more on that below).
 For a variety of good reasons we are going to release OpenNMS 18 at the end of the month and the Minion code will follow in OpenNMS 19.
 
 Alejandro has been working through a number of issues with the new provisioning UI and our ReST APIs, and there are some significant changes that need to happen in our current ReST APIs to make them first-class citizens (and compatible with how modern browsers make and handle requests).
@@ -79,7 +79,7 @@ OpenNMS 19 is currently slated for the end of May, and is primarily a target rel
 Minion
 ------
 
-The Minion project is something we’ve been working on for a couple of years now. It is designed to scale OpenNMS horizontally, providing data collection, polling, and event forwarding from OpenNMS “minions” back to a central OpenNMS server. Unlike the Remote Poller, the Minion will be a first-class citizen as far as events, collection, and services supported.
+The Minion project is something we’ve been working on for a couple of years now. It is designed to scale OpenNMS horizontally, providing data collection, polling, and event forwarding from OpenNMS "minions" back to a central OpenNMS server. Unlike the Remote Poller, the Minion will be a first-class citizen as far as events, collection, and services supported.
 
 For more details on the plans for Minion and its general architecture, see [Seth Leger’s presentation to OUCE 2015](https://www.youtube.com/watch?v=OVuGtd3gIJo).
 

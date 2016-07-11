@@ -5,7 +5,7 @@ menu: TWiO
 body_classes: header-lite header-image fullwidth blogstyling
 
 sitemap:
-    changefreq: monthly
+    changefreq: weekly
     priority: 1.03
 
 content:

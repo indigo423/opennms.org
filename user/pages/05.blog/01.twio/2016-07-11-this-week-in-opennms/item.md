@@ -11,44 +11,57 @@ taxonomy:
 In the last week we worked on minion, topology maps, BSM, UI updates, discovery, and event configuration.
 
 <!-- git log --all --no-merges --since='2016-07-05 00:00:00' --until='2016-07-11 00:00:00' --format='%Cblue%ai %Cgreen%aN %Cred%d %Creset%s %Cblue(%H)'  | sort | less -R -->
+
 Github Project Updates
 ----------------------
 
-* **Minion**
+* __Minion__
+
   Chandra did more work on making detectors run on Minions.
-* **Topology Maps and Business Service Monitor**
+
+* __Topology Maps and Business Service Monitor__
+
   Markus, Dustin, Jesse, and Christian spent more time on custom (GraphML) edge provider support in the topology UI.  Markus also continued his work improving performance and memory leak issues in the topology UI. Jesse added a new "grid" layout.
-* **UI Updates**
+
+* __UI Updates__
+
   Seth has been working on a rewritten outage list component.
-* **Discovery**
+
+* __Discovery__
+
   Seth has been working on fixing up some regressions and foreign-source-handling cleanup in the discovery code.  He also fixed discovery configuration to allow specifying a default monitoring location.
-* **Event Parameters**
+
+* __Event Parameters__
+
   Alejandro [did some work on making parameters able to reference other parameters](http://issues.opennms.org/browse/NMS-8590).
 
 Upcoming Events and Appearances
 -------------------------------
 
-* **[Dev-Jam 2016 - July 25th through 30th, 2016](https://www.opennms.org/wiki/Dev-Jam_2016)**
+* __[Dev-Jam 2016 - July 25th through 30th, 2016](https://www.opennms.org/wiki/Dev-Jam_2016)__
+
   Dev-Jam 2016 is sneaking up on is, but there is still plenty of time to join us in Minnesota.  For more information, see [The Dev-Jam 2016 wiki page](https://www.opennms.org/wiki/Dev-Jam_2016).
   Mike Huot has written up a proposal letter you can use to help explain to management why attending Dev-Jam is a good idea.  Feel free to [copy this letter](https://docs.google.com/document/d/1VerZYe5LwMT_1j5ISAsNU9-ZGcwY_zdA_4DODNlBpYg/edit?usp=sharing) and join us in Minnesota this year!
-* **[OpenNMS User Conference Europe - Call for Papers Deadline - August 1st, 2016](http://www.opennms.eu/2016/06/call-for-papers-ouce-2016/)**
+
+* __[OpenNMS User Conference Europe - Call for Papers Deadline - August 1st, 2016](http://www.opennms.eu/2016/06/call-for-papers-ouce-2016/)__
+
   If you wish to speak at OUCE 2016, the deadline for submitting a talk is August 1st, 2016.  You can find out more about submitting your talk [here](http://www.opennms.eu/2016/06/call-for-papers-ouce-2016/).
-* **[OpenNMS Training - August 15th through 19th, 2016](http://www.opennms.com/training)**
+
+* __[OpenNMS Training - August 15th through 19th, 2016](http://www.opennms.com/training)__
+
   The OpenNMS Group has moved the next training session in Pittsboro, NC to August 15th through 19th.  For more details on OpenNMS training and signing up, see [The OpenNMS.com training page](http://www.opennms.com/training/).
-* **OpenNMS User Conference Europe - September 13th through September 15th, 2016**
+
+* __[OpenNMS User Conference Europe - September 13th through September 15th, 2016](https://ouce.opennms.eu)__
+
   OUCE 2016 will be at the University of Applied Science in Fulda, Germany from September 13th through 15th.  More details will be posted as we get closer to the event.
 
-Until Next Week...
-------------------
+Until Next Week…
+----------------
 
 If there’s anything you’d like me to talk about in a future TWiO, or you just have a comment or criticism you’d like to share, don’t hesitate to [say hi](mailto:twio@opennms.org).
 
 - Ben
 
-<!--
-  http://issues.opennms.org/issues/?filter=13303
-  :1,$s#^[^\t]*\t[^\t]*\t\([^\t]*\)\t\([^\t]\)#* [\1](http://issues.opennms.org/browse/\1): \2#
--->
 Resolved Issues Since Last TWiO
 -------------------------------
 

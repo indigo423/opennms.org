@@ -30,7 +30,7 @@ Github Project Updates
 
 * __Requisitions UI__
 
-  Alejandro has been wrapping up his work on the Requisitions UI, with more refactoring of UI behavior and support for a new version of the “quick add node” UI.
+  Alejandro has been wrapping up his work on the Requisitions UI, with more refactoring of UI behavior and support for a new version of the "quick add node" UI.
 
 * __SNMP4J Update__
 
@@ -52,7 +52,7 @@ Resolved Issues Since Last TWiO
 -------------------------------
 
 * [BSM-67](http://issues.opennms.org/browse/BSM-67): Enforce unique naming of Business Services
-* [BSM-173](http://issues.opennms.org/browse/BSM-173): Add a “Problems Box” for applications to the OpenNMS start page.
+* [BSM-173](http://issues.opennms.org/browse/BSM-173): Add a "Problems Box" for applications to the OpenNMS start page.
 * [BSM-175](http://issues.opennms.org/browse/BSM-175): REST documentation diverges from annotations
 * [HZN-571](http://issues.opennms.org/browse/HZN-571): Implement common Syslogd dropwizard-metrics in all receivers
 * [HZN-605](http://issues.opennms.org/browse/HZN-605): Consolidate TrapdIpMgr implementations

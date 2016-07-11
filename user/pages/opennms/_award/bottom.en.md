@@ -14,5 +14,6 @@ title: Horizon vs. Merdian
         <td><a href="http://wiki.opennms.org/wiki/Awards" target="_BLANK"><img src="../images/2008-product-leadership-award-bronze.jpg" /></a></td>
         <td><a href="http://wiki.opennms.org/wiki/Awards" target="_BLANK"><img src="../images/2009-bossie.jpg" /></a></td>
         <td><a href="http://wiki.opennms.org/wiki/Awards" target="_BLANK"><img src="../images/2010-bossie.jpg" /></a></td>
+        <td><a href="http://wiki.opennms.org/wiki/Awards" target="_BLANK"><img src="../images/2015-bossie.jpg" /></a></td>
     </tr>
 </table>

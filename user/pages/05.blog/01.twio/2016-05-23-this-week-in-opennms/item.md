@@ -55,7 +55,7 @@ Github Project Updates
 Upcoming Events and Appearances
 -------------------------------
 
-* __[OpenNMS Training – August 15th through 19th, 2016](http://www.opennms.com/training)
+* __[OpenNMS Training – August 15th through 19th, 2016](http://www.opennms.com/training)__
 
   The OpenNMS Group has moved the next training session in Pittsboro, NC to August 15th through 19th.  For more details on OpenNMS training and signing up, see [The OpenNMS.com training page](http://www.opennms.com/training/).
 

@@ -49,7 +49,7 @@ Upcoming Events and Appearances
 
 Whether you&#8217;re a long-time user or a newcomer curious about OpenNMS, come have a pint with us [at The Goose&#8217;s Acre](http://www.meetup.com/OpenNMS-Meetup-Group/events/229919435/). Core committers Jeff Gehlbach and Alejandro Galue will be on hand to talk use cases, answer questions, tell war stories, and tease the upcoming OpenNMS Horizon 18 release.
 
-* __[Dev-Jam 2016 – July 25th through 30th, 2016](https://www.opennms.org/wiki/Dev-Jam_2016)__
+* **[Dev-Jam 2016 – July 25th through 30th, 2016](https://www.opennms.org/wiki/Dev-Jam_2016)**
 
 Dev-Jam 2016 is sneaking up on is, but there is still plenty of time to join us in Minnesota.  For more information, see [The Dev-Jam 2016 wiki page](https://www.opennms.org/wiki/Dev-Jam_2016)
 Mike Huot has written up a proposal letter you can use to help explain to management why attending Dev-Jam is a good idea.  Feel free to [copy this letter](https://docs.google.com/document/d/1VerZYe5LwMT_1j5ISAsNU9-ZGcwY_zdA_4DODNlBpYg/edit?usp=sharing) and join us in Minnesota this year!

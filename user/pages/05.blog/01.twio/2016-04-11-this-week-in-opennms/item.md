@@ -49,7 +49,7 @@ Upcoming Events and Appearances
 
 The OpenNMS Foundation Europe is having its General Assembly meeting on April 22nd, 2016.  For details on the agenda and contact information, see <a href="http://permalink.gmane.org/gmane.network.opennms.general/52706" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://permalink.gmane.org/gmane.network.opennms.general/52706', 'this post on the OpenNMS discuss mailing list']);" >this post on the OpenNMS discuss mailing list</a>.
 
-* __[Dev-Jam 2016 &#8211; July 25th through 30th, 2016](https://www.opennms.org/wiki/Dev-Jam_2016)__
+* **[Dev-Jam 2016 &#8211; July 25th through 30th, 2016](https://www.opennms.org/wiki/Dev-Jam_2016)**
 
 Dev-Jam 2016 is sneaking up on is, but there is still plenty of time to join us in Minnesota.  For more information, see [The Dev-Jam 2016 wiki page](https://www.opennms.org/wiki/Dev-Jam_2016).
 Mike Huot has written up a proposal letter you can use to help explain to management why attending Dev-Jam is a good idea. Feel free to [copy this letter](https://docs.google.com/document/d/1VerZYe5LwMT_1j5ISAsNU9-ZGcwY_zdA_4DODNlBpYg/edit?usp=sharing) and join us in Minnesota this year!

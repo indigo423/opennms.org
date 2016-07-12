@@ -36,7 +36,7 @@ Github Project Updates
 
   To get a better idea of how to estimate hardware requirements and the performance characteristics of OpenNMS, Jesse has written an opt-in tool to occasionally submit diagnostic information about your OpenNMS install. It will submit information like the number of nodes, alarms, etc. as well as some basic system information to our servers for statistical reasons.
 
-  Some of these statistics are visualized on stats.opennms.org.
+  Some of these statistics are visualized on [stats.opennms.org](stats.opennms.org).
 
   You can opt-in the first time you log into the OpenNMS web UI, or proactively opt-out of the dialog by setting enabled=false in `$OPENNMS_HOME/etc/org.opennms.features.datachoices.cfg`. For more details, see the "Data Choices" section of the admin guide.
 
@@ -57,7 +57,7 @@ Updated Vagrant Boxes
 
 The OpenNMS Vagrant boxes have been updated to 17.1.1.
 
-The latest boxes are here:
+The latest boxes are here available to download on [Atlas platform](https://atlas.hashicorp.com/boxes/search?utf8=✓&sort=&provider=&q=opennms):
 
 * OpenNMS Horizon 17.1.1 based on CentOS 7
 * OpenNMS Horizon 17.1.1 based on Ubuntu 14.04.4 LTS

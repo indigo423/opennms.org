@@ -9,6 +9,7 @@ taxonomy:
 ---
 
 In the last week we worked on Bamboo smoke tests, Minion, Topology Maps and BSM, JMX RMI authentication, statistics and instrumentation, performance improvements, and release blockers.
+
 Github Project Updates
 ----------------------
 

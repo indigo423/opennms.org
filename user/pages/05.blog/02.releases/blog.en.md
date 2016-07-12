@@ -2,7 +2,7 @@
 title: Releases
 blog_url: releases
 menu: Releases
-body_classes: header-lite header-image fullwidth blogstyling
+body_classes: header-lite fullwidth blogstyling
 
 sitemap:
     changefreq: weekly

@@ -57,7 +57,7 @@ redirects:
   /wiki: 'http://wiki.opennms.org/wiki/Main_Page'
   /get-opennms/index.php: '/install'
   /feed: '/blog.rss'
-  /en/blog/2016-07-11-this-week-in-opennms: '/blog/twio/2016-07-11-this-week-in-opennms'
+  /blog/2016-07-11-this-week-in-opennms: '/blog/twio/2016-07-11-this-week-in-opennms'
 
 metadata:
     description: 'Project home page of OpenNMS - a java based network managememnt platform developed under the Open Source model'

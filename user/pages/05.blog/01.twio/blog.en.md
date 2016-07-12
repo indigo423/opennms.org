@@ -2,7 +2,7 @@
 title: This Week in OpenNMS
 blog_url: twio
 menu: TWiO
-body_classes: header-lite header-image fullwidth blogstyling
+body_classes: header-lite fullwidth blogstyling
 
 sitemap:
     changefreq: weekly

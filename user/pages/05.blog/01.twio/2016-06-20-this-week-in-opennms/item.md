@@ -44,7 +44,7 @@ We spent more time cleaning up bugs that should be fixed before Meridian 2016 an
 Upcoming Events and Appearances
 -------------------------------
 
-* __[](https://www.opennms.org/wiki/Dev-Jam_2016">Dev-Jam 2016 – July 25th through 30th, 2016</a>__
+* **[Dev-Jam 2016 – July 25th through 30th, 2016](https://www.opennms.org/wiki/Dev-Jam_2016)**
 
 Dev-Jam 2016 is sneaking up on is, but there is still plenty of time to join us in Minnesota.  For more information, see [The Dev-Jam 2016 wiki page](https://www.opennms.org/wiki/Dev-Jam_2016).
 Mike Huot has written up a proposal letter you can use to help explain to management why attending Dev-Jam is a good idea.  Feel free to [copy this letter](https://docs.google.com/document/d/1VerZYe5LwMT_1j5ISAsNU9-ZGcwY_zdA_4DODNlBpYg/edit?usp=sharing) and join us in Minnesota this year!

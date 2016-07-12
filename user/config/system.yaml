@@ -15,7 +15,7 @@ pages:
     extra: true
 
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
@@ -23,7 +23,7 @@ cache:
 
 twig:
   cache: false
-  debug: true
+  debug: false
   auto_reload: true
   autoescape: false
 

@@ -1,4 +1,49 @@
-# ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav 
+# Preparation and deployment
+
+This is required to install the Grav based opennms.org website on a Ubuntu 16.04 LTS server.
+The website is checked out into `/var/www/opennms.org` and is served under _http://your-ip/opennms.org_.
+
+1. Apache2 with required PHP modules will be installed
+   ```
+   apt-get -y install apache2
+   apt-get -y install php
+   apt-get -y install libapache2-mod-php
+   apt-get -y install php-gd php-curl php-xml php-mbstring php-zip openssl
+   a2enmod rewrite ssl
+   ```
+
+2. Install git and checkout the website framework + theme + content
+   ```
+   apt-get -y install git-core
+   git clone https://github.com/opennms-forge/opennms.org.git /var/www/opennms.org
+   ```
+
+3. Create virtual host configuration
+   ```
+   Alias /opennms.org /var/www/opennms.org
+
+   <Directory "/var/www/opennms.org">
+       AllowOverride All
+       Options -Indexes +FollowSymLinks
+       Order allow,deny
+       Allow from all
+   </Directory>
+   ```
+
+4. Create a htaccess file from template
+   ```
+   cd /var/www/opennms.org
+   cp htaccess .htaccess
+   vi .htaccess
+   ```
+
+   change the following line to serve the page under _/opennms.org_
+   ```
+   RewriteBase /opennms.org
+   ```
+You can access the website now with _http://your-ip/opennms.org_
+
+# ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad/mini.png)](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad) [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/getgrav/grav?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/getgrav/grav.svg?branch=develop)](https://travis-ci.org/getgrav/grav)
 

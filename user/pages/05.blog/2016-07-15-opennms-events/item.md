@@ -35,5 +35,6 @@ Beside that we changed totally the way how to deal with layout and content of th
 Everyone can send in pull requests to add blog posts, add content or improve the layout.
 Pull Requests can be accepted and merged by OGP members who are the same as in the source code.
 The whole page is using the open source flat file PHP framework [Grav](https://getgrav.org) and a fork of the [Deliver Theme](https://github.com/getgrav/grav-skeleton-deliver-site).
+You can find the page source and content in our [GitHub repository](https://github.com/opennms-forge/opennms.org).
 If you have any issues with the website please don’t hesitate and open issues on our public [JIRA](issues.opennms.org/browse/ORG).
 I hope you enjoy the new website and hope we get more useful content on that page.

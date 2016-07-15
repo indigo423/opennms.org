@@ -4,12 +4,11 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
+class ComposerStaticInit8915f0f200a8ccb2cf14d91e1758c48b
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        'e40631d46120a9c38ea139981f8dab26' => __DIR__ . '/..' . '/ircmaxell/password-compat/lib/password.php',
         '19cefe1485315b72c45605e5be32d866' => __DIR__ . '/..' . '/donatj/phpuseragentparser/Source/UserAgentParser.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'a686abd6bcd0f7067184e090d1174003' => __DIR__ . '/../..' . '/system/defines.php',
@@ -43,6 +42,8 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'M' => 
         array (
             'Monolog\\' => 8,
+            'MatthiasMullie\\PathConverter\\' => 29,
+            'MatthiasMullie\\Minify\\' => 22,
         ),
         'G' => 
         array (
@@ -120,6 +121,14 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'MatthiasMullie\\PathConverter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/path-converter/src',
+        ),
+        'MatthiasMullie\\Minify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
+        ),
         'Grav\\' => 
         array (
             0 => __DIR__ . '/../..' . '/system/src/Grav',
@@ -175,7 +184,6 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
     );
 
     public static $classMap = array (
-        'CSSmin' => __DIR__ . '/..' . '/mrclay/minify/min/lib/CSSmin.php',
         'DebugBar\\Bridge\\CacheCacheCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/CacheCacheCollector.php',
         'DebugBar\\Bridge\\DoctrineCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/DoctrineCollector.php',
         'DebugBar\\Bridge\\MonologCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/MonologCollector.php',
@@ -247,8 +255,6 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Doctrine\\Common\\Cache\\WinCacheCache' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php',
         'Doctrine\\Common\\Cache\\XcacheCache' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/XcacheCache.php',
         'Doctrine\\Common\\Cache\\ZendDataCache' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/ZendDataCache.php',
-        'DooDigestAuth' => __DIR__ . '/..' . '/mrclay/minify/min/lib/DooDigestAuth.php',
-        'FirePHP' => __DIR__ . '/..' . '/mrclay/minify/min/lib/FirePHP.php',
         'Grav\\Common\\Assets' => __DIR__ . '/../..' . '/system/src/Grav/Common/Assets.php',
         'Grav\\Common\\Backup\\ZipBackup' => __DIR__ . '/../..' . '/system/src/Grav/Common/Backup/ZipBackup.php',
         'Grav\\Common\\Browser' => __DIR__ . '/../..' . '/system/src/Grav/Common/Browser.php',
@@ -263,10 +269,12 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Grav\\Common\\Config\\Languages' => __DIR__ . '/../..' . '/system/src/Grav/Common/Config/Languages.php',
         'Grav\\Common\\Config\\Setup' => __DIR__ . '/../..' . '/system/src/Grav/Common/Config/Setup.php',
         'Grav\\Common\\Data\\Blueprint' => __DIR__ . '/../..' . '/system/src/Grav/Common/Data/Blueprint.php',
+        'Grav\\Common\\Data\\BlueprintSchema' => __DIR__ . '/../..' . '/system/src/Grav/Common/Data/BlueprintSchema.php',
         'Grav\\Common\\Data\\Blueprints' => __DIR__ . '/../..' . '/system/src/Grav/Common/Data/Blueprints.php',
         'Grav\\Common\\Data\\Data' => __DIR__ . '/../..' . '/system/src/Grav/Common/Data/Data.php',
         'Grav\\Common\\Data\\DataInterface' => __DIR__ . '/../..' . '/system/src/Grav/Common/Data/DataInterface.php',
         'Grav\\Common\\Data\\Validation' => __DIR__ . '/../..' . '/system/src/Grav/Common/Data/Validation.php',
+        'Grav\\Common\\Data\\ValidationException' => __DIR__ . '/../..' . '/system/src/Grav/Common/Data/ValidationException.php',
         'Grav\\Common\\Debugger' => __DIR__ . '/../..' . '/system/src/Grav/Common/Debugger.php',
         'Grav\\Common\\Errors\\Errors' => __DIR__ . '/../..' . '/system/src/Grav/Common/Errors/Errors.php',
         'Grav\\Common\\Errors\\SimplePageHandler' => __DIR__ . '/../..' . '/system/src/Grav/Common/Errors/SimplePageHandler.php',
@@ -287,7 +295,7 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Grav\\Common\\GPM\\Local\\Plugins' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Local/Plugins.php',
         'Grav\\Common\\GPM\\Local\\Themes' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Local/Themes.php',
         'Grav\\Common\\GPM\\Remote\\AbstractPackageCollection' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/AbstractPackageCollection.php',
-        'Grav\\Common\\GPM\\Remote\\Grav' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/Grav.php',
+        'Grav\\Common\\GPM\\Remote\\GravCore' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/GravCore.php',
         'Grav\\Common\\GPM\\Remote\\Package' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/Package.php',
         'Grav\\Common\\GPM\\Remote\\Packages' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/Packages.php',
         'Grav\\Common\\GPM\\Remote\\Plugins' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/Plugins.php',
@@ -325,10 +333,29 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Grav\\Common\\Page\\Types' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Types.php',
         'Grav\\Common\\Plugin' => __DIR__ . '/../..' . '/system/src/Grav/Common/Plugin.php',
         'Grav\\Common\\Plugins' => __DIR__ . '/../..' . '/system/src/Grav/Common/Plugins.php',
+        'Grav\\Common\\Processors\\AssetsProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/AssetsProcessor.php',
+        'Grav\\Common\\Processors\\ConfigurationProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/ConfigurationProcessor.php',
+        'Grav\\Common\\Processors\\DebuggerAssetsProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/DebuggerAssetsProcessor.php',
+        'Grav\\Common\\Processors\\DebuggerInitProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/DebuggerInitProcessor.php',
+        'Grav\\Common\\Processors\\ErrorsProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/ErrorsProcessor.php',
+        'Grav\\Common\\Processors\\InitializeProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/InitializeProcessor.php',
+        'Grav\\Common\\Processors\\PagesProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/PagesProcessor.php',
+        'Grav\\Common\\Processors\\PluginsProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/PluginsProcessor.php',
+        'Grav\\Common\\Processors\\ProcessorBase' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/ProcessorBase.php',
+        'Grav\\Common\\Processors\\ProcessorInterface' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/ProcessorInterface.php',
+        'Grav\\Common\\Processors\\RenderProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/RenderProcessor.php',
+        'Grav\\Common\\Processors\\SiteSetupProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/SiteSetupProcessor.php',
+        'Grav\\Common\\Processors\\TasksProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/TasksProcessor.php',
+        'Grav\\Common\\Processors\\ThemesProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/ThemesProcessor.php',
+        'Grav\\Common\\Processors\\TwigProcessor' => __DIR__ . '/../..' . '/system/src/Grav/Common/Processors/TwigProcessor.php',
+        'Grav\\Common\\Service\\AssetsServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/AssetsServiceProvider.php',
         'Grav\\Common\\Service\\ConfigServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/ConfigServiceProvider.php',
         'Grav\\Common\\Service\\ErrorServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/ErrorServiceProvider.php',
         'Grav\\Common\\Service\\LoggerServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/LoggerServiceProvider.php',
+        'Grav\\Common\\Service\\OutputServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/OutputServiceProvider.php',
+        'Grav\\Common\\Service\\PageServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/PageServiceProvider.php',
         'Grav\\Common\\Service\\StreamsServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/StreamsServiceProvider.php',
+        'Grav\\Common\\Service\\TaskServiceProvider' => __DIR__ . '/../..' . '/system/src/Grav/Common/Service/TaskServiceProvider.php',
         'Grav\\Common\\Session' => __DIR__ . '/../..' . '/system/src/Grav/Common/Session.php',
         'Grav\\Common\\Taxonomy' => __DIR__ . '/../..' . '/system/src/Grav/Common/Taxonomy.php',
         'Grav\\Common\\Theme' => __DIR__ . '/../..' . '/system/src/Grav/Common/Theme.php',
@@ -348,7 +375,6 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Grav\\Console\\Cli\\ComposerCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/Cli/ComposerCommand.php',
         'Grav\\Console\\Cli\\InstallCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/Cli/InstallCommand.php',
         'Grav\\Console\\Cli\\NewProjectCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/Cli/NewProjectCommand.php',
-        'Grav\\Console\\Cli\\NewUserCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/Cli/NewUserCommand.php',
         'Grav\\Console\\Cli\\SandboxCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/Cli/SandboxCommand.php',
         'Grav\\Console\\ConsoleCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/ConsoleCommand.php',
         'Grav\\Console\\ConsoleTrait' => __DIR__ . '/../..' . '/system/src/Grav/Console/ConsoleTrait.php',
@@ -375,56 +401,19 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Gregwar\\Image\\Source\\File' => __DIR__ . '/..' . '/gregwar/image/Gregwar/Image/Source/File.php',
         'Gregwar\\Image\\Source\\Resource' => __DIR__ . '/..' . '/gregwar/image/Gregwar/Image/Source/Resource.php',
         'Gregwar\\Image\\Source\\Source' => __DIR__ . '/..' . '/gregwar/image/Gregwar/Image/Source/Source.php',
-        'HTTP_ConditionalGet' => __DIR__ . '/..' . '/mrclay/minify/min/lib/HTTP/ConditionalGet.php',
-        'HTTP_Encoder' => __DIR__ . '/..' . '/mrclay/minify/min/lib/HTTP/Encoder.php',
-        'JSCompilerContext' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMinPlus.php',
-        'JSMin' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMin.php',
-        'JSMinPlus' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMinPlus.php',
-        'JSMin_UnterminatedCommentException' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMin.php',
-        'JSMin_UnterminatedRegExpException' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMin.php',
-        'JSMin_UnterminatedStringException' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMin.php',
-        'JSNode' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMinPlus.php',
-        'JSParser' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMinPlus.php',
-        'JSToken' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMinPlus.php',
-        'JSTokenizer' => __DIR__ . '/..' . '/mrclay/minify/min/lib/JSMinPlus.php',
-        'Minify' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify.php',
-        'Minify_Build' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Build.php',
-        'Minify_CSS' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/CSS.php',
-        'Minify_CSS_Compressor' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/CSS/Compressor.php',
-        'Minify_CSS_UriRewriter' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/CSS/UriRewriter.php',
-        'Minify_CSSmin' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/CSSmin.php',
-        'Minify_Cache_APC' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Cache/APC.php',
-        'Minify_Cache_File' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Cache/File.php',
-        'Minify_Cache_Memcache' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Cache/Memcache.php',
-        'Minify_Cache_WinCache' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Cache/WinCache.php',
-        'Minify_Cache_XCache' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Cache/XCache.php',
-        'Minify_Cache_ZendPlatform' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Cache/ZendPlatform.php',
-        'Minify_ClosureCompiler' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/ClosureCompiler.php',
-        'Minify_ClosureCompiler_Exception' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/ClosureCompiler.php',
-        'Minify_CommentPreserver' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/CommentPreserver.php',
-        'Minify_Controller_Base' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Controller/Base.php',
-        'Minify_Controller_Files' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Controller/Files.php',
-        'Minify_Controller_Groups' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Controller/Groups.php',
-        'Minify_Controller_MinApp' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Controller/MinApp.php',
-        'Minify_Controller_Page' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Controller/Page.php',
-        'Minify_Controller_Version1' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Controller/Version1.php',
-        'Minify_DebugDetector' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/DebugDetector.php',
-        'Minify_HTML' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/HTML.php',
-        'Minify_HTML_Helper' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/HTML/Helper.php',
-        'Minify_ImportProcessor' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/ImportProcessor.php',
-        'Minify_JS_ClosureCompiler' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/JS/ClosureCompiler.php',
-        'Minify_JS_ClosureCompiler_Exception' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/JS/ClosureCompiler.php',
-        'Minify_Lines' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Lines.php',
-        'Minify_Loader' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Loader.php',
-        'Minify_Logger' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Logger.php',
-        'Minify_Packer' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Packer.php',
-        'Minify_Source' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/Source.php',
-        'Minify_YUICompressor' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/YUICompressor.php',
-        'Minify_YUI_CssCompressor' => __DIR__ . '/..' . '/mrclay/minify/min/lib/Minify/YUI/CssCompressor.php',
+        'MatthiasMullie\\Minify\\CSS' => __DIR__ . '/..' . '/matthiasmullie/minify/src/CSS.php',
+        'MatthiasMullie\\Minify\\Exception' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exception.php',
+        'MatthiasMullie\\Minify\\Exceptions\\BasicException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/BasicException.php',
+        'MatthiasMullie\\Minify\\Exceptions\\FileImportException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/FileImportException.php',
+        'MatthiasMullie\\Minify\\Exceptions\\IOException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/IOException.php',
+        'MatthiasMullie\\Minify\\JS' => __DIR__ . '/..' . '/matthiasmullie/minify/src/JS.php',
+        'MatthiasMullie\\Minify\\Minify' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Minify.php',
+        'MatthiasMullie\\PathConverter\\Converter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/Converter.php',
         'Monolog\\ErrorHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ErrorHandler.php',
         'Monolog\\Formatter\\ChromePHPFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php',
         'Monolog\\Formatter\\ElasticaFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php',
         'Monolog\\Formatter\\FlowdockFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php',
+        'Monolog\\Formatter\\FluentdFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php',
         'Monolog\\Formatter\\FormatterInterface' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php',
         'Monolog\\Formatter\\GelfMessageFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php',
         'Monolog\\Formatter\\HtmlFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php',
@@ -446,6 +435,7 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Monolog\\Handler\\CouchDBHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php',
         'Monolog\\Handler\\CubeHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/CubeHandler.php',
         'Monolog\\Handler\\Curl\\Util' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/Curl/Util.php',
+        'Monolog\\Handler\\DeduplicationHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/DeduplicationHandler.php',
         'Monolog\\Handler\\DoctrineCouchDBHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php',
         'Monolog\\Handler\\DynamoDbHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php',
         'Monolog\\Handler\\ElasticSearchHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php',
@@ -461,6 +451,7 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Monolog\\Handler\\GelfHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/GelfHandler.php',
         'Monolog\\Handler\\GroupHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/GroupHandler.php',
         'Monolog\\Handler\\HandlerInterface' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/HandlerInterface.php',
+        'Monolog\\Handler\\HandlerWrapper' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/HandlerWrapper.php',
         'Monolog\\Handler\\HipChatHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/HipChatHandler.php',
         'Monolog\\Handler\\IFTTTHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php',
         'Monolog\\Handler\\LogEntriesHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php',
@@ -502,12 +493,18 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Monolog\\Processor\\UidProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Processor/UidProcessor.php',
         'Monolog\\Processor\\WebProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Processor/WebProcessor.php',
         'Monolog\\Registry' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Registry.php',
-        'MrClay\\Cli' => __DIR__ . '/..' . '/mrclay/minify/min/lib/MrClay/Cli.php',
-        'MrClay\\Cli\\Arg' => __DIR__ . '/..' . '/mrclay/minify/min/lib/MrClay/Cli/Arg.php',
         'Parsedown' => __DIR__ . '/..' . '/erusev/parsedown/Parsedown.php',
         'ParsedownExtra' => __DIR__ . '/..' . '/erusev/parsedown-extra/ParsedownExtra.php',
+        'ParsedownExtraTest' => __DIR__ . '/..' . '/erusev/parsedown-extra/test/ParsedownExtraTest.php',
+        'ParsedownTest' => __DIR__ . '/..' . '/erusev/parsedown/test/ParsedownTest.php',
         'Pimple\\Container' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Container.php',
         'Pimple\\ServiceProviderInterface' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/ServiceProviderInterface.php',
+        'Pimple\\Tests\\Fixtures\\Invokable' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Tests/Fixtures/Invokable.php',
+        'Pimple\\Tests\\Fixtures\\NonInvokable' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Tests/Fixtures/NonInvokable.php',
+        'Pimple\\Tests\\Fixtures\\PimpleServiceProvider' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Tests/Fixtures/PimpleServiceProvider.php',
+        'Pimple\\Tests\\Fixtures\\Service' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Tests/Fixtures/Service.php',
+        'Pimple\\Tests\\PimpleServiceProviderInterfaceTest' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Tests/PimpleServiceProviderInterfaceTest.php',
+        'Pimple\\Tests\\PimpleTest' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Tests/PimpleTest.php',
         'Psr\\Log\\AbstractLogger' => __DIR__ . '/..' . '/psr/log/Psr/Log/AbstractLogger.php',
         'Psr\\Log\\InvalidArgumentException' => __DIR__ . '/..' . '/psr/log/Psr/Log/InvalidArgumentException.php',
         'Psr\\Log\\LogLevel' => __DIR__ . '/..' . '/psr/log/Psr/Log/LogLevel.php',
@@ -528,6 +525,8 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'RocketTheme\\Toolbox\\ArrayTraits\\NestedArrayAccess' => __DIR__ . '/..' . '/rockettheme/toolbox/ArrayTraits/src/NestedArrayAccess.php',
         'RocketTheme\\Toolbox\\ArrayTraits\\NestedArrayAccessWithGetters' => __DIR__ . '/..' . '/rockettheme/toolbox/ArrayTraits/src/NestedArrayAccessWithGetters.php',
         'RocketTheme\\Toolbox\\ArrayTraits\\Serializable' => __DIR__ . '/..' . '/rockettheme/toolbox/ArrayTraits/src/Serializable.php',
+        'RocketTheme\\Toolbox\\Blueprints\\BlueprintForm' => __DIR__ . '/..' . '/rockettheme/toolbox/Blueprints/src/BlueprintForm.php',
+        'RocketTheme\\Toolbox\\Blueprints\\BlueprintSchema' => __DIR__ . '/..' . '/rockettheme/toolbox/Blueprints/src/BlueprintSchema.php',
         'RocketTheme\\Toolbox\\Blueprints\\Blueprints' => __DIR__ . '/..' . '/rockettheme/toolbox/Blueprints/src/Blueprints.php',
         'RocketTheme\\Toolbox\\DI\\Container' => __DIR__ . '/..' . '/rockettheme/toolbox/DI/src/Container.php',
         'RocketTheme\\Toolbox\\DI\\ServiceProviderInterface' => __DIR__ . '/..' . '/rockettheme/toolbox/DI/src/ServiceProviderInterface.php',
@@ -623,6 +622,8 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Symfony\\Component\\Console\\Style\\OutputStyle' => __DIR__ . '/..' . '/symfony/console/Style/OutputStyle.php',
         'Symfony\\Component\\Console\\Style\\StyleInterface' => __DIR__ . '/..' . '/symfony/console/Style/StyleInterface.php',
         'Symfony\\Component\\Console\\Style\\SymfonyStyle' => __DIR__ . '/..' . '/symfony/console/Style/SymfonyStyle.php',
+        'Symfony\\Component\\Console\\Tester\\ApplicationTester' => __DIR__ . '/..' . '/symfony/console/Tester/ApplicationTester.php',
+        'Symfony\\Component\\Console\\Tester\\CommandTester' => __DIR__ . '/..' . '/symfony/console/Tester/CommandTester.php',
         'Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher' => __DIR__ . '/..' . '/symfony/event-dispatcher/ContainerAwareEventDispatcher.php',
         'Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher' => __DIR__ . '/..' . '/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php',
         'Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcherInterface' => __DIR__ . '/..' . '/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php',
@@ -665,6 +666,8 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Symfony\\Component\\VarDumper\\Dumper\\DataDumperInterface' => __DIR__ . '/..' . '/symfony/var-dumper/Dumper/DataDumperInterface.php',
         'Symfony\\Component\\VarDumper\\Dumper\\HtmlDumper' => __DIR__ . '/..' . '/symfony/var-dumper/Dumper/HtmlDumper.php',
         'Symfony\\Component\\VarDumper\\Exception\\ThrowingCasterException' => __DIR__ . '/..' . '/symfony/var-dumper/Exception/ThrowingCasterException.php',
+        'Symfony\\Component\\VarDumper\\Test\\VarDumperTestCase' => __DIR__ . '/..' . '/symfony/var-dumper/Test/VarDumperTestCase.php',
+        'Symfony\\Component\\VarDumper\\Test\\VarDumperTestTrait' => __DIR__ . '/..' . '/symfony/var-dumper/Test/VarDumperTestTrait.php',
         'Symfony\\Component\\VarDumper\\VarDumper' => __DIR__ . '/..' . '/symfony/var-dumper/VarDumper.php',
         'Symfony\\Component\\Yaml\\Dumper' => __DIR__ . '/..' . '/symfony/yaml/Dumper.php',
         'Symfony\\Component\\Yaml\\Escaper' => __DIR__ . '/..' . '/symfony/yaml/Escaper.php',
@@ -877,17 +880,20 @@ class ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa
         'Whoops\\Handler\\PrettyPageHandler' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php',
         'Whoops\\Handler\\XmlResponseHandler' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php',
         'Whoops\\Run' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Run.php',
+        'Whoops\\RunInterface' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/RunInterface.php',
+        'Whoops\\Util\\HtmlDumperOutput' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/HtmlDumperOutput.php',
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
+        'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitfd4291dd13d9ba3873bc8018a600efaa::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8915f0f200a8ccb2cf14d91e1758c48b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8915f0f200a8ccb2cf14d91e1758c48b::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8915f0f200a8ccb2cf14d91e1758c48b::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8915f0f200a8ccb2cf14d91e1758c48b::$classMap;
 
         }, null, ClassLoader::class);
     }

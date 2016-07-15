@@ -1,13 +1,13 @@
-title: OpenNMS                              # Name of the site
+title: Grav                                 # Name of the site
 
 author:
-  name: Ronny Trommer                       # Default author name
-  email: 'ronny@opennms.org'                   # Default author email
+  name: John Appleseed                      # Default author name
+  email: 'john@email.com'                   # Default author email
 
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 
 metadata:
-  description: 'The OpenNMS Project'        # Site description
+  description: 'My Grav Site'               # Site description
 
 summary:
   enabled: true                             # enable or disable summary of page
@@ -29,6 +29,6 @@ blog:
 #menu:                                      # Sample Menu Example
 #    - text: Source
 #      icon: github
-#     url: https://github.com/getgrav/grav
+#      url: https://github.com/getgrav/grav
 #    - icon: twitter
 #      url: http://twitter.com/getgrav

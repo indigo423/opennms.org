@@ -12,7 +12,7 @@ taxonomy:
 
 OpenNMS User Conference: Europe (OUCE) is a series of talks about monitoring and network management with OpenNMS.
 Our conference creates a time and place for the OpenNMS community to share infomration, discuss ideas, and work together to improve monitoring with the free OpenNMS software.
-OpenNMS User Conference: Europe (OUCE) 2016 will take place at the University of Applied Science in Fulda, Germany.
+This years OUCE 2016 will take place at the University of Applied Science in Fulda, Germany.
 
 You can attend the conference to get information about the latest tools and technologies used in monitoring and share your experience with other users and core contributors of OpenNMS.
 The three day conference begins on 13 September with a training from David Hustace, who will explain all the possibilities of visualizing monitoring information using the new Business Service Monitoring capabilities and building performance data dashboards with Grafana.

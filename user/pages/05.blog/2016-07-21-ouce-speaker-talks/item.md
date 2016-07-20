@@ -20,6 +20,6 @@ The 14th and 15th September is our conference days to get latest information abo
 Additionally we have a guest speaker sponsored from Datastax explaining how Cassandra is used to persist and aggregate time series data at the Synchrotron - a particle accelerator in France. 
 
 If you want to share your story or your experience the [Call For Paper](http://cfp.opennms.eu/en/ouce2016/cfp/session/new) is open until 1. August 2016.
-You find all the detailed list of talks and speakers on our [OUCE 2016](https://ouce.opennms.eu) conference website.
+You find all detailed information about talks and speakers on our [OUCE 2016](https://ouce.opennms.eu) conference website.
 
 Hope see you soon at OUCE 2016.

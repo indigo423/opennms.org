@@ -19,7 +19,7 @@ The three day conference begins on 13th September with a training from David Hus
 On 14th and 15th September, our speakers give talks about the latest information and usecases for OpenNMS. Developers and contributors will also give talks about the new features and technologies currently being developed.
 Additionally, we have a guest speaker sponsored by Datastax who will explain how Cassandra is used to persist and aggregate time series data at the Synchrotron - a particle accelerator in France. 
 
-If you want to share your story or your experience the [Call For Paper](http://cfp.opennms.eu/en/ouce2016/cfp/session/new) is open until 1. August 2016.
+If you want to share your story or your experience the [Call For Paper](http://cfp.opennms.eu/en/ouce2016/cfp/session/new) is open until 1st August 2016.
 You find all detailed information about talks and speakers on our [OUCE 2016](https://ouce.opennms.eu) conference website.
 
 Hope see you soon at OUCE 2016!

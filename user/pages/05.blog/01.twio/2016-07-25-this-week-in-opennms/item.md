@@ -33,8 +33,8 @@ Release Week
 This last week we did 3 major releases of the OpenNMS codebase -- in part, because we had been planning to do them anways, and in part because we wanted to get the fix for the remote poller and geographical maps out as soon as possible.
 
 * __[OpenNMS Horizon 18.0.1](../../02.releases/2016-07-21-opennms-horizon-18.0.1/item.md)__: Horizon 18.0.1 has tons of bug fixes and a few new features compared to 18.0.0.
-* __[OpenNMS Meridian 2015.1.2](http://meridian.opennms.com/releasenotes/2015/latest/#_release_meridian_2015_1_2)__: Meridian 2015 (based on Horizon 14) got its 2nd update, adding support for new devices and plenty of fixes.
-* __[OpenNMS Meridian 2016.1.2](http://meridian.opennms.com/releasenotes/2016/latest/#_release_2016_1_2)__: Meridian 2016 (based on Horizon 17) got its 2nd update as well, containing a bunch of bug fixes and a few small improvements.
+* __[OpenNMS Meridian 2015.1.2](http://meridian.opennms.com/releasenotes/2015/latest/)__: Meridian 2015 (based on Horizon 14) got its 2nd update, adding support for new devices and plenty of fixes.
+* __[OpenNMS Meridian 2016.1.2](http://meridian.opennms.com/releasenotes/2016/latest/)__: Meridian 2016 (based on Horizon 17) got its 2nd update as well, containing a bunch of bug fixes and a few small improvements.
 
 Upcoming Events and Appearances
 -------------------------------

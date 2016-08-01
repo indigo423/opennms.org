@@ -85,6 +85,7 @@ Since this week everyone was pretty much at Dev-Jam, I'm going to forgo the usua
 ### Ron Roskens
 
 * file-descriptor leak when using the NewtsConverter ([NMS-8507](http://issues.opennms.org/browse/NMS-8507))
+* converting KSC reports to Grafana
 
 ### Ronny Trommer
 
@@ -97,7 +98,7 @@ Since this week everyone was pretty much at Dev-Jam, I'm going to forgo the usua
 ### Seth Leger
 
 * streams-based syslog parser using Grok ([HZN-533](http://issues.opennms.org/browse/HZN-533))
-* ActiveMQ-based eventd bus ([HZN-443](http://issues.opennms.org/browse/HZN-443))
+* ActiveMQ-based eventd bus ([HZN-855](http://issues.opennms.org/browse/HZN-855))
 
 [plugin:youtube](https://www.youtube.com/watch?v=CkNhPlRrVDQ)
 

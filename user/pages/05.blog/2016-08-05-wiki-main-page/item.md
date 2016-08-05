@@ -29,10 +29,10 @@ We tidied out some old stuff. Otherwise it is the same content.
 This is a new section. The idea is, to make it easier to find specific vendor support configurations, eg. event configs, datacollections and graph definitions.
 Ronny [talked](https://www.youtube.com/watch?v=xRRVNNid5qY&index=5&list=PLsXgBGH3nG7hv4CdYVpxISdM8vZqsdxht) at the DevJam about a new [Github repository](https://github.com/opennms-config-modules/) which could make it easier to add/find/create new vendor configs in future. Some impressions?
 ### Tools
-Different tools around OpenNMS,paste.opennms.eu to share config snippets, td.opennms.eu to analyze Thread Dumps, Source Code Browser, Issue Tracker and Continuous Integration System. 
+Different tools around OpenNMS, paste.opennms.eu to share config snippets, td.opennms.eu to analyze Thread Dumps, Source Code Browser, Issue Tracker and Continuous Integration System. 
 ### Lab
 Development and prototype projects for new features or proof of concepts. We already added the Devjam and GSoC wikis and some projects.
-### left toolbar
+### Left Toolbar
 What's wrong with it? It definitely could need a review. But which content?
 Suggestion: Everything which isn’t accessible from the main page.
 ### Index

@@ -42,15 +42,15 @@ Different tools around OpenNMS, paste.opennms.eu to share config snippets, td.op
 #### Lab
 Development and prototype projects for new features or proof of concepts.
 We already added the Devjam and GSoC wikis and some projects.
+#### Index
+All articles in alphabetical order.
+#### About Using This Wiki
+Some things will need an update after we finished the categorize process.
 #### Left Toolbar
 What's wrong with it?
 It definitely could need a review.
 But which content?
 Suggestion: Everything which isn’t accessible from the main page.
-#### Index
-All articles in alphabetical order.
-#### About Using This Wiki
-Some things will need an update after we finished the categorize process.
 
 **Your feedback is welcome! Join our [discussion mailing list](https://lists.sourceforge.net/lists/listinfo/opennms-discuss)**
 ___

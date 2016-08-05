@@ -7,7 +7,11 @@ taxonomy:
     category: wiki
     tag: [devjam, wiki]
 ---
-We heard the call of duty to do **something** to get the wiki more popular or usable. So we spent some time at the DevJam to create a more structured [main page](http://wiki.opennms.org/). It contains the same content as the [old main page](http://wiki.opennms.org/wiki/Old_Main_Page) but now categorized. We are still not done with it, but it is usable already. A few thoughts about it:
+We heard the call of duty to do **something** to get the wiki more popular or usable. So we spent some time at the DevJam to create a more structured [main page](http://wiki.opennms.org/). It contains the same content as the [old main page](http://wiki.opennms.org/wiki/Old_Main_Page) but now categorized. We are still not done with it, but it is usable already.
+
+![Wiki Main Page](wikimainpage.png)
+
+A few thoughts about it:
 ### Getting Started
 It is the same content like before. The pages need a review. Especially the tutorial.
 Feel free to do it!

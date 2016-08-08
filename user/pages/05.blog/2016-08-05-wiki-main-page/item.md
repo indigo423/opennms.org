@@ -7,6 +7,7 @@ taxonomy:
     category: wiki
     tag: [devjam, wiki]
 ---
+
 We heard the call of duty to do **something** to get the wiki more usable.
 So we spent some time at the Dev-Jam to create a more structured [Wiki entry page](http://wiki.opennms.org/).
 
@@ -28,7 +29,7 @@ All important links to the latest installation documentations and upgrade guides
 #### Tutorials
 
 We moved most of the configuration for monitoring applications and specific devices in dedicated sections and removed them from the [Tutorials category](http://wiki.opennms.org/wiki/Category:Tutorials).
-There still some articles left which are in the generic[OpenNSM Category](http://wiki.opennms.org/wiki/Category:OpenNMS) and need to be recategorized.
+There still some articles left which are in the generic [OpenNSM Category](http://wiki.opennms.org/wiki/Category:OpenNMS) and need to be recategorized.
 
 #### Documentation
 

@@ -9,7 +9,7 @@ taxonomy:
 ---
 
 We heard the call of duty to do **something** to get the wiki more usable.
-So we spent some time at the Dev-Jam to create a more structured [Wiki entry page](https://wiki.opennms.org/).
+So we spent some time at the Dev-Jam to create a more structured [Wiki entry page](https://wiki.opennms.org/wiki/Main_Page).
 
 We broke up the content from the [old main page](https://wiki.opennms.org/wiki/Old_Main_Page) into categories.
 

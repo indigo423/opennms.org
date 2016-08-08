@@ -9,9 +9,9 @@ taxonomy:
 ---
 
 We heard the call of duty to do **something** to get the wiki more usable.
-So we spent some time at the Dev-Jam to create a more structured [Wiki entry page](http://wiki.opennms.org/).
+So we spent some time at the Dev-Jam to create a more structured [Wiki entry page](https://wiki.opennms.org/).
 
-We broke up the content from the [old main page](http://wiki.opennms.org/wiki/Old_Main_Page) into categories.
+We broke up the content from the [old main page](https://wiki.opennms.org/wiki/Old_Main_Page) into categories.
 
 ![Wiki Main Page](wikimainpage.png)
 
@@ -28,8 +28,8 @@ All important links to the latest installation documentations and upgrade guides
 
 #### Tutorials
 
-We moved most of the configuration for monitoring applications and specific devices in dedicated sections and removed them from the [Tutorials category](http://wiki.opennms.org/wiki/Category:Tutorials).
-There still some articles left which are in the generic [OpenNSM Category](http://wiki.opennms.org/wiki/Category:OpenNMS) and need to be recategorized.
+We moved most of the configuration for monitoring applications and specific devices in dedicated sections and removed them from the [Tutorials category](https://wiki.opennms.org/wiki/Category:Tutorials).
+There still some articles left which are in the generic [OpenNSM Category](https://wiki.opennms.org/wiki/Category:OpenNMS) and need to be recategorized.
 
 #### Documentation
 

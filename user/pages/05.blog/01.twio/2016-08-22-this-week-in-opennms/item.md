@@ -1,5 +1,5 @@
 ---
-title: This Week in OpenNMS: August 15th, 2016
+title: This Week in OpenNMS: August 22nd, 2016
 date: 12:57 08/22/2016
 author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling

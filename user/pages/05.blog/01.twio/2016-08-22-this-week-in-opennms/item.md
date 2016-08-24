@@ -90,5 +90,4 @@ Resolved Issues Since Last TWiO
 <!--
   http://issues.opennms.org/issues/?filter=13303
   :1,$s#^[^\t]*\t[^\t]*\t\([^\t]*\)\t#* [\1](http://issues.opennms.org/browse/\1): #
-  :1,$s#[\t ]*$#\1#
 -->

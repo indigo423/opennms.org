@@ -8,7 +8,7 @@ taxonomy:
     tag: [release]
 ---
 
-OpenNMS 18.0.1 (code name: [Platypus](https://en.wikipedia.org/wiki/Glen_Moray_distillery)) is now available.
+OpenNMS 18.0.1 (code name: [Platypus](https://en.wikipedia.org/wiki/Platypus)) is now available.
 
 While it contains a large number of bug fixes and a few enhancements, the most noticeable change is a fix for the distributed and geographical maps.  We had been using MapQuest's (wonderful and freely-available) OpenStreetMap-compatible tile servers, but they recently decommissioned those servers and we needed to make code changes to make using a new server possible.
 

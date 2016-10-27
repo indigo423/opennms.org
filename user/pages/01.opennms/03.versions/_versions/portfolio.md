@@ -10,8 +10,8 @@ _**Meridian**_ is based on selected major versions of _**Horizon**_.
 
 <table class="table">
   <tr>
-    <th>Meridian</th>
     <th>Horizon</th>
+    <th>Meridian</th>
   </tr>
   <tr>
     <td align="left" style="vertical-align: top">

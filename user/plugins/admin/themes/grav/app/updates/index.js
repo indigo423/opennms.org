@@ -3,6 +3,8 @@ import unique from 'mout/array/unique';
 import { config, translations } from 'grav-config';
 import formatBytes from '../utils/formatbytes';
 import { Instance as gpm } from '../utils/gpm';
+import Notifications from './notifications';
+import Feed from './feed';
 import './check';
 import './update';
 import './channel-switcher';
@@ -40,7 +42,7 @@ export default class Updates {
     grav() {
         let payload = this.payload.grav;
 
-        if (payload.isUpdatable) {
+        if (payload && payload.isUpdatable) {
             let task = this.task;
             let bar = '';
 
@@ -51,11 +53,20 @@ export default class Updates {
             }
 
             bar += `
-                <i class="fa fa-bullhorn"></i>
                 Grav <b>v${payload.available}</b> ${translations.PLUGIN_ADMIN.IS_NOW_AVAILABLE}! <span class="less">(${translations.PLUGIN_ADMIN.CURRENT} v${payload.version})</span>
             `;
 
-            $('[data-gpm-grav]').css('display', 'block').addClass('grav').html(`<p>${bar}</p>`);
+            let element = $('[data-gpm-grav]').removeClass('hidden');
+
+            if (element.is(':empty')) {
+                element.hide();
+            }
+
+            element
+                .addClass('grav')
+                .html(`${bar}`)
+                .slideDown(150)
+                .parent('#messages').addClass('default-box-shadow');
         }
 
         $('#grav-update-button').on('click', function() {
@@ -66,7 +77,9 @@ export default class Updates {
     }
 
     resources() {
-        if (!this.payload.resources.total) { return this.maintenance('hide'); }
+        if (!this.payload || !this.payload.resources || !this.payload.resources.total) {
+            return this.maintenance('hide');
+        }
 
         let map = ['plugins', 'themes'];
         let singles = ['plugin', 'theme'];
@@ -148,7 +161,7 @@ export default class Updates {
 }
 
 let Instance = new Updates();
-export { Instance };
+export { Instance, Notifications, Feed };
 
 // automatically refresh UI for updates (graph, sidebar, plugin/themes pages) after every fetch
 gpm.on('fetched', (response, raw) => {

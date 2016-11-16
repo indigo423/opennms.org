@@ -31,10 +31,7 @@ export default class Form {
 
     _attachShortcuts() {
         // CTRL + S / CMD + S - shortcut for [Save] when available
-        let saveTask = $('[name="task"][value="save"]').filter(function(index, element) {
-            element = $(element);
-            return !(element.parents('.remodal-overlay').length);
-        });
+        let saveTask = $('#titlebar [name="task"][value="save"]');
 
         if (saveTask.length) {
             $(global).on('keydown', function(event) {
@@ -98,24 +95,27 @@ export default class Form {
     }
 
     _submitUncheckedFields() {
+        let submitted = false;
         this.form.each((index, form) => {
             form = $(form);
-            form.on('submit', (e) => {
-                // do not attempt to submit forms within remodal
-                /* if (form.closest('.remodal').length) {
-                    return false;
-                }*/
+            form.on('submit', () => {
+                // workaround for MS Edge, submitting multiple forms at the same time
+                if (submitted) { return false; }
 
+                let formId = form.attr('id');
                 let unchecked = form.find('input[type="checkbox"]:not(:checked):not(:disabled)');
+                let submit = form.find('[type="submit"]').add(`[form="${formId}"][type="submit"]`);
+
                 if (!unchecked.length) { return true; }
 
+                submit.addClass('pointer-events-disabled');
                 unchecked.each((index, element) => {
                     element = $(element);
                     let name = element.prop('name');
                     let fake = $(`<input type="hidden" name="${name}" value="0" />`);
                     form.append(fake);
                 });
-
+                submitted = true;
                 return true;
             });
         });

@@ -1,3 +1,20 @@
+# v1.6.0
+## 10/19/2016
+
+1. [](#improved)
+    * Added Croatian translation
+    * Improved `autoescape: true` support
+1. [](#bugfix)
+    * Fixed issue where template file for `error` page type is only available if page was not found
+
+# v1.5.1
+## 07/18/2016
+
+1. [](#improved)
+    * Added chinese and german translations
+1. [](#bugfix)
+    * Fixed issue with the Smartypants plugin running before Twig was processed
+
 # v1.5.0
 ## 07/14/2015
 

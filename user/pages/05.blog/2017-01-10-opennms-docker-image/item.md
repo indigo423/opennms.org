@@ -17,18 +17,18 @@ To run this example make sure you have a recent version of Docker 1.12+ and Dock
 You can verify with `docker version` and `docker-compose version`.
 
 OpenNMS uses a few other services like a [PostgreSQL](https://www.postgresql.org) database service.
-For this reason it is recommended to use [Docker Composer](https://docs.docker.com/compose/) to model your OpenNMS service.
-The following tutorial will show you how to build an [OpenNMS Horizon](https://www.opennms.org) with latest stable version with [PostgreSQL 9.6.1](https://www.postgresql.org/docs/9.6/static/release-9-6-1.html) and [Grafana 4.0.2](http://docs.grafana.org/guides/whats-new-in-v4/).
+For this reason it is recommended to use [Docker Compose](https://docs.docker.com/compose/) to model your OpenNMS service.
+The following tutorial will show you how to build an [OpenNMS Horizon](https://www.opennms.org) with the latest stable version using [PostgreSQL 9.6.1](https://www.postgresql.org/docs/9.6/static/release-9-6-1.html) and [Grafana 4.0.2](http://docs.grafana.org/guides/whats-new-in-v4/).
 
 ![Docker Layers](docker-layers.svg)
 
-An intermediate image is used to maintain the Java JDK version for OpenNMS easier.
-By using the `opennms:latest` version tag a [daily built](https://hub.docker.com/r/indigo/docker-opennms/builds/) image from OpenNMS develop branch is used.
+An intermediate image is used to ease maintaining the Java JDK version for OpenNMS.
+By using the `opennms:latest` version tag a [daily built](https://hub.docker.com/r/indigo/docker-opennms/builds/) image from the OpenNMS develop branch is used.
 
 ![Docker Service Stack](docker-service-stack.svg)
 
-Data for the services is stored dedicated data containers with one exception of the OpenNMS configuration directory.
-For the reason it is required to edit OpenNMS configuration files manually the `/opt/opennms/etc` directory is mounted to the Docker host system.
+Data for the services is stored in dedicated data containers with the exception of the OpenNMS configuration directory.
+Because it is required to edit OpenNMS configuration files manually, the `/opt/opennms/etc` directory is mounted to the Docker host system.
 It is required to modify the `/my/path/to/opennms/config:/opt/opennms/etc` entry in the following `docker-compose.yml` example.
 In case the directory does not exist, the configuration files are initialized automatically from the `/opt/opennms/share/etc-pristine` directory.
 
@@ -38,12 +38,12 @@ The data containers are used for:
 * Grafana SQlite database with dashboards, users and plugins
 * OpenNMS RRD/JRobin files, logs and created reports
 
-The services itself can easily be deleted or recreated without loosing data.
-As long the data containers are not deleted the OpenNMS and Grafana generated data is still available.
+The services themselves can easily be deleted or recreated without losing data.
+As long the data containers are not deleted, the OpenNMS and Grafana generated data is still available.
 
-To communicate between the containers the name of the service can be used as the host name in URLs to access the services provided in other containers.
+To communicate among the containers, the name of the service can be used as the host name in URLs to access the services provided in other containers.
 
-A suitable place to create the files in a directory like `/opt/docker-service/opennms` and `/opt/docker-service/opennms-config` for the configuration files.
+A suitable place to create the files is a directory like `/opt/docker-service/opennms` and `/opt/docker-service/opennms-config` for the configuration files.
 
 ### Building your service stack
 
@@ -81,7 +81,7 @@ GF_SERVER_ROOT_URL=http://localhost
 GF_SECURITY_ADMIN_PASSWORD=mypass
 ```
 
-Create the `docker-compose.yml` file with the services, data containers and expose the ports for network access:
+Create the `docker-compose.yml` file with the services and data containers, and expose the ports for network access:
 
 _File: docker-compose.yml_
 ```
@@ -144,7 +144,7 @@ services:
       - "3000:3000"
 ```
 
-The whole stack can be started in background with
+The whole stack can be started in the background with
 
 ```
 docker-compose up -d
@@ -155,9 +155,9 @@ For OpenNMS Horizon a health check shows if the web application is started and c
 ### Install OpenNMS Grafana Data Source plugin and configuration
 
 By default there are no plugins installed.
-OpenNMS project maintains the [OpenNMS Data Source plugin](https://grafana.net/plugins/opennms-datasource) which can be installed with the `grafana-cli` command.
+The OpenNMS project maintains the [OpenNMS Data Source plugin](https://grafana.net/plugins/opennms-datasource) which can be installed with the `grafana-cli` command.
 The OpenNMS data source uses the [OpenNMS Measurement ReST API](https://grafana.net/plugins/opennms-datasource).
-It is recommended to create a non admin user in OpenNMS which can be used to access the data from Grafana.
+It is recommended to create a non-admin user in OpenNMS which can be used to access the data from Grafana.
 
 Create a user in the OpenNMS web user interface in this example called `grafana` with a password `mypass`.
 
@@ -173,12 +173,12 @@ To be able to create use the OpenNMS Data Source Grafana needs to be restarted w
 docker-compose stop grafana && docker-compose up -d
 ```
 
-Create a Data Source from type `OpenNMS` and use the URL to our OpenNMS service:
+Create a Data Source of type `OpenNMS` and use the URL to our OpenNMS service:
 
 `http://opennms:8980/opennms`
 
 We named our OpenNMS Horizon instance `opennms` and can use this in Grafana as host name in the URL.
-The host name `opennms` will be automatically resolved to an dynamical associated IP address from the Docker engine.
+The host name `opennms` will be automatically resolved to an dynamically associated IP address from the Docker engine.
 
 Access type is `Proxy` and enable `Basic Auth` with `Credentials`.
 Type in the user name `grafana` with the provided password in our example `mypass`.
@@ -194,17 +194,17 @@ Now you can start creating your own dashboards using data from OpenNMS.
 If you want to test the Minion environment make sure you use at least the image version for release candidate OpenNMS Horizon 19 (`indigo/docker-opennms:rc-19.0.0`) or 20 (`indigo/docker-opennms:latest`).
 The Minion image version should be the same as the OpenNMS Horizon version.
 
-Running a Minion in a remote location can also easily deployed using Docker.
-The minimum configuration requirements to get a Minion running is:
+Running a Minion in a remote location can also be easily deployed using Docker.
+The minimum configuration requirements to get a Minion running are:
 
 * Configure OpenNMS to allow network access to ActiveMQ
 * Configure OpenNMS to allow authenticated access to the ReST API
 * Create a Minion service and configure a Location, Minion-ID, HTTP and Broker URL endpoints
 
-The Minion docker image is similar built on the same `centos-jdk8` image as OpenNMS.
-It can be configured with an environment file and as a service with `docker-compose` the same way.
+The Minion docker image is similarly built on the same `centos-jdk8` image as OpenNMS.
+It can be configured with an environment file and as a service with `docker-compose` in the same way.
 
-Allow network access to ActiveMQ by uncommenting the following line in `opennms-activemq.xml` located in OpenNMS configuration directory.
+Allow network access to ActiveMQ by uncommenting the following line in `opennms-activemq.xml` located in the OpenNMS configuration directory.
 
 ```
 <!-- Uncomment this line to allow localhost TCP connections (for testing purposes) -->
@@ -221,7 +221,7 @@ docker-compose stop opennms && docker-compose up -d
 Replace the `YOUR-LOCATION` and `opennms` in the URLs with values fitting your environment.
 The Minion ID is a unique identifier to register this specific instance of the Minion in the OpenNMS system.
 In case you don't provide a Minion ID it is generated automatically and you don't control the ID when it's lost.
-To assign them manually just can specify them in the Minion environment file.
+To assign them manually can just specify them in the Minion environment file.
 
 _File: .minion.env_
 
@@ -252,6 +252,6 @@ services:
 ```
 
 Start the Minion service with `docker-compose up -d`.
-A health check is [testing the communication](http://docs.opennms.org/opennms/branches/develop/guide-install/guide-install.html#_verifying_connectivity) to the OpenNMS Horizon instance is working properly which can be checked with the `docker ps` command.
+A health check [tests the communication](http://docs.opennms.org/opennms/branches/develop/guide-install/guide-install.html#_verifying_connectivity) to the OpenNMS Horizon instance, and can be checked with the `docker ps` command.
 
-By default the Minion is automatically provisioned in the OpenNMS system and sends a heart beat to OpenNMS which is monitored with the `Minion-Heartbeat` service.
+By default the Minion is automatically provisioned in the OpenNMS system and sends a heartbeat to OpenNMS which is monitored with the `Minion-Heartbeat` service.

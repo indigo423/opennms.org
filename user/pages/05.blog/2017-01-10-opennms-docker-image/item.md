@@ -107,9 +107,9 @@ services:
         - /var/log/opennms
         - /var/opennms/rrd
         - /var/opennms/reports
-        - /Users/indigo/Desktop/fosdem/opennms-etc:/opt/opennms/etc
+        - /my/path/to/opennms/config:/opt/opennms/etc
   opennms:
-    image: indigo/docker-opennms:18.0.3-1
+    image: indigo/docker-opennms:rc-19.0.0
     env_file:
       - .opennms.env
       - .postgres.env
@@ -255,3 +255,4 @@ Start the Minion service with `docker-compose up -d`.
 A health check [tests the communication](http://docs.opennms.org/opennms/branches/develop/guide-install/guide-install.html#_verifying_connectivity) to the OpenNMS Horizon instance, and can be checked with the `docker ps` command.
 
 By default the Minion is automatically provisioned in the OpenNMS system and sends a heartbeat to OpenNMS which is monitored with the `Minion-Heartbeat` service.
+

@@ -8,17 +8,16 @@ taxonomy:
     tag: [docker]
 ---
 
-A few people might be interested to deploy and run OpenNMS and Minions in infrastructures using containers.
-For this reason I've started to use [Docker](https://docs.docker.com/engine/installation/) infrastructure to provide a ready-to-run entrypoint to build your OpenNMS container based infrastructure.
-Information can be found in the [lab section](https://wiki.opennms.org/wiki/Lab) under [Running with Docker](https://wiki.opennms.org/wiki/DevProjects/Running_with_Docker) in our wiki.
+Deploying and running OpenNMS and Minions in infrastructures using containers might be interesting to some users.
+For this reason, I've started to use [Docker](https://docs.docker.com/engine/installation/) infrastructure to provide a ready-to-run entrypoint to build your OpenNMS container based infrastructure.
+You can find more information in the [lab section](https://wiki.opennms.org/wiki/Lab) under [Running with Docker](https://wiki.opennms.org/wiki/DevProjects/Running_with_Docker) in our wiki.
 The Docker files and images can be forked on [GitHub](https://github.com/indigo423/docker-opennms) and pre-built images are available on [Dockerhub](https://hub.docker.com/r/indigo).
 
-To run this example make sure you have a recent version of Docker 1.12+ and Docker Compose 1.8+ installed.
+To run this example, make sure you have a recent version of Docker 1.12+ and Docker Compose 1.8+ installed.
 You can verify with `docker version` and `docker-compose version`.
 
-OpenNMS uses a few other services like a [PostgreSQL](https://www.postgresql.org) database service.
-For this reason it is recommended to use [Docker Compose](https://docs.docker.com/compose/) to model your OpenNMS service.
-The following tutorial will show you how to build an [OpenNMS Horizon](https://www.opennms.org) with the latest stable version using [PostgreSQL 9.6.1](https://www.postgresql.org/docs/9.6/static/release-9-6-1.html) and [Grafana 4.0.2](http://docs.grafana.org/guides/whats-new-in-v4/).
+OpenNMS uses a few other services like a [PostgreSQL](https://www.postgresql.org) database service, therefore I recommend that you use [Docker Compose](https://docs.docker.com/compose/) to model your OpenNMS service.
+The following tutorial shows you how to build an [OpenNMS Horizon](https://www.opennms.org) with the latest stable version using [PostgreSQL 9.6.1](https://www.postgresql.org/docs/9.6/static/release-9-6-1.html) and [Grafana 4.0.2](http://docs.grafana.org/guides/whats-new-in-v4/).
 
 ![Docker Layers](docker-layers.svg)
 
@@ -150,7 +149,7 @@ The whole stack can be started in the background with
 docker-compose up -d
 ```
 
-For OpenNMS Horizon a health check shows if the web application is started and can be checked with the `docker ps` command.
+For OpenNMS Horizon, a health check shows if the web application is started and can be checked with the `docker ps` command.
 
 ### Install OpenNMS Grafana Data Source plugin and configuration
 
@@ -191,7 +190,7 @@ Now you can start creating your own dashboards using data from OpenNMS.
 
 ### Build OpenNMS Minion service
 
-If you want to test the Minion environment make sure you use at least the image version for release candidate OpenNMS Horizon 19 (`indigo/docker-opennms:rc-19.0.0`) or 20 (`indigo/docker-opennms:latest`).
+If you want to test the Minion environment, make sure that you use at least the image version for release candidate OpenNMS Horizon 19 (`indigo/docker-opennms:rc-19.0.0`) or 20 (`indigo/docker-opennms:latest`).
 The Minion image version should be the same as the OpenNMS Horizon version.
 
 Running a Minion in a remote location can also be easily deployed using Docker.
@@ -220,8 +219,8 @@ docker-compose stop opennms && docker-compose up -d
 
 Replace the `YOUR-LOCATION` and `opennms` in the URLs with values fitting your environment.
 The Minion ID is a unique identifier to register this specific instance of the Minion in the OpenNMS system.
-In case you don't provide a Minion ID it is generated automatically and you don't control the ID when it's lost.
-To assign them manually can just specify them in the Minion environment file.
+If you don't provide a Minion ID, it is generated automatically and you don't control the ID when it's lost.
+To assign them manually, you can just specify them in the Minion environment file.
 
 _File: .minion.env_
 

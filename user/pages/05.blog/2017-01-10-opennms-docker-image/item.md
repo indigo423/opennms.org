@@ -227,7 +227,7 @@ _File: .minion.env_
 ```
 # Environment variables for OpenNMS Minion connection
 MINION_ID=00000000-0000-0000-0000-deadbeef0001
-MINION_LOCATION=Stuttgart
+MINION_LOCATION=YOUR-LOCATION
 MINION_CONFIG=/opt/minion/etc/org.opennms.minion.controller.cfg
 OPENNMS_BROKER_URL=tcp://opennms:61616
 OPENNMS_HTTP_URL=http://opennms:8980/opennms

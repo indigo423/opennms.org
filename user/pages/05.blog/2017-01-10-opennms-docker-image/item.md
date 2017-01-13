@@ -106,7 +106,6 @@ services:
         - /var/log/opennms
         - /var/opennms/rrd
         - /var/opennms/reports
-        - /my/path/to/opennms/config:/opt/opennms/etc
   opennms:
     image: indigo/docker-opennms:rc-19.0.0
     env_file:
@@ -117,6 +116,8 @@ services:
       - opennms_data
     volumes_from:
       - opennms_data:rw
+    volumes:
+      - /my/path/to/opennms/config:/opt/opennms/etc
     command: ["-s"]
     ports:
       - "8980:8980"

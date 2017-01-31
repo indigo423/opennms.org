@@ -8,7 +8,7 @@ taxonomy:
     tag: [twio, jetty, camel, hikaricp, c3p0, minion, snmp, elasticsearch, bug fixes, ohio linux fest, dbatlanta, all things open, ato, mc frontalot, the doubleclicks, kings barcade, osmc]
 ---
 
-In the last week we worked on dependency updates, Minion, ElasticSearch, and bug fixing.
+In the last week we worked on dependency updates, Minion, Elasticsearch, and bug fixing.
 
 <!-- git log --all --no-merges --since='2016-09-19 00:00:00' --until='2016-09-26 00:00:00' --format='%Cblue%ai %Cgreen%aN %Cred%d %Creset%s %Cblue(%H)'  | sort | less -R -->
 
@@ -23,9 +23,9 @@ Github Project Updates
 
   Chandra continued his work on tracking Minion system registration and location support in `snmp-config.xml`.  I worked on packaging-related issues in Minion (configuring startup, fixing assembly-only builds, etc).
 
-* __ElasticSearch Support__
+* __Elasticsearch Support__
 
-  Craig and Seth did more work on forwarding events to ElasticSearch.
+  Craig and Seth did more work on forwarding events to Elasticsearch.
 
 * __Bug Fixes__
 

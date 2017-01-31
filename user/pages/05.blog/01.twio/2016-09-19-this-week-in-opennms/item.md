@@ -8,7 +8,7 @@ taxonomy:
     tag: [twio, icmp, minion, elasticsearch, bugs, ohio linux fest, dbatlanta, all things open, ato, mc frontalot, the doubleclicks, kings barcade, osmc]
 ---
 
-In the last week we worked on ICMP updates, Jetty, Minion, ElasticSearch, and bug fixing.
+In the last week we worked on ICMP updates, Jetty, Minion, Elasticsearch, and bug fixing.
 
 <!-- git log --all --no-merges --since='2016-09-12 00:00:00' --until='2016-09-19 00:00:00' --format='%Cblue%ai %Cgreen%aN %Cred%d %Creset%s %Cblue(%H)'  | sort | less -R -->
 
@@ -27,9 +27,9 @@ Github Project Updates
 
   Christian and Seth worked on making Minions monitorable from the OpenNMS server.  Chandra did more work on querying DNS from the minion's point-of-view. Chandra and Seth worked on a number of Minion-related events (registration/deletion/etc).  I worked on fixing some Minion RPM packaging issues.
 
-* __ElasticSearch Support__
+* __Elasticsearch Support__
 
-  Seth worked on support for forwarding events to ElasticSearch.
+  Seth worked on support for forwarding events to Elasticsearch.
 
 * __Bug Fixes__
 

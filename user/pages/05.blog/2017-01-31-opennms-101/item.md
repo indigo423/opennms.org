@@ -8,10 +8,10 @@ taxonomy:
     tags: [opennms, training]
 ---
 
-While improving constantly our [documentation](http://docs.opennms.org) it is for newcomers easier to follow someone who explains ideas and concepts of OpenNMS.
+While our [documentation](http://docs.opennms.org) is constantly improving, it is easier for newcomers to follow someone who explains ideas and concepts of OpenNMS.
 Tarus Balog started a great video tutorial session which gives everything you need to get started with OpenNMS.
-The online training is divided in several modules which you can find on our [OpenNMS YouTube channel](https://www.youtube.com/playlist?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z).
-Modules are organized as the following:
+The online training is divided into several modules which you can find on the [OpenNMS YouTube channel](https://www.youtube.com/playlist?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z).
+Modules are organized as follows:
 
 * Module 0: [Introduction](https://youtu.be/GJzmkshdjiI?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z)
 * Module 1a/1b: Installation via [RPM](https://youtu.be/wsKdaH2ZWMs?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z) and [DEB](https://youtu.be/wsKdaH2ZWMs?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z)
@@ -20,7 +20,7 @@ Modules are organized as the following:
 * Module 4: Get [Notifications](https://youtu.be/atK-zYYEzd0?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z) for outages
 * Module 5: Generating [Alarms](https://youtu.be/06mLvyGQCkg?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z)
 
-In case you've never heard about OpenNMS and all above sounds interesting to you, watch the following introduction module.
+In case you've never heard about OpenNMS and the above sounds interesting to you, watch the following introduction module.
 
 [plugin:youtube](https://youtu.be/GJzmkshdjiI)
 

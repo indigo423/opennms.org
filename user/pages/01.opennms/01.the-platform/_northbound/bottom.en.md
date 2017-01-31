@@ -34,7 +34,7 @@ Streams of normalized alarms can be forwarded to external applications to integr
 
 * JMS Alarm Northbound implementation
 * AMQP Alarm Northbound implementation
-* Forward alarms into ElasticSearch for analysis
+* Forward alarms into Elasticsearch for analysis
 * Send alarms via Syslog or SNMP trap protocol to legacy management solutions
 * Extensible Northbound API
 

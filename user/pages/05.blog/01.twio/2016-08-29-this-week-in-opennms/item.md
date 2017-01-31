@@ -8,7 +8,7 @@ taxonomy:
     tag: [twio, icmp, minion, gwt, angularjs, ouce, ohio linux fest, dbatlanta, all things open, ato, mc frontalot, the doubleclicks, kings barcade, osmc]
 ---
 
-In the last week we worked on Minion, ElasticSearch integration, GWT to AngularJS conversion, non-privileged ICMP operations, and the OSGi plugin manager.
+In the last week we worked on Minion, Elasticsearch integration, GWT to AngularJS conversion, non-privileged ICMP operations, and the OSGi plugin manager.
 
 <!-- git log --all --no-merges --since='2016-08-22 00:00:00' --until='2016-08-29 00:00:00' --format='%Cblue%ai %Cgreen%aN %Cred%d %Creset%s %Cblue(%H)'  | sort | less -R -->
 
@@ -19,7 +19,7 @@ Github Project Updates
 
   Chandra and Jesse did some refactoring in both the core and the periphery (local and Minion) of Pollerd and Provisiond.
 
-* __ElasticSearch Integration__
+* __Elasticsearch Integration__
 
   Craig fixed a few dependencies to enable a backport of the ES ReST service endpoint.
 

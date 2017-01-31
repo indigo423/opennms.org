@@ -8,7 +8,7 @@ Installation script installs all components of OpenNMS on a single machine and i
 This setup works for most small environments.
 If you want a more customized installation, please see our [installation guide](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html#gi-install-opennms-rhel).
 
-<i class="fa fa-info-circle" aria-hidden="true"></i> The installation script requires CentOS 7.
+<i class="fa fa-info-circle" aria-hidden="true"></i> The installation script is tested on minimal [CentOS 7.3.1611](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso).
 
 <pre class="prettyprint">
 curl -L https://github.com/opennms-forge/opennms-install/archive/1.1.tar.gz | tar xz
@@ -22,4 +22,3 @@ OpenNMS can be started with `systemctl {start,stop} opennms`.
 The webapplication is available on _http://your-host:8980/opennms_.
 Default login for the webapplication is _admin_ with password _admin_.
 Please change the default password immediately to a safe password by click on the user name in the top right navigation and choose _Change Password_.
-

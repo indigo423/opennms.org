@@ -37,8 +37,8 @@ portfolio:
       date: Horizon 18.0.0
       category: Service Assurance
     - image: kibana.jpg
-      title: ElasticSearch Forwarder
-      desc: "Forward unified and enriched OpenNMS Alarms into ElasticSearch and visualize data with Kibana."
+      title: Elasticsearch Forwarder
+      desc: "Forward unified and enriched OpenNMS Alarms into Elasticsearch and visualize data with Kibana."
       modalid: 6
       url: "#"
       date: Horizon 18.0.0

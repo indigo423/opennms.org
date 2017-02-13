@@ -20,5 +20,5 @@ Notable Changes
 * a number of BSM fixes including fixing long startup times when you have a large number of services
 * a fix to a deadlock in the topology UI
 
-For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html).
+For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/18.0.4/releasenotes/releasenotes.html).
 

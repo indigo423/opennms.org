@@ -25,4 +25,4 @@ Notable Changes
 * performance improvements in logging (which should improve performance system-wide)
 * you can now add custom string attributes based on indirect and complex SNMP indices
 
-For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html).
+For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/18.0.1/releasenotes/releasenotes.html).

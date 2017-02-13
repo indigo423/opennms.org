@@ -25,7 +25,7 @@ Notable Changes
 * the JIRA ticketer now handles HTTPS properly and now supports additional fields
 * bug fixes and improvements to WS-MAN collection
 
-For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html).
+For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/18.0.3/releasenotes/releasenotes.html).
 
 Fixing Duplicate Nodes
 ======================

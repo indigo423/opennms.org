@@ -53,7 +53,7 @@ We have added support for following devices:
 * [Dell Equallogic](https://en.wikipedia.org/wiki/EqualLogic) Events
 * Add [Sonicwall](https://en.wikipedia.org/wiki/SonicWall) Firewall Events
 
-For more details you can go to our [Release Notes](https://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html).
+For more details you can go to our [Release Notes](https://docs.opennms.org/opennms/releases/17.0.0/releasenotes/releasenotes.html).
 
 Looking forward to upgrade my systems and Happy Upgrading
 

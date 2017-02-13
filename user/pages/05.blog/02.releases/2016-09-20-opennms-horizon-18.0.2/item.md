@@ -23,4 +23,4 @@ Notable Changes
 * fixed the VMware CIM query and config builder command-line tools
 * fixed overriding system properties in `$OPENNMS_HOME/etc/opennms.properties.d`
 
-For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html).
+For more details, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/18.0.2/releasenotes/releasenotes.html).

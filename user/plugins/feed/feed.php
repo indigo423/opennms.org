@@ -83,9 +83,7 @@ class FeedPlugin extends Plugin
         }
 
         // Overwrite regular content with feed config, so you can influence the collection processing with feed config
-        if ($page->header()->content) {
-            $page->header()->content = array_merge($page->header()->content, $this->feed_config);
-        }
+        $page->header()->content = array_merge($page->header()->content, $this->feed_config);
     }
 
     /**

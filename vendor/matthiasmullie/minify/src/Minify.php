@@ -54,6 +54,8 @@ abstract class Minify
      * Add a file or straight-up code to be minified.
      *
      * @param string|string[] $data
+     *
+     * @return static
      */
     public function add($data /* $data = null, ... */)
     {
@@ -77,9 +79,15 @@ abstract class Minify
             $value = $this->load($data);
             $key = ($data != $value) ? $data : count($this->data);
 
+            // replace CR linefeeds etc.
+            // @see https://github.com/matthiasmullie/minify/pull/139
+            $value = str_replace(array("\r\n", "\r"), "\n", $value);
+
             // store data
             $this->data[$key] = $value;
         }
+
+        return $this;
     }
 
     /**

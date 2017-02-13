@@ -277,7 +277,13 @@ class Uri
         }
 
         // Set some defaults
-        $this->root = $grav['config']->get('system.custom_base_url') ?: $this->base . $this->root_path;
+        if ($grav['config']->get('system.custom_base_url')) {
+            $this->root_path = parse_url($grav['config']->get('system.custom_base_url'), PHP_URL_PATH);
+            $this->root = $grav['config']->get('system.custom_base_url');
+        } else {
+            $this->root = $this->base . $this->root_path;
+        }
+
         $this->url = $this->base . $this->uri;
 
         // get any params and remove them
@@ -304,11 +310,10 @@ class Uri
         $bits = parse_url($uri);
 
         // process query string
-        if (isset($bits['query']) && isset($bits['path'])) {
+        if (isset($bits['query'])) {
             if (!$this->query) {
                 $this->query = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
             }
-            $uri = $bits['path'];
         }
 
         //process fragment
@@ -316,8 +321,11 @@ class Uri
             $this->fragment = $bits['fragment'];
         }
 
+        // Get the path. If there's no path, make sure pathinfo() still returns dirname variable
+        $path = isset($bits['path']) ? $bits['path'] : '/';
+
         // remove the extension if there is one set
-        $parts = pathinfo($uri);
+        $parts = pathinfo($path);
 
         // set the original basename
         $this->basename = $parts['basename'];
@@ -331,12 +339,12 @@ class Uri
 
         // Strip the file extension for valid page types
         if (preg_match('/\.(' . $valid_page_types . ')$/', $parts['basename'])) {
-            $uri = rtrim(str_replace(DIRECTORY_SEPARATOR, DS, $parts['dirname']), DS) . '/' . $parts['filename'];
+            $path = rtrim(str_replace(DIRECTORY_SEPARATOR, DS, $parts['dirname']), DS) . '/' . $parts['filename'];
         }
 
         // set the new url
-        $this->url = $this->root . $uri;
-        $this->path = $uri;
+        $this->url = $this->root . $path;
+        $this->path = $path;
         $this->content_path = trim(str_replace($this->base, '', $this->path), '/');
         if ($this->content_path != '') {
             $this->paths = explode('/', $this->content_path);

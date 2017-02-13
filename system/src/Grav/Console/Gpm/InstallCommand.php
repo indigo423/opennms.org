@@ -20,7 +20,6 @@ use Grav\Console\ConsoleCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
-use Symfony\Component\Yaml\Yaml;
 
 define('GIT_REGEX', '/http[s]?:\/\/(?:.*@)?(github|bitbucket)(?:.org|.com)\/.*\/(.*)/');
 
@@ -98,7 +97,7 @@ class InstallCommand extends ConsoleCommand
     }
 
     /**
-     * @return int|null|void|bool
+     * @return bool
      */
     protected function serve()
     {
@@ -112,13 +111,7 @@ class InstallCommand extends ConsoleCommand
 
         $packages = array_map('strtolower', $this->input->getArgument('package'));
         $this->data = $this->gpm->findPackages($packages);
-
-        if (false === $this->isWindows() && @is_file(getenv("HOME") . '/.grav/config')) {
-            $local_config_file = exec('eval echo ~/.grav/config');
-            if (file_exists($local_config_file)) {
-                $this->local_config = Yaml::parse($local_config_file);
-            }
-        }
+        $this->loadLocalConfig();
 
         if (
             !Installer::isGravInstance($this->destination) ||
@@ -427,7 +420,7 @@ class InstallCommand extends ConsoleCommand
     /**
      * @param $package
      *
-     * @return array
+     * @return array|bool
      */
     private function getGitRegexMatches($package)
     {
@@ -550,8 +543,12 @@ class InstallCommand extends ConsoleCommand
             } else {
                 $this->output->writeln("  '- <green>Success!</green>  ");
                 $this->output->writeln('');
+
+                return true;
             }
         }
+
+        return false;
     }
 
     /**

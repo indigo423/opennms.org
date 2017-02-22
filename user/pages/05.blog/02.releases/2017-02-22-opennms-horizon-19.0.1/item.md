@@ -12,6 +12,6 @@ OpenNMS 19.0.1 (code name: [Ferret-Legging](https://en.wikipedia.org/wiki/Ferret
 
 This release contains a number of small bug fixes focused mostly on upgrade issues from Horizon 18.
 
-For details on what has changed, see the complete [Release Notes](https://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html).
+For details on what has changed, see the complete [change log](https://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html#releasenotes-changelog-19.0.1).
 
-For complete info on what has changed since Horizon 18, see the [Release Notes](https://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html).
+For complete info on what has changed since Horizon 18, see the [release notes](https://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html).

@@ -15,11 +15,11 @@ This release contains a number of small bug fixes focused mostly on upgrade issu
 For details on what has changed, see the complete [change log](https://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html#releasenotes-changelog-19.0.1).
 
 Breaking Changes/Upgrading
-==========================
+--------------------------
 
 There is a configuration change over 19.0.0 that may require manual changes.  See [the upgrade notes](https://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html#_upgrade_notes) for full details.
 
 More Info
-=========
+---------
 
 For complete info on what has changed since Horizon 18, see the [release notes](https://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html).

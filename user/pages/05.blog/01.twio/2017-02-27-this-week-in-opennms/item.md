@@ -25,14 +25,14 @@ In the last week we worked on various internal cleanups and the web UI.
 
 ## Horizon 19.0.1 (Ferret-Legging) Released
 
-Horizon 19.0.1 was released last week, with [https://www.opennms.org/en/blog/releases/2017-02-22-opennms-horizon-19.0.1](a number of upgrade-related bugs fixed).  If you are using Horizon 19, please upgrade!
+Horizon 19.0.1 was released last week, with [a number of upgrade-related bugs fixed](https://www.opennms.org/en/blog/releases/2017-02-22-opennms-horizon-19.0.1).  If you are using Horizon 19, please upgrade!
 
 
 ## Upcoming Events and Appearances
 
 * __[Percona Live - April 24th through 27th, 2017](https://www.percona.com/live/17/)__
 
-  Jesse [https://www.percona.com/live/17/users/jesse-white](will be speaking at Percona) in Santa Clara, California on April 25th, 2017.
+  Jesse [will be speaking at Percona](https://www.percona.com/live/17/users/jesse-white) in Santa Clara, California on April 25th, 2017.
 
 
 ## Until Next Week…

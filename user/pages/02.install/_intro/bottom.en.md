@@ -17,12 +17,12 @@ services:
       url: "install-windows"
       text: "Show me"
     - icon: cubes
-      title: Vagrant
-      desc: "Get a ready-to-run Vagrant base image"
-      url: "install-vagrant"
+      title: Docker
+      desc: "Run OpenNMS Horizon in Linux container"
+      url: "https://hub.docker.com/r/opennms/horizon-core-web/"
       text: "Show me"
 ---
 
 Quickstart install scripts work for most small network environments and get you quickly up to speed.
-Test new configurations or evaluate OpenNMS Horizon and [Grafana](http://grafana.org) with a pre-installed [Vagrant](https://www.vagrantup.com) basebox image with [VirtualBox](https://www.virtualbox.org).
+Test new configurations or evaluate OpenNMS Horizon and [Grafana](http://grafana.org) in Linux Container with ready to run [container images](https://hub.docker.com/r/opennms) using [Docker](https://www.docker.com/what-docker) and [Docker Compose](https://docs.docker.com/compose/).
 If you want a more customized installation please go to our [installation guides](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html).

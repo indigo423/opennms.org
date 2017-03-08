@@ -107,7 +107,7 @@ services:
         - /var/opennms/rrd
         - /var/opennms/reports
   opennms:
-    image: opennms/horizon-core-web:19.0.1
+    image: opennms/horizon-core-web:19.0.1-1
     env_file:
       - .opennms.env
       - .postgres.env
@@ -240,7 +240,7 @@ Define the service by creating a `docker-compose.yml` file:
 version: '2'
 services:
   minion:
-    image: opennms/minion:19.0.1
+    image: opennms/minion:19.0.1-1
     env_file:
       - .minion.env
     command: ["-f"]

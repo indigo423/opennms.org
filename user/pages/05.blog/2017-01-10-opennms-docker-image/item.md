@@ -11,18 +11,18 @@ taxonomy:
 Deploying and running OpenNMS and Minions in infrastructures using containers might be interesting to some users.
 For this reason, I've started to use [Docker](https://docs.docker.com/engine/installation/) infrastructure to provide a ready-to-run entrypoint to build your OpenNMS container based infrastructure.
 You can find more information in the [lab section](https://wiki.opennms.org/wiki/Lab) under [Running with Docker](https://wiki.opennms.org/wiki/DevProjects/Running_with_Docker) in our wiki.
-The Docker files and images can be forked on [GitHub](https://github.com/indigo423/docker-opennms) and pre-built images are available on [Dockerhub](https://hub.docker.com/r/indigo).
+The Docker files and images can be forked on [GitHub](https://hub.docker.com/r/opennms/horizon-core-web/) and pre-built images are available on [Dockerhub](https://hub.docker.com/u/opennms/dashboard/).
 
 To run this example, make sure you have a recent version of Docker 1.12+ and Docker Compose 1.8+ installed.
 You can verify with `docker version` and `docker-compose version`.
 
 OpenNMS uses a few other services like a [PostgreSQL](https://www.postgresql.org) database service, therefore I recommend that you use [Docker Compose](https://docs.docker.com/compose/) to model your OpenNMS service.
-The following tutorial shows you how to build an [OpenNMS Horizon](https://www.opennms.org) with the latest stable version using [PostgreSQL 9.6.1](https://www.postgresql.org/docs/9.6/static/release-9-6-1.html) and [Grafana 4.0.2](http://docs.grafana.org/guides/whats-new-in-v4/).
+The following tutorial shows you how to build an [OpenNMS Horizon](https://www.opennms.org) with the latest stable version using [PostgreSQL 9.6.1](https://www.postgresql.org/docs/9.6/static/release-9-6-1.html) and [Grafana 4.1.1](http://docs.grafana.org/guides/whats-new-in-v4/).
 
 ![Docker Layers](docker-layers.svg)
 
 An intermediate image is used to ease maintaining the Java JDK version for OpenNMS.
-By using the `opennms:latest` version tag a [daily built](https://hub.docker.com/r/indigo/docker-opennms/builds/) image from the OpenNMS develop branch is used.
+By using the `opennms:latest` version tag a [daily built](https://hub.docker.com/r/opennms/horizon-core-web/builds/) image from the OpenNMS develop branch is used.
 
 ![Docker Service Stack](docker-service-stack.svg)
 
@@ -107,7 +107,7 @@ services:
         - /var/opennms/rrd
         - /var/opennms/reports
   opennms:
-    image: indigo/docker-opennms:rc-19.0.0
+    image: opennms/horizon-core-web:19.0.1
     env_file:
       - .opennms.env
       - .postgres.env
@@ -133,7 +133,7 @@ services:
         - /var/lib/grafana
         - /var/lib/grafana/plugins
   grafana:
-    image: grafana/grafana:4.0.2
+    image: grafana/grafana:4.1.1
     env_file:
       - .grafana.env
     depends_on:
@@ -240,7 +240,7 @@ Define the service by creating a `docker-compose.yml` file:
 version: '2'
 services:
   minion:
-    image: indigo/docker-minion
+    image: opennms/minion:19.0.1
     env_file:
       - .minion.env
     command: ["-f"]
@@ -255,4 +255,3 @@ Start the Minion service with `docker-compose up -d`.
 A health check [tests the communication](http://docs.opennms.org/opennms/branches/develop/guide-install/guide-install.html#_verifying_connectivity) to the OpenNMS Horizon instance, and can be checked with the `docker ps` command.
 
 By default the Minion is automatically provisioned in the OpenNMS system and sends a heartbeat to OpenNMS which is monitored with the `Minion-Heartbeat` service.
-

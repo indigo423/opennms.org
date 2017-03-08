@@ -37,7 +37,7 @@
           <y:Geometry height="39.0" width="145.0" x="401.0" y="134.75"/>
           <y:Fill color="#8AE234" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="67.57600402832031" x="38.711997985839844" y="10.510000228881836">centos-jdk8<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.12799835205078" x="48.93600082397461" y="10.510000228881836">openjdk<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -54,7 +54,7 @@
           <y:Geometry height="39.0" width="145.0" x="401.0" y="228.5"/>
           <y:Fill color="#8AE234" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.02799987792969" x="45.486000061035156" y="10.510000228881836">opennms<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica Neue" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.979999542236328" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.30399322509766" x="22.848003387451172" y="10.510000228881836">horizon-core-web<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -99,7 +99,6 @@
       </data>
     </node>
     <edge id="e0" source="n1" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -118,7 +117,6 @@
       </data>
     </edge>
     <edge id="e1" source="n2" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

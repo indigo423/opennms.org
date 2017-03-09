@@ -1,8 +1,9 @@
 ---
 title: This Week in OpenNMS
 blog_url: twio
+date: 10:48 02/27/2015
 menu: TWiO
-body_classes: header-lite fullwidth blogstyling
+body_classes: "header-lite fullwidth blogstyling"
 
 sitemap:
     changefreq: weekly

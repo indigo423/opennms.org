@@ -14,7 +14,7 @@
     }
 
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.75rem;
         margin-top: 0;
         margin-bottom: 0;
         text-transform: uppercase;
@@ -43,9 +43,12 @@
     }
     .list-blog-header {
         position: relative;
+        text-align: left;
         h4 {
             text-align: left;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.75rem;
+            padding-left: 0.25em;
+            background-color: #eeeeec;
             a {
                 color: $light-gray;
                 &:hover {
@@ -67,7 +70,6 @@
         margin-bottom: 0.2rem;
         margin-right: 0.5rem;
         font-size: $blog-tag-font-size;
-        text-transform: uppercase;
         color: $core-text;
         font-family: $font-family-header;
 
@@ -82,12 +84,18 @@
             clear: both;
         }
     }
+
+  .list-blog-padding h1, h2 {
+    font-size: 1.75rem;
+    text-align: left;
+    text-transform: none;
+  }
 }
 
 // Bigger first para
 .blog-content-item {
     .list-blog-padding > p:nth-child(2) {
-        font-size: $core-font-size + 0.2rem;
+        font-size: $core-font-size;
     }
 }
 
@@ -104,7 +112,6 @@
     li {
         display: inline-block;
         font-size: $blog-tag-font-size;
-        text-transform: uppercase;
         font-family: $font-family-header;
         a {
             color: $core-text;
@@ -171,6 +178,7 @@
 // Breadcrumbs
 div#breadcrumbs {
     padding-left: 0;
+    text-align: left !important;
     @include breakpoint(mobile-only) {
         display: none;
     }

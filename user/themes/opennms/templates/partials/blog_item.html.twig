@@ -1,12 +1,5 @@
-<div class="list-item">
-
-    <div class="list-blog-header">
-        {% if big_header %}
-            {{ page.media.images|first.cropResize(900,600).html }}
-        {% else %}
-            {{ page.media.images|first.cropZoom(900,300).html }}
-        {% endif %}
-
+<div class="list-item">  
+      <div class="list-blog-header">
         {% if page.header.link %}
             <h4>
                 {% if page.header.continue_link is not sameas(false) %}
@@ -36,7 +29,6 @@
             {% endfor %}
         </ul>
         {% endif %}
-
     </div>
 
     <div class="list-blog-padding">

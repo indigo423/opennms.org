@@ -1,6 +1,6 @@
 enabled: true
-from: your@email.here
-to: your@email.here
+from: website@opennms.org
+to: webmaster@opennms.org
 mailer:
   engine: mail
   smtp:

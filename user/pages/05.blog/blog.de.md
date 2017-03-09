@@ -2,10 +2,10 @@
 title: Blog
 blog_url: blog
 menu: Blog
-body_classes: header-lite header-image fullwidth blogstyling
+body_classes: header-image fullwidth blogstyling
 
 sitemap:
-    changefreq: monthly
+    changefreq: weekly
     priority: 1.03
 
 content:
@@ -17,7 +17,7 @@ content:
     pagination: true
 
 feed:
-    description: Sample Blog Description
+    description: Blog von der OpenNMS Community
     limit: 10
 
 pagination: true

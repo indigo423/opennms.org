@@ -8,7 +8,7 @@ taxonomy:
     tag: [ouce, dev-jam, events]
 ---
 
-# Dev-Jam 2016
+## Dev-Jam 2016
 
 Our eleventh developers' conference at the [University of Minnesota](https://housing.umn.edu/yudof) is in just a few days!
 This is the place to go if you want to spend a week with OpenNMS core contributors to learn or share your experiences.
@@ -17,7 +17,7 @@ At Dev-Jam, we can spend time with other developers to learn things, have a lot 
 If you want to learn or share something with OpenNMS core contributors, this is definitely the place to go. There is a very good reason we call it the 5th season of the year.
 You’re very welcome to join and you find all the details on our [Dev-Jam Wiki page](http://wiki.opennms.org/wiki/Dev-Jam_2016).
 
-# OUCE 2016
+## OUCE 2016
 
 We have started our ticket sales for the [OpenNMS User Conference 2016](https://ouce.opennms.eu) yesterday evening.
 So far there is a nice line up of [speakers](http://cfp.opennms.eu/en/ouce2016/public/speakers) and [talks](http://cfp.opennms.eu/en/ouce2016/public/events).
@@ -27,7 +27,7 @@ The conference is held at the [University of Applied Sciences](http://www.hs-ful
 To be part of the conference you can apply your [Call for Paper](https://ouce.opennms.eu/cfp) until 1st. August.
 Save the date and get your ticket on the [OUCE conference page](https://ouce.opennms.eu).
 
-# New website
+## New website
 
 As you may have noticed, we have completely reworked our website.
 We have cleaned up a lot of content and improve what people wanted.

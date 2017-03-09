@@ -74,7 +74,7 @@ b, strong, label, th {
   transition: all 0.5s ease; }
 
 .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-  text-align: center;
+  text-align: left;
   padding-left: 18rem;
   padding-right: 18rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
@@ -816,10 +816,12 @@ td {
   .list-item:last-child {
     border-bottom: 0; }
   .list-item .list-blog-header {
-    position: relative; }
+    position: relative;
+    text-align: left; }
     .list-item .list-blog-header h4, .list-item .list-blog-header .archive-list label, .archive-list .list-item .list-blog-header label, .list-item .list-blog-header .modular .bottom table th, .modular .bottom table .list-item .list-blog-header th, .list-item .list-blog-header .contact label, .contact .list-item .list-blog-header label, .list-item .list-blog-header .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .list-item .list-blog-header .name, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .list-item .list-blog-header .button, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .list-item .list-blog-header button, .list-item .list-blog-header .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .list-item .list-blog-header button, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .list-item .list-blog-header button, .list-item .list-blog-header .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .list-item .list-blog-header button {
       text-align: left;
-      margin-bottom: 1.5rem; }
+      margin-bottom: 1.5rem;
+      background-color: darkgray; }
       .list-item .list-blog-header h4 a, .list-item .list-blog-header .archive-list label a, .archive-list .list-item .list-blog-header label a, .list-item .list-blog-header .modular .bottom table th a, .modular .bottom table .list-item .list-blog-header th a, .list-item .list-blog-header .contact label a, .contact .list-item .list-blog-header label a, .list-item .list-blog-header .callout .pricing-container .pricing-item .name a, .callout .pricing-container .pricing-item .list-item .list-blog-header .name a, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .button a, .callout .pricing-container .pricing-item .foot .list-item .list-blog-header .button a, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .archive-list button a, .callout .pricing-container .pricing-item .foot .archive-list .list-item .list-blog-header button a, .list-item .list-blog-header .archive-list .callout .pricing-container .pricing-item .foot button a, .archive-list .callout .pricing-container .pricing-item .foot .list-item .list-blog-header button a, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .contact button a, .callout .pricing-container .pricing-item .foot .contact .list-item .list-blog-header button a, .list-item .list-blog-header .contact .callout .pricing-container .pricing-item .foot button a, .contact .callout .pricing-container .pricing-item .foot .list-item .list-blog-header button a {
         color: #656161; }
         .list-item .list-blog-header h4 a:hover, .list-item .list-blog-header .archive-list label a:hover, .archive-list .list-item .list-blog-header label a:hover, .list-item .list-blog-header .modular .bottom table th a:hover, .modular .bottom table .list-item .list-blog-header th a:hover, .list-item .list-blog-header .contact label a:hover, .contact .list-item .list-blog-header label a:hover, .list-item .list-blog-header .callout .pricing-container .pricing-item .name a:hover, .callout .pricing-container .pricing-item .list-item .list-blog-header .name a:hover, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .button a:hover, .callout .pricing-container .pricing-item .foot .list-item .list-blog-header .button a:hover, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .archive-list button a:hover, .callout .pricing-container .pricing-item .foot .archive-list .list-item .list-blog-header button a:hover, .list-item .list-blog-header .archive-list .callout .pricing-container .pricing-item .foot button a:hover, .archive-list .callout .pricing-container .pricing-item .foot .list-item .list-blog-header button a:hover, .list-item .list-blog-header .callout .pricing-container .pricing-item .foot .contact button a:hover, .callout .pricing-container .pricing-item .foot .contact .list-item .list-blog-header button a:hover, .list-item .list-blog-header .contact .callout .pricing-container .pricing-item .foot button a:hover, .contact .callout .pricing-container .pricing-item .foot .list-item .list-blog-header button a:hover {
@@ -835,7 +837,6 @@ td {
     margin-bottom: 0.2rem;
     margin-right: 0.5rem;
     font-size: 0.75em;
-    text-transform: uppercase;
     color: #555753;
     font-family: "Comfortaa", "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -864,7 +865,6 @@ td {
   .tags li {
     display: inline-block;
     font-size: 0.75em;
-    text-transform: uppercase;
     font-family: "Comfortaa", "HelveticaNeue-Bold", "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
     .tags li a {
       color: #555753; }

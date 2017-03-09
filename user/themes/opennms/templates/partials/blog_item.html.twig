@@ -1,22 +1,11 @@
 <div class="list-item">
-
+  
+	{% if config.plugins.breadcrumbs.enabled %}
+	{% include 'partials/breadcrumbs.html.twig' %}
+	{% endif %}
+  
     <div class="list-blog-header">
-        {% if big_header %}
-            {{ page.media.images|first.cropResize(900,600).html }}
-        {% else %}
-            {{ page.media.images|first.cropZoom(900,300).html }}
-        {% endif %}
-
-        {% if page.header.link %}
-            <h4>
-                {% if page.header.continue_link is not sameas(false) %}
-                <a href="{{ page.url }}"><i class="fa fa-angle-double-right"></i></a>
-                {% endif %}
-                <a href="{{ page.header.link }}">{{ page.title }}</a>
-            </h4>
-        {% else %}
-            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
-        {% endif %}
+        <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
 
         <span class="list-blog-date">
             <i class="fa fa-calendar"></i>

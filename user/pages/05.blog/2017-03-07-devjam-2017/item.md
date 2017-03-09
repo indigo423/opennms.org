@@ -2,7 +2,7 @@
 title: Dev Jam 2017: July 16-21 Concordia University
 date: 09:42 03/07/2017
 author: Tarus Balog
-body_classes: header-lite fullwidth blogstyling
+body_classes: "header-lite fullwidth blogstyling"
 taxonomy:
     category: release
     tag: [events, devjam]

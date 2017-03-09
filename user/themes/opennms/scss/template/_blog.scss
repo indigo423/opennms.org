@@ -14,7 +14,7 @@
     }
 
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.75rem;
         margin-top: 0;
         margin-bottom: 0;
         text-transform: uppercase;
@@ -46,8 +46,9 @@
         text-align: left;
         h4 {
             text-align: left;
-            margin-bottom: 1.5rem;
-            background-color: darkgray;
+            margin-bottom: 1.75rem;
+            padding-left: 0.25em;
+            background-color: #eeeeec;
             a {
                 color: $light-gray;
                 &:hover {
@@ -83,12 +84,18 @@
             clear: both;
         }
     }
+
+  .list-blog-padding h1, h2 {
+    font-size: 1.75rem;
+    text-align: left;
+    text-transform: none;
+  }
 }
 
 // Bigger first para
 .blog-content-item {
     .list-blog-padding > p:nth-child(2) {
-        font-size: $core-font-size + 0.2rem;
+        font-size: $core-font-size;
     }
 }
 

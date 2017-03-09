@@ -1,11 +1,15 @@
-<div class="list-item">
-  
-	{% if config.plugins.breadcrumbs.enabled %}
-	{% include 'partials/breadcrumbs.html.twig' %}
-	{% endif %}
-  
-    <div class="list-blog-header">
-        <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+<div class="list-item">  
+      <div class="list-blog-header">
+        {% if page.header.link %}
+            <h4>
+                {% if page.header.continue_link is not sameas(false) %}
+                <a href="{{ page.url }}"><i class="fa fa-angle-double-right"></i></a>
+                {% endif %}
+                <a href="{{ page.header.link }}">{{ page.title }}</a>
+            </h4>
+        {% else %}
+            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+        {% endif %}
 
         <span class="list-blog-date">
             <i class="fa fa-calendar"></i>
@@ -25,7 +29,6 @@
             {% endfor %}
         </ul>
         {% endif %}
-
     </div>
 
     <div class="list-blog-padding">

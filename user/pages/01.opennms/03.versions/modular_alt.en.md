@@ -1,7 +1,7 @@
 ---
 title: Versions
 onpage_menu: false
-body_classes: "modular header-image header-lite fullwidth"
+body_classes: "header-lite fullwidth blogstyling"
 
 content:
     items: @self.modular

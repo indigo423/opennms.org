@@ -3,7 +3,7 @@
 }
 
 .padding-horiz {
-	text-align: left;
+	text-align: center;
 	padding-left: $padding-horiz;
 	padding-right: $padding-horiz;
 	@include breakpoint(desktop-range) {

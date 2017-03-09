@@ -43,9 +43,11 @@
     }
     .list-blog-header {
         position: relative;
+        text-align: left;
         h4 {
             text-align: left;
             margin-bottom: 1.5rem;
+            background-color: darkgray;
             a {
                 color: $light-gray;
                 &:hover {
@@ -67,7 +69,6 @@
         margin-bottom: 0.2rem;
         margin-right: 0.5rem;
         font-size: $blog-tag-font-size;
-        text-transform: uppercase;
         color: $core-text;
         font-family: $font-family-header;
 
@@ -104,7 +105,6 @@
     li {
         display: inline-block;
         font-size: $blog-tag-font-size;
-        text-transform: uppercase;
         font-family: $font-family-header;
         a {
             color: $core-text;

@@ -1,8 +1,9 @@
 ---
-title: Releases
+title: Releases Announcements
 blog_url: releases
-menu: Releases
-body_classes: header-lite fullwidth blogstyling
+menu: Releases Notes
+date: 10:48 02/27/2015
+body_classes: header-image fullwidth blogstyling
 
 sitemap:
     changefreq: weekly
@@ -22,5 +23,3 @@ feed:
 
 pagination: true
 ---
-
-# Release Announcements

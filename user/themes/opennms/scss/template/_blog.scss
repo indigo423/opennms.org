@@ -178,6 +178,7 @@
 // Breadcrumbs
 div#breadcrumbs {
     padding-left: 0;
+    text-align: left !important;
     @include breakpoint(mobile-only) {
         display: none;
     }

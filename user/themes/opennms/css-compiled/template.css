@@ -913,7 +913,8 @@ td {
   margin-bottom: 1rem; }
 
 div#breadcrumbs {
-  padding-left: 0; }
+  padding-left: 0;
+  text-align: left !important; }
   @media only all and (max-width: 47.938em) {
     div#breadcrumbs {
       display: none; } }

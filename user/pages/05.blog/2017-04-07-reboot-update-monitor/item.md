@@ -8,17 +8,12 @@ taxonomy:
     tag: [poller, wiki, monitor,]
 ---
 
-Ever had one of those days?
+Security updates are important and need to be installed regularly and as quick as possible.
 
-You just arrived at work, haven't yet had your first coffee,
-and some customers are calling or maybe your boss is standing in your office,
-asking you about the newest published security issues in e.g. kernel modules, OpenSSH, OpenSSL... whatever...
+In Linux distributions like Ubuntu and Debian this is easily done with the apt package manager.
+Most of the security updates can be installed without rebooting your system.
+If you upgrade your Kernel it is required to restart your system and Ubuntu and Debian can tell you if a reboot is required. In case you have a fleet of machines to maintain, OpenNMS and Net-SNMP can help you with this task.
 
-Certainly the question if and maybe why we are still affected by this bug is in sight.
-And maybe why you don't know about it yet...
-
-You definitely don't like days like this :-)
-
-So this is an approach to prepare you for such situations.
+This is an example how to get your systems up to date and let OpenNMS tell you when a reboot of your systems is required.
 
 Would you like to know more? -> [Reboot & Update Monitor](https://wiki.opennms.org/wiki/Update_%26_Reboot_Monitor)

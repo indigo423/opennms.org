@@ -1,0 +1,13 @@
+---
+title: Restart Detection
+date: 20:50 2017-05-03
+author: Marcel Fuhrmann
+body_classes: header-lite fullwidth blogstyling
+taxonomy:
+    category: wiki
+    tag: [threshold, wiki]
+---
+It's always important to work through your outages and alarm events to get an overview what happened in your system.
+In some cases you won't recognize system restarts because the systems (especially VMs) nowadays do it very fast -- often faster than your ICMP polling cycle.
+
+Would you like to know more? -> [Restart Detection](https://wiki.opennms.org/wiki/Restart_Detection)

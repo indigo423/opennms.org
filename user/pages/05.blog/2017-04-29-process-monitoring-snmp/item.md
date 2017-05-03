@@ -127,8 +127,8 @@ iso.3.6.1.4.1.2021.2.1.100.3 = INTEGER: 0
 iso.3.6.1.4.1.2021.2.1.100.4 = INTEGER: 0
 ```
 
-To monitor the tables above OpenNMS has a [PrTableMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_prtablemonitor) which uses the SNMP tables above.
-There are no specific configuration parameters necessary, cause the configuration how the processes are monitored is configured in the Net-SNMP configuration.
+The [PrTableMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_prtablemonitor) uses the tables above to monitor the status of running processes.
+There are no specific configuration parameters necessary, cause the configuration how and which the processes are monitored is configured in the Net-SNMP configuration.
 
 In OpenNMS, you configure just one monitor named like `Process-Table`.
 As soon the Net-SNMP agent identifies a process is not running in the specified boundaries the _Error Flag_ table is updated and is changed from `0` to `1`.

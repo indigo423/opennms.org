@@ -9,23 +9,24 @@ taxonomy:
 ---
 
 A default use case in monitoring is you want to make sure processes which don't provide network services are running on your systems.
-For the reason, they provide no network services you can't use black box testing and you need an agent on your system which gives you an insight view on your operating system.
-An agent which is easy to install and configure on Linux or Unix is the Net-SNMP agent and using a monitoring solution which supports SNMP like OpenNMS.
+Because they provide no network services, you can't use black box testing and you need an agent on your system which gives you an insight view on your operating system.
+An agent which is easy to install and configure on Linux or Unix is the Net-SNMP agent.
+It's compatible with any monitoring solution which supports SNMP, including OpenNMS.
 
-By default there are basically two ways with Net-SNMP, using the HOST-RESOURCES-MIB or using the UCD-SNMP-MIB which are both provided by the Net-SNMP agent.
+By default there are basically two ways with Net-SNMP, using the HOST-RESOURCES-MIB or using the UCD-SNMP-MIB which are both supported by the Net-SNMP agent.
 The result using one or the other is the same but it has some impact on configuring and maintaining your monitoring system.
 This article will give you some insight views to decide when you should choose one or another.
 In this example, we will discuss different solutions monitoring a two single processes and a multiprocess application.
 
 ## Using the Host Resources MIB
 
-When you are using the Host Resources MIB the key information are in two tables, the `hrSWRunName` and the according `hrhrSWRunStatus`.
+When you are using the Host Resources MIB the key information is in two tabular objects, the `hrSWRunName` and the according `hrhrSWRunStatus`.
 
 In OpenNMS you can use the [HostResourceSwRunMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_hostresourceswrunmonitor).
 The key parameters are
 
-* `service-name`: The name of the process you want to monitor from the `hrSWRunName` table.
-* `match-all`: In case there are multiple processes running, all processes need to be in the run-level state
+* `service-name`: The name of the process you want to monitor from the `hrSWRunName` object.
+* `match-all`: In case there are multiple processes running, all processes need to be in the named run-level state
 * `run-level`: The status of the process status, by default it is set to `2` and does not need to be changed.
 
 The output of an SNMP is shown below:
@@ -64,27 +65,28 @@ snmpwalk -v 2c -c useVersion3 localhost .1.3.6.1.2.1.25.4.2.1.7
 .1.3.6.1.2.1.25.4.2.1.7.1972 = INTEGER: runnable(2)
 ```
 
-For each process, you want to monitor you have to create a service monitor named like `Process-docker-proxy`, `Process-tincd` and `Process-dockerd`.
+For each process you want to monitor, you have to create a service monitor named something like `Process-docker-proxy`, `Process-tincd` and `Process-dockerd`.
 
 **Pro:**
-It allows to setup a granular monitoring for every process.
+It allows to set up a granular monitoring for every process.
 The service monitors can be used in "Service Level Management" on the start page for availability calculation and notifications for each process.
 
 **Cons:**
-You have to configure and maintain for each process you want to monitor in OpenNMS a service monitor. It is not possible to configure something like: "At least a number x of y processes need to be running to have the service to be ok.
+You have to configure and maintain a service monitor for each process you want to monitor in OpenNMS.
+It is not possible to configure something like: "At least a number x of y processes need to be running to have the service to be ok."
 
 ## Using the UCD-SNMP-MIB
 
 Net-SNMP has a mechanism to monitor processes on the system with the `proc` directive in the configuration file.
-Directive `proc` is pretty easy to configure:
+The `proc` directive is pretty easy to configure:
 
 `proc docker-proxy 20 5`
 
-First argument is the name of the process you want to monitor in this case the process named `docker-proxy`.
-There should be run at least 5 to maximum 20 processes named `docker-proxy` to be ok.
+First argument is the name of the process you want to monitor, in this case the process named `docker-proxy`.
+There should be run at least 5 but not more than 20 processes named `docker-proxy` to be ok.
 The maximum and minimum number of processes is optional and when they don't exist, at least one process should be running to be ok.
-If you would like use a configuration management tool to configure your SNMP agent, you can create use the `includeDir /etc/snmp/conf.d` directive in `snmpd.conf`.
-That way you can drop for each application you want to monitor a  `.conf` file with the `proc` directive and will be included.
+If you would like use a configuration management tool to configure your SNMP agent, you can use the `includeDir /etc/snmp/conf.d` directive in `snmpd.conf`.
+That way you can drop a  `.conf` file with the `proc` directive for each application you want to monitor, and each will be included.
 
 The example to monitor `tincd`, `dockerd` and `docker-proxy` with the configured `proc` looks like the following:
 
@@ -128,17 +130,18 @@ iso.3.6.1.4.1.2021.2.1.100.4 = INTEGER: 0
 ```
 
 The [PrTableMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_prtablemonitor) uses the tables above to monitor the status of running processes.
-There are no specific configuration parameters necessary, cause the configuration how and which the processes are monitored is configured in the Net-SNMP configuration.
+There are no specific configuration parameters necessary, because the configuration of which processes are monitored and how is located in the Net-SNMP configuration.
 
-In OpenNMS, you configure just one monitor named like `Process-Table`.
-As soon the Net-SNMP agent identifies a process is not running in the specified boundaries the _Error Flag_ table is updated and is changed from `0` to `1`.
-The OpenNMS monitor will go down and gives you a list of names with the processes which are not in a desired state.
+In OpenNMS, you configure just one monitor named something like `Process-Table`.
+As soon as the Net-SNMP agent identifies a process is not running in the specified boundaries the _Error Flag_ table is updated and is changed from `0` to `1`.
+The OpenNMS monitor will go down and give you a list of names with the processes which are not in a desired state.
 
 **Pro:**
-You have only to configure one PrTable Monitor in OpenNMS, nevertheless how many processes you want to monitor.
-The detailed configuration which process needs to be monitored is configured on the system itself, the SNMP agent needs to be configured anyway and configuration management tools are in place in larger environments.
-It is possible to configure in detail how many processes and which processes need to be monitored. Only one service goes done if multiple processes fail.
+You have only to configure one PrTable Monitor in OpenNMS, regardless of how many processes you want to monitor.
+The detailed configuration of which process needs to be monitored is configured on the monitored system itself; the SNMP agent needs to be configured anyway, and configuration management tools are in place in larger environments.
+It is possible to configure in detail how many processes and which processes need to be monitored.
+Only one service goes down if multiple processes fail.
 
 **Cons:**
-There is only on service in OpenNMS for all services, it is not possible notify different people for specific processes.
+There is only one service in OpenNMS for all services, it is not possible to notify different people for specific processes.
 In case you have one process which fails and the monitor goes down and a second process fails, the event reason in OpenNMS documents only the event reason for the initial process failure.

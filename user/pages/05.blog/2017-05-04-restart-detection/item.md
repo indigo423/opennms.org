@@ -1,6 +1,6 @@
 ---
 title: Restart Detection
-date: 20:50 2017-05-03
+date: 20:50 2017-05-04
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:

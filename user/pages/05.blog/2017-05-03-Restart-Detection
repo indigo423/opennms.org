@@ -7,12 +7,11 @@ taxonomy:
     category: wiki
     tag: [threshold, wiki]
 ---
-Todays servers run most of the time in virtual environments and Java applications in containers.
-It is sometimes hard to spot if applications or server have restarted without knowing.
-A restart can be nowadays much faster then a polling cycle.
+Most of today's servers run in virtual environments and Java applications in containers.
+Sometimes these applications or servers unexpectedly restart and can often go unnoticed because a restart can be much faster then a polling cycle. 
 
-With SNMP enabled the hrSystemUptime can be used to detect restarts from Windows or Linux machines.
-A similar concept can be used to detect restart of Java application with JMX and the JVM uptime metric.
-This article describes how to use OpenNMS to use thresholds to detect server and Java application restarts and create events for alerting or logging.
+If SNMP is enabled, the hrSystemUptime can detect restarts from Windows or Linux machines.
+Similarly, this concept can also be applied to Java application restart detection via JMX and the JVM uptime metric.
+This article describes how to use the OpenNMS threshold features to detect server and Java application restarts and create events for alerting or logging.
 
 Would you like to know more? -> [Restart Detection](https://wiki.opennms.org/wiki/Restart_Detection)

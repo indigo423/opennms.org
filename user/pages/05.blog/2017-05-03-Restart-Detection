@@ -7,8 +7,9 @@ taxonomy:
     category: wiki
     tag: [threshold, wiki]
 ---
-It's always important to work through your outages and alarm events to get an overview what happened in your system.
-In some cases you won't recognize system restarts because the systems (especially VMs) nowadays do it very fast -- often faster than your polling cycle.
+Todays servers run most of the time in virtual environments and Java applications in containers.
+It is sometimes hard to spot if applications or server have restarted without knowing.
+A restart can be nowadays much faster then a polling cycle.
 
 With SNMP enabled the hrSystemUptime can be used to detect restarts from Windows or Linux machines.
 A similar concept can be used to detect restart of Java application with JMX and the JVM uptime metric.

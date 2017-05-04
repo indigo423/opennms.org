@@ -8,22 +8,23 @@ taxonomy:
     tag: [monitoring, process, snmp]
 ---
 
-A default use case in monitoring is you want to make sure processes which don't provide network services are running on your systems.
-Because they provide no network services, you can't use black box testing and you need an agent on your system which gives you an insight view on your operating system.
-An agent which is easy to install and configure on Linux or Unix is the Net-SNMP agent.
-It's compatible with any monitoring solution which supports SNMP, including OpenNMS.
+Monitoring processes that don't provide network servies is a default use case in network monitoring.
+Because they aren't providing network services, black box testing won't work- you need an agent on your system providing an inside view of your operating system.
+The Net-SNMP agent is easy to install and configure on Linux or Unix.
+It's compatible with any monitoring solution that supports SNMP, such as OpenNMS.
 
-By default there are basically two ways with Net-SNMP, using the HOST-RESOURCES-MIB or using the UCD-SNMP-MIB which are both supported by the Net-SNMP agent.
-The result using one or the other is the same but it has some impact on configuring and maintaining your monitoring system.
-This article will give you some insight views to decide when you should choose one or another.
-In this example, we will discuss different solutions monitoring a two single processes and a multiprocess application.
+By default, there are basically two methods utilizing Net-SNMP: using the HOST-RESOURCES-MIB or using the UCD-SNMP-MIB. Both are supported by the Net-SNMP agent.
+Both methods produce the same result, but each will impact your monitoring system configuration and maintenance differently.  
+
+To help you decide which method to use, this article will discuss the costs and benefits for each.
+In this example, we will discuss different monitoring solutions for two single processes and a multiprocess application.
 
 ## Using the Host Resources MIB
 
-When you are using the Host Resources MIB the key information is in two tabular objects, the `hrSWRunName` and the according `hrhrSWRunStatus`.
+When you are using the Host Resources MIB, the key information is in two tabular objects: the `hrSWRunName` and the according `hrhrSWRunStatus`.
 
-In OpenNMS you can use the [HostResourceSwRunMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_hostresourceswrunmonitor).
-The key parameters are
+In OpenNMS, you can use the [HostResourceSwRunMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_hostresourceswrunmonitor).
+The key parameters are:
 
 * `service-name`: The name of the process you want to monitor from the `hrSWRunName` object.
 * `match-all`: In case there are multiple processes running, all processes need to be in the named run-level state
@@ -68,7 +69,7 @@ snmpwalk -v 2c -c useVersion3 localhost .1.3.6.1.2.1.25.4.2.1.7
 For each process you want to monitor, you have to create a service monitor named something like `Process-docker-proxy`, `Process-tincd` and `Process-dockerd`.
 
 **Pro:**
-It allows to set up a granular monitoring for every process.
+It allows you to set up granular monitoring for every process.
 The service monitors can be used in "Service Level Management" on the start page for availability calculation and notifications for each process.
 
 **Cons:**
@@ -83,7 +84,7 @@ The `proc` directive is pretty easy to configure:
 `proc docker-proxy 20 5`
 
 First argument is the name of the process you want to monitor, in this case the process named `docker-proxy`.
-There should be run at least 5 but not more than 20 processes named `docker-proxy` to be ok.
+You should run at least 5 but not more than 20 processes named `docker-proxy` to be safe.
 The maximum and minimum number of processes is optional and when they don't exist, at least one process should be running to be ok.
 If you would like use a configuration management tool to configure your SNMP agent, you can use the `includeDir /etc/snmp/conf.d` directive in `snmpd.conf`.
 That way you can drop a  `.conf` file with the `proc` directive for each application you want to monitor, and each will be included.
@@ -130,11 +131,11 @@ iso.3.6.1.4.1.2021.2.1.100.4 = INTEGER: 0
 ```
 
 The [PrTableMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_prtablemonitor) uses the tables above to monitor the status of running processes.
-There are no specific configuration parameters necessary, because the configuration of which processes are monitored and how is located in the Net-SNMP configuration.
+There are no specific configuration parameters necessary, because the configuration of how and which processes are monitored is located in the Net-SNMP configuration.
 
-In OpenNMS, you configure just one monitor named something like `Process-Table`.
-As soon as the Net-SNMP agent identifies a process is not running in the specified boundaries the _Error Flag_ table is updated and is changed from `0` to `1`.
-The OpenNMS monitor will go down and give you a list of names with the processes which are not in a desired state.
+In OpenNMS, configure just one monitor named something like `Process-Table`.
+As soon as the Net-SNMP agent identifies a process is not running in the specified boundaries, the _Error Flag_ table is updated and is changed from `0` to `1`.
+The OpenNMS monitor will go down and give you a list of names with the processes that are not in a desired state.
 
 **Pro:**
 You have only to configure one PrTable Monitor in OpenNMS, regardless of how many processes you want to monitor.
@@ -144,4 +145,4 @@ Only one service goes down if multiple processes fail.
 
 **Cons:**
 There is only one service in OpenNMS for all services, it is not possible to notify different people for specific processes.
-In case you have one process which fails and the monitor goes down and a second process fails, the event reason in OpenNMS documents only the event reason for the initial process failure.
+In case you have one process that fails and the monitor goes down and a second process fails, the event reason in OpenNMS documents only the event reason for the initial process failure.

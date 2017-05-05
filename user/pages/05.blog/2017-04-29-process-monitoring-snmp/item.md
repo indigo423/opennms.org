@@ -107,7 +107,6 @@ snmpwalk -v 2c -c useVersion3 localhost .1.3.6.1.4.1.2021.2.1.5
 iso.3.6.1.4.1.2021.2.1.5.1 = INTEGER: 3
 iso.3.6.1.4.1.2021.2.1.5.2 = INTEGER: 1
 iso.3.6.1.4.1.2021.2.1.5.3 = INTEGER: 13
-iso.3.6.1.4.1.2021.2.1.5.4 = INTEGER: 1
 ```
 
 Error Message
@@ -117,7 +116,6 @@ snmpwalk -v 2c -c useVersion3 localhost .1.3.6.1.4.1.2021.2.1.101
 iso.3.6.1.4.1.2021.2.1.101.1 = ""
 iso.3.6.1.4.1.2021.2.1.101.2 = ""
 iso.3.6.1.4.1.2021.2.1.101.3 = ""
-iso.3.6.1.4.1.2021.2.1.101.4 = ""
 ```
 
 Error Flag
@@ -127,7 +125,6 @@ snmpwalk -v 2c -c useVersion3 localhost .1.3.6.1.4.1.2021.2.1.100
 iso.3.6.1.4.1.2021.2.1.100.1 = INTEGER: 0
 iso.3.6.1.4.1.2021.2.1.100.2 = INTEGER: 0
 iso.3.6.1.4.1.2021.2.1.100.3 = INTEGER: 0
-iso.3.6.1.4.1.2021.2.1.100.4 = INTEGER: 0
 ```
 
 The [PrTableMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_prtablemonitor) uses the tables above to monitor the status of running processes.

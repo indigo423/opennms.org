@@ -4,7 +4,6 @@ date: 09:42 2017-05-09
 author: Marcel Fuhrmann, Ronny Trommer
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
-    category: wiki
     tag: [monitoring, process, snmp]
 ---
 

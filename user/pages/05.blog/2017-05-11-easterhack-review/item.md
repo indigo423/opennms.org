@@ -1,19 +1,19 @@
 ---
 title: Easterhack 2017 - Post Mortem
-date: 09:42 2017-05-10
+date: 09:42 2017-05-11
 author: Ronny Trommer
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     tag: [events]
 ---
 
+![Easterhack 2017](easterhack.png)
+
 Hello World,
 
 as some of you remember we had an Easterhack some days ago.
-Marcel Fuhrmann sponsored a place in his home to give some OpenNMS guys a place to stay, to eat, drink, talk and to have fun.
-Here some things what we did (besides playing Guitar Hero, using his home build climbing wall, eating Pizza and drinking [Mead](https://en.wikipedia.org/wiki/Mead) :)
-
-![Easterhack 2017](easterhack-01.jpg)
+Marcel Fuhrmann and Markus von Rüden organised the event and Marcel sponsored a place in his home to give some OpenNMS guys a place to stay to hack, eat, drink, talk and some fun.
+Here are a few things what we did (besides playing Guitar Hero, trying his home build climbing wall, eating Pizza and drinking [Mead](https://en.wikipedia.org/wiki/Mead) :)
 
 * We had a topic about best practices to monitor system processes and the result is published in the opennms.org [blog section](https://www.opennms.org/en/blog/2017-05-09-process-monitoring-snmp)
 * Markus von Rüden started to work on an enhancement on the start page with some new UI elements to show the overall monitoring status. The feature is targeted for next major release **Horizon 20**.

@@ -21,7 +21,7 @@ In this example, we will discuss different monitoring solutions for two single p
 
 ## Using the Host Resources MIB
 
-When you are using the Host Resources MIB, the key information is in two tabular objects: the `hrSWRunName` and the according `hrhrSWRunStatus`.
+When you are using the Host Resources MIB, the key information is in two tabular objects: the `hrSWRunName` and the according `hrSWRunStatus`.
 
 In OpenNMS, you can use the [HostResourceSwRunMonitor](http://docs.opennms.org/opennms/releases/19.0.1/guide-admin/guide-admin.html#_hostresourceswrunmonitor).
 The key parameters are:

@@ -8,7 +8,7 @@ taxonomy:
     tag: [monitoring, process, snmp]
 ---
 
-Monitoring processes that don't provide network servies is a default use case in network monitoring.
+Monitoring processes that don't provide network services is a default use case in network monitoring.
 Because they aren't providing network services, black box testing won't work- you need an agent on your system providing an inside view of your operating system.
 The Net-SNMP agent is easy to install and configure on Linux or Unix.
 It's compatible with any monitoring solution that supports SNMP, such as OpenNMS.

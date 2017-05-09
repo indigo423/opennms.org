@@ -13,6 +13,8 @@ as some of you remember we had an Easterhack some days ago.
 Marcel Fuhrmann sponsored a place in his home to give some OpenNMS guys a place to stay, to eat, drink, talk and to have fun.
 Here some things what we did (besides playing Guitar Hero, using his home build climbing wall, eating Pizza and drinking [Mead](https://en.wikipedia.org/wiki/Mead) :)
 
+![Easterhack 2017](easterhack-01.jpg)
+
 * We had a topic about best practices to monitor system processes and the result is published in the opennms.org [blog section](https://www.opennms.org/en/blog/2017-05-09-process-monitoring-snmp)
 * Markus von Rüden started to work on an enhancement on the start page with some new UI elements to show the overall monitoring status. The feature is targeted for next major release **Horizon 20**.
   Some screenshots and the motivation is documented in our Wiki in the [Lab-Section](https://wiki.opennms.org/wiki/DevProjects/Status_Box).

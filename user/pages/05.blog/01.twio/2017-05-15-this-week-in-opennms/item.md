@@ -1,6 +1,6 @@
 ---
-title: This Week in OpenNMS: May 1st, 2017
-date: 11:21 05/01/2017
+title: This Week in OpenNMS: May 15th, 2017
+date: 12:00 05/15/2017
 author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:

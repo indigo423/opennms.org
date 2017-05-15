@@ -5,7 +5,7 @@ author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: twio
-    tag: [twio, , hackathon, dev-jam]
+    tag: [twio, storebyforeignsource, capsd, packaging, jmx, ssl, minion, rest, bsm, youtube, opennms 101, dev-jam]
 ---
 
 It's time for This Week in OpenNMS!  In the last week we worked on various internal changes, Minion, and web APIs.

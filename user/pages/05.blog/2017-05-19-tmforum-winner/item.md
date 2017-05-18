@@ -16,7 +16,7 @@ Dr. Gallen founded [Entimoss](http://entimoss.myzen.co.uk/), our [OpenNMS](https
 He got involved with OpenNMS over a decade ago when he was working on his doctoral thesis entitled "Improving the Practice of Operations Support Systems in the Telecommunications Industry using Open Source".
 
 Most of his work was focused on a business solution framework called NGOSS (now [Frameworx](https://en.wikipedia.org/wiki/Frameworx)) developed by the TM Forum for creating next generation [OSS](https://en.wikipedia.org/wiki/Operations_support_system)/[BSS](https://en.wikipedia.org/wiki/Business_support_system) software and systems.
-Now the TM Forum is the world’s leading trade organization for telecommunications providers and at the time was not very friendly toward open source.
+The TM Forum is the world’s leading trade organization for telecommunications providers. At that time, it was not very friendly toward open source.
 He demonstrated how an open source platform like OpenNMS could be used to integrate with and tie together these different interfaces to build a reference implementation for part of the framework. Open source was a new concept for the industry, and we were branded the “open source pirates” at first. But Craig persisted, and in 2011 he was awarded the TM Forum’s [Outstanding Contributor Award](https://www.adventuresinoss.com/2011/01/27/2025/).
 
 In addition to his persistence and ability to deal with large organizations, Craig is also a great teacher.

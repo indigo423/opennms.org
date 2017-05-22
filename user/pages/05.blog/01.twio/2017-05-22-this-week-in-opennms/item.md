@@ -32,7 +32,7 @@ It's time for This Week in OpenNMS!  In the last week we worked on various inter
 
 ## OpenNMS Team Wins TeleManagement Forum's {open}:hack
 
-  Craig Gallen and a team of students from Southampton Solent University won a contest to create a project collecting and aggregating smoke emissions data from ships collected by drones.  You can [url=https://www.opennms.org/en/blog/2017-05-22-tmforum-winner]read the full writup here[/url], it looks like it was a pretty cool challenge.
+  Craig Gallen and a team of students from Southampton Solent University won a contest to create a project collecting and aggregating smoke emissions data from ships collected by drones.  You can [read the full writup here](https://www.opennms.org/en/blog/2017-05-22-tmforum-winner), it looks like it was a pretty cool challenge.
 
 
 ## Upcoming Events and Appearances

@@ -1,6 +1,6 @@
 ---
 title: OpenNMS Team Wins 5000€ Prize at TM Forum {open}:hack
-date: 09:42 2017-05-19
+date: 07:45 2017-05-22
 author: Tarus Balog
 body_classes: header-lite fullwidth blogstyling
 taxonomy:

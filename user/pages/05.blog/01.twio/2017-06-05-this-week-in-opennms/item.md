@@ -29,6 +29,12 @@ It's time for This Week in OpenNMS!  In the last week we worked on various inter
   * Craig and Jeff wrapped up the alarm alert browser support.
   * Jesse worked on various web UI bugs.
 
+## Office Move
+
+The OpenNMS Group has moved offices to Apex, NC.  This included moving a server closet full of equipment from one place to another and re-IP'ing a bunch of publicly-facing sites.  On the bright side, we've come out the other end with faster office internet and more IPs, so Bamboo [url=https://bamboo.opennms.org/]gets a real IP now...[/url] ;)
+
+If you notice any problems, please let us know.  If you join us for training in the future, you'll be happy to know we're now [url=http://www.southernpeakbrewery.com/]upstairs from a brewery[/url].  Cheers! 🍻
+
 ## Upcoming Events and Appearances
 
 * __[Dev-Jam 2017 - Concordia University - July 16th through 21st](http://www.opennms.com/opennms-dev-jam-registration)__

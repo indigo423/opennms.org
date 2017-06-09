@@ -15,4 +15,7 @@ But even if you already have some monitoring for webservices or domain name avai
 Maybe the login/logout procedure is broken, some parts of the website are missing or wrong data are presented... 
 You should be prevented for these situations.
 
+[Selenium](http://www.seleniumhq.org) is an automation for browsers and widely used for testing purposes.
+OpenNMS allows you to run complex web tests with Selenium to ensure web service availabilty and measures response times in the polling framework.
+
 Would you like to know more? -> [Selenium Monitor](https://wiki.opennms.org/wiki/Selenium_Monitor)

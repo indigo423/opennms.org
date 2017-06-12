@@ -155,7 +155,8 @@ class Form extends Iterator implements \Serializable
         $rules = $this->rules;
 
         $blueprint  = function() use ($name, $items, $rules) {
-            return new Blueprint($name, ['form' => $items, 'rules' => $rules]);
+            $blueprint = new Blueprint($name, ['form' => $items, 'rules' => $rules]);
+            return $blueprint->load()->init();
         };
 
         $this->data = new Data($data['data'], $blueprint);
@@ -191,58 +192,56 @@ class Form extends Iterator implements \Serializable
         $name = $this->items['name'];
         $grav = Grav::instance();
 
-        // Fix naming for fields (presently only for toplevel fields)
+        // Fix naming for fields (supports nested fields now!)
         if (isset($this->items['fields'])) {
-            foreach ($this->items['fields'] as $key => $field) {
-                // default to text if not set
-                if (!isset($field['type'])) {
-                    $field['type'] = 'text';
-                }
-
-                $types = $grav['plugins']->formFieldTypes;
-
-                // manually merging the field types
-                if ($types !== null && key_exists($field['type'], $types)) {
-                    $field += $types[$field['type']];
-                }
-
-                // BC for old style of array style field definitions
-                if (is_numeric($key) && isset($field['name'])) {
-                    array_splice($this->items['fields'], $key);
-                    $key = $field['name'];
-                }
-
-                // Add name based on key if not already set
-                if (!isset($field['name'])) {
-                    $field['name'] = $key;
-                }
-
-                // set any modifications back on the fields array
-                $this->items['fields'][$key] = $field;
-
-            }
+            $this->items['fields'] = $this->processFields($this->items['fields']);
         }
 
         $items = $this->items;
         $rules = $this->rules;
+
         $blueprint  = function() use ($name, $items, $rules) {
-            return new Blueprint($name, ['form' => $items, 'rules' => $rules]);
+            $blueprint = new Blueprint($name, ['form' => $items, 'rules' => $rules]);
+            return $blueprint->load()->init();
         };
-
-        if (method_exists($blueprint, 'load')) {
-            // init the form to process directives
-            $blueprint->load()->init();
-
-            // fields set to processed blueprint fields
-            $this->fields = $blueprint->fields();
-        }
 
         $this->data   = new Data($this->header_data, $blueprint);
         $this->values = new Data();
+        $this->fields = null;
+        $this->fields = $this->fields();
 
         // Fire event
         $grav->fireEvent('onFormInitialized', new Event(['form' => $this]));
 
+    }
+
+    protected function processFields($fields)
+    {
+        $types = Grav::instance()['plugins']->formFieldTypes;
+
+        $return = array();
+        foreach ($fields as $key => $value) {
+
+            // default to text if not set
+            if (!isset($value['type'])) {
+                $value['type'] = 'text';
+            }
+
+            // manually merging the field types
+            if ($types !== null && key_exists($value['type'], $types)) {
+                $value += $types[$value['type']];
+            }
+
+            // Fix numeric indexes
+            if (is_numeric($key) && isset($value['name'])) {
+                $key = $value['name'];
+            }
+            if (isset($value['fields']) && is_array($value['fields'])) {
+                $value['fields'] = $this->processFields($value['fields']);
+            }
+            $return[$key] = $value;
+        }
+        return $return;
     }
 
     public function fields() {
@@ -325,6 +324,16 @@ class Form extends Iterator implements \Serializable
     }
 
     /**
+     * Get all data
+     * 
+     * @return Data
+     */
+    public function getData()
+    {
+        return $this->data;
+    }
+
+    /**
      * Set value of given variable in the data array
      *
      * @param string $name
@@ -390,7 +399,7 @@ class Form extends Iterator implements \Serializable
             // we need to move the file at this stage or else
             // it won't be available upon save later on
             // since php removes it from the upload location
-            $tmp_dir = Grav::instance()['locator']->findResource('tmp://', true, true);
+            $tmp_dir = $grav['locator']->findResource('tmp://', true, true);
             $tmp_file = $upload->file->tmp_name;
             $tmp = $tmp_dir . '/uploaded-files/' . basename($tmp_file);
 
@@ -612,6 +621,7 @@ class Form extends Iterator implements \Serializable
     public function getPagePathFromToken($path)
     {
         $grav = Grav::instance();
+
         $path_parts = pathinfo($path);
 
         $basename = '';

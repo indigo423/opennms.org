@@ -1,5 +1,5 @@
 ---
-title: Wth? SNMP spams my log!
+title: What the...? SNMP spams my log!
 date: 21:48 2017-06-12
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling

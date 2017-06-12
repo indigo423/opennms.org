@@ -1,5 +1,5 @@
 ---
-title: Monitoring Websites
+title: Monitoring Websites with Selenium
 date: 09:42 2017-06-12
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling

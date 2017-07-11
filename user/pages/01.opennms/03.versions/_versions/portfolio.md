@@ -10,6 +10,7 @@ _**Meridian**_ is based on selected major versions of _**Horizon**_.
 
 | Release Description | Version | Release Date |
 |:--------------------|:--------|:-------------|
+| [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html#releasenotes-changelog-20.0.1 "Release Changelog") OpenNMS Horizon 20.0.1 |  20.0.1 | 2017-07-10 |
 | [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/20.0.0/releasenotes/releasenotes.html#_release_20_0_0 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=13928 "Issues related to this Release in JIRA") OpenNMS Horizon 20.0.0 |  20.0.0 | 2017-06-08 |
 | [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/19.1.0/releasenotes/releasenotes.html#releasenotes-changelog-19.1.0 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=14040 "Issues related to this Release in JIRA") OpenNMS Horizon 19.1.0 |  19.1.0 | 2017-05-09 |
 | [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/19.0.1/releasenotes/releasenotes.html#releasenotes-changelog-19.0.1 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=14038 "Issues related to this Release in JIRA") OpenNMS Horizon 19.0.1 |  19.0.1 | 2017-02-21 |

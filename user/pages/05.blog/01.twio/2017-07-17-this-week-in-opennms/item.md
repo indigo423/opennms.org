@@ -35,7 +35,8 @@ It's time for This Week in OpenNMS!  In the last week we worked on various inter
 
 ## OpenNMS Horizon 20.0.1 ([Korben Dallas](http://fifth-element.wikia.com/wiki/Korben_Dallas)) Released
 
-OpenNMS Horizon 20.0.1 was released last Monday.  It contains fixes for number of bugs introduced in 20 including a deadlock in polling.
+OpenNMS Horizon 20.0.1 was released last Monday.
+It contains fixes for number of bugs introduced in 20 including a deadlock in polling.
 
 For a complete list of what was changed, see [the release notes](http://bit.ly/opennms-changes-20-0-1).
 
@@ -43,7 +44,8 @@ For a complete list of what was changed, see [the release notes](http://bit.ly/o
 
 ![Dev-Jam 2017](tarus-devjam.jpg)
 
-While I am writing this TWiO, Tarus and Jesse are introducing Dev-Jam 2017 at Concordia University in Montréal, Canada.  Dev-Jam is our yearly OpenNMS un-conference where everyone gets a chance to socialize and to work on their own personal OpenNMS projects.
+While I am writing this TWiO, Tarus and Jesse are introducing Dev-Jam 2017 at Concordia University in Montréal, Canada.
+Dev-Jam is our yearly OpenNMS un-conference where everyone gets a chance to socialize and to work on their own personal OpenNMS projects.
 
 This morning everyone introduced themselves and talked about what they planned on doing:
 
@@ -75,13 +77,21 @@ Also, Jessica handed out this year's t-shirt, with an awesome design:
 
 ## Upcoming Events and Appearances
 
+* __[AusNOG - Melbourne, Australia - September 7th and 8th, 2017](http://www.ausnog.net/)__
+
+  Tarus Balog will be speaking at this year's AusNOG conference being held in Melbourne, Australia in September.
+  [AusNOG](http://www.ausnog.net/) is the premier technical and professional networking event for Internet Service Providers, Telcos, Hosting Providers, and Content Providers in Australia.
+  Tarus will be presenting a talk entitled _"Monitoring at Scale with OpenNMS"_.
+
 * __[OpenNMS Training – Apex, NC - September 11th through 15th, 2017](http://www.opennms.com/training/)__
 
-  The OpenNMS Group's next training session in Apex, NC will be September 11th through 15th.  For more details on OpenNMS training and to sign up, see [The OpenNMS.com training page](http://www.opennms.com/training/).
+  The OpenNMS Group's next training session in Apex, NC will be September 11th through 15th.
+  For more details on OpenNMS training and to sign up, see [The OpenNMS.com training page](http://www.opennms.com/training/).
 
 * __[Ohio Linux Fest - Columbus, OH - September 29th through 30th, 2017](https://ohiolinux.org/tarus-balog-to-keynote-ohio-linuxfest-2017/)__
 
-  Tarus Balog will be the keynote speaker at Ohio Linux Fest in Columbus.  His talk is titled _"A Short History of an Open Source Business"_ and will be about the history of OpenNMS, decisions that were made, problems that were faced, and things we'd do different.
+  Tarus Balog will be the keynote speaker at Ohio Linux Fest in Columbus.
+  His talk is titled _"A Short History of an Open Source Business"_ and will be about the history of OpenNMS, decisions that were made, problems that were faced, and things we'd do different.
 
   For details, see [the Ohio Linux Fest announcement](https://ohiolinux.org/tarus-balog-to-keynote-ohio-linuxfest-2017/).
 

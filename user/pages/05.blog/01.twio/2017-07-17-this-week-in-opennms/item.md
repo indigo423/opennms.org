@@ -43,7 +43,7 @@ For a complete list of what was changed, see [the release notes](http://bit.ly/o
 
 ![Dev-Jam 2017](tarus-devjam.jpg)
 
-While I am writing this TWiO, Tarus and Jesse are introducing Dev-Jam 2017 at Concordia University in Montréal, Canada.  Dev-Jam is our yearly OpenNMS un-conference where everyone gets a chance to socializer and to work on their own personal OpenNMS projects.
+While I am writing this TWiO, Tarus and Jesse are introducing Dev-Jam 2017 at Concordia University in Montréal, Canada.  Dev-Jam is our yearly OpenNMS un-conference where everyone gets a chance to socialize and to work on their own personal OpenNMS projects.
 
 This morning everyone introduced themselves and talked about what they planned on doing:
 
@@ -56,8 +56,8 @@ This morning everyone introduced themselves and talked about what they planned o
 * ReST infrastructure improvements
 * discussing how to improve Docker image generation
 * grafana dashboard for UPS data
-* northbound interfaces for Drools (scriptd-like interface for Alarms)
-* a structured data monitor (using the XML collector infrastructure)
+* northbound interfaces for Drools (scriptd-like interface for alarms)
+* structured data monitor (using the XML collector infrastructure)
 * Cisco ACI integration
 * OSGi deployment of ReST services
 * donut charts on the front page

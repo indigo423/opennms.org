@@ -35,13 +35,6 @@ It's time for This Week in OpenNMS!  Last week we were at Dev-Jam, our annual de
   * Dustin did more work on the scriptable vertex handling for topology
   * I worked on making opennms.js work properly when pulled into node, and fixed generation of minified and un-minified code
 
-## OpenNMS Horizon 20.0.1 ([Korben Dallas](http://fifth-element.wikia.com/wiki/Korben_Dallas)) Released
-
-OpenNMS Horizon 20.0.1 was released last Monday.
-It contains fixes for number of bugs introduced in 20 including a deadlock in polling.
-
-For a complete list of what was changed, see [the release notes](http://bit.ly/opennms-changes-20-0-1).
-
 ## Upcoming Events and Appearances
 
 * __[AusNOG - Melbourne, Australia - September 7th and 8th, 2017](http://www.ausnog.net/)__

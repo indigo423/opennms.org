@@ -85,6 +85,15 @@ Read more here: [Introducing OpenNMS.js](https://www.opennms.org/en/blog/2017-08
 
   For details, see [the Ohio Linux Fest announcement](https://ohiolinux.org/tarus-balog-to-keynote-ohio-linuxfest-2017/).
 
+* __[OSMC - Nuremberg, Germany - November 21st through 24th, 2017](https://osmc.de/)__
+
+  Ronny Trommer will be speaking at OSMC with a talk titled, _"Another Year with OpenNMS"_, discussing the progress made in the last 3 major releases of OpenNMS and what's on the
+  roadmap going forward.
+
+  The date of his talk is not yet set, but details should be available
+  [on the schedule](https://osmc.de/schedule/) soon.
+
+
 ## Until Next Week…
 
 If there’s anything you’d like me to talk about in a future TWiO, or you just have a comment or criticism you’d like to share, don’t hesitate to [say hi](mailto:twio@opennms.org).

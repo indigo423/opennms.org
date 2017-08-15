@@ -1,4 +1,14 @@
-"High load"
+---
+title: Load Thresholding
+date: 21:51 2017-08-15
+author: Marcel Fuhrmann
+body_classes: header-lite fullwidth blogstyling
+taxonomy:
+    category: wiki
+    tag: [configuration, thresholding]
+---
+
+"System has high load!"
 
 Sounds everything but perfect.
 At least when we are talking about servers.

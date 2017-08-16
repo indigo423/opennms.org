@@ -14,7 +14,8 @@ maybe you still remember the discussion about the [Statusbox feature](https://wi
 At that time I already liked the idea and to be honest, I was a little bit disappointed that it wasn't possible to complete it on this weekend.
 After some days I read Markus' comment in his [pull request](https://github.com/OpenNMS/opennms/pull/1483):
 > As this feature was intended to be a small enhancement but a lot of issues were raised while developing this issue, I am now going to burry it.
-... and I was really sad to hear that.
+
+I was really sad to hear that.
 Certainly I could understand it.
 
 But good things come to those who wait!

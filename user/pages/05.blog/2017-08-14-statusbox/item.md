@@ -21,7 +21,7 @@ But good things come to those who wait!
 The OpenNMS guys revived the Statusbox feature at the DevJam in Montreal and they followed through to complete it!
 But to cut a long story short:
 
-![donut](donut.gif)
+![donut](donuts.gif)
 
 In my opinion this new feature is one of the most handy features since several updates - from the point of an OpenNMS user who works everyday with OpenNMS.
 It improves the usability and brings a new fancy look to the starting page.

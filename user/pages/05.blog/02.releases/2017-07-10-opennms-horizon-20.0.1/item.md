@@ -8,7 +8,7 @@ taxonomy:
     tag: [release]
 ---
 
-OpenNMS 20.0.1 (code name: [Korben Dallas](http://fifth-element.wikia.com/wiki/Korben_Dallas)) is now available.
+OpenNMS Horizon 20.0.1 (code name: [Korben Dallas](http://fifth-element.wikia.com/wiki/Korben_Dallas)) is now available.
 
 This release contains a large number of bug fixes and a few small enhancements, including:
 

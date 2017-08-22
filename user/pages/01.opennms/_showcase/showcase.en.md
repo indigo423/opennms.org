@@ -2,11 +2,6 @@
 title: Showcase
 menu: Top
 slides:
-  - image: Loyola_concordia.jpg
-    heading: "DevJam 2017"
-    subheading: "OpenNMS Developer Conference"
-    button_text: Would you like to know more?
-    button_url: blog/2017-03-07-devjam-2017
   - image: neutral-gradient.jpg
     heading: "The Network Management Platform"
     subheading: "developed under the <strong>Open Source</strong> model"

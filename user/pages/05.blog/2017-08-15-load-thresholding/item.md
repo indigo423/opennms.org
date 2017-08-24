@@ -1,6 +1,6 @@
 ---
 title: Load Thresholding
-date: 21:51 2017-08-15
+date: 21:30 2017-08-24
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
@@ -26,4 +26,4 @@ Yes, you will need individual thresholds for your servers depending on the amoun
 And... wait.. Accidentally we have some "ready to use" configurations on the wiki.
 Lucky bastard! :-)
 
-Would you like to know more? link to wiki
+Would you like to know more? -> [Load Config](https://wiki.opennms.org/wiki/Load-Configs)

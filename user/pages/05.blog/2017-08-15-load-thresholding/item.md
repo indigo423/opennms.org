@@ -13,9 +13,6 @@ taxonomy:
 Sounds anything but perfect.
 At least when we are talking about servers.
 
-Typical Windows users never hear about this because it's just a Unix thing.
-Maybe that's not totally correct, but at least Windows doesn't have a similar metric.
-
 Fortunately, I don't have to explain what load is or how it's defined because there are many explanations on the internet.
 I found my favorite one on [blog.scoutapp.com](http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages).
 

@@ -8,7 +8,7 @@ taxonomy:
     tag: [configuration, thresholding]
 ---
 
-"System has high load!"
+> System has high load!
 
 Sounds anything but perfect.
 At least when we are talking about servers.
@@ -23,7 +23,8 @@ Once you read the article, you know that the ideal load on a Linux machine depen
 And maybe you can already foresee what that means for your threshold configs.
 Yes, you will need individual thresholds for your servers depending on the amount of CPU cores.
 
-And... wait.. Accidentally we have some "ready to use" configurations on the wiki.
+And... wait.. 
+Accidentally we have some "ready to use" configurations on the wiki.
 Lucky bastard! :-)
 
-Would you like to know more? -> [Load Config](https://wiki.opennms.org/wiki/Load-Configs)
+[Would you like to know more?](https://wiki.opennms.org/wiki/Load-Configs)

@@ -5,7 +5,7 @@ author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: twio
-    tag: [twio, helm, meridian, javascript, jti, dhcp, syslog, vmware, rest, css, grafana, ohio linux fest, olf, osmc]
+    tag: [twio, helm, meridian, javascript, jti, dhcp, syslog, vmware, rest, css, grafana, ohio linux fest, olf, cubaconf, osmc]
 ---
 
 It's time for This Week in OpenNMS!
@@ -44,12 +44,16 @@ Last week was more Helm wrap-up and fixing issues to prepare for the release of 
 
   For details, see [the Ohio Linux Fest announcement](https://ohiolinux.org/tarus-balog-to-keynote-ohio-linuxfest-2017/).
 
+* __[CubaConf - Havana, Cuba - November 7th through 9th, 2017](http://www.cubaconf.org/)__
+
+  Alejandro Galue and Tarus Balog will be representing OpenNMS at the second annual Cubaconf to be held in Havana, Cuba, in November.
+
 * __[OSMC - Nuremberg, Germany - November 21st through 24th, 2017](https://osmc.de/)__
 
-  Ronny Trommer will be speaking at OSMC with a talk titled, _"Another Year with OpenNMS"_, discussing the progress made in the last 3 major releases of OpenNMS and what's on the
-  roadmap going forward.
+  Ronny Trommer will be speaking at OSMC with a talk titled, _"Another Year with OpenNMS"_, discussing the progress made in the last 3 major releases of OpenNMS and what's on the roadmap going forward.
 
-  [Ronny's talk](https://osmc.de/events/en-another-year-with-opennms/) will be on Thursday, November 23rd.  Full details of the schedule are available on [the OSMC site](https://osmc.de/schedule/).
+  [Ronny's talk](https://osmc.de/events/en-another-year-with-opennms/) will be on Thursday, November 23rd.
+  Full details of the schedule are available on [the OSMC site](https://osmc.de/schedule/).
 
 
 ## Until Next Week…

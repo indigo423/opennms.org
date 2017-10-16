@@ -1,6 +1,6 @@
 ---
 title: Sneak peek IFTTT integration in Horizon 21
-date: 21:48 2017-10-23
+date: 21:48 2017-10-13
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:

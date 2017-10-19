@@ -25,4 +25,4 @@ services:
 
 Quickstart install scripts work for most small network environments and get you quickly up to speed.
 Test new configurations or evaluate OpenNMS Horizon and [Grafana](http://grafana.org) in Linux Container with ready to run [container images](https://hub.docker.com/r/opennms) using [Docker](https://www.docker.com/what-docker) and [Docker Compose](https://docs.docker.com/compose/).
-If you want a more customized installation please go to our [installation guides](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html).
+If you want a more customized installation please go to our [installation & upgrade guides](https://wiki.opennms.org/wiki/Installation_and_Upgrades).

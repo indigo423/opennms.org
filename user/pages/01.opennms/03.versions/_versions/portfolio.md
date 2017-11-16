@@ -10,6 +10,7 @@ _**Meridian**_ is based on selected major versions of _**Horizon**_.
 
 | Release Description | Version | Release Date |
 |:--------------------|:--------|:-------------|
+| [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html#releasenotes-changelog-21.0.1 "Release Changelog") OpenNMS Horizon 21.0.1 |  21.0.1 | 2017-11-16 |
 | [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html#releasenotes-changelog-21.0.0 "Release Changelog") OpenNMS Horizon 21.0.0 |  21.0.0 | 2017-10-19 |
 | [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html#_release_20_1_0 "Release Changelog") OpenNMS Horizon 20.1.0 |  20.1.0 | 2017-09-21 |
 | [[fa=file-text-o /]](http://docs.opennms.org/opennms/releases/latest/releasenotes/releasenotes.html#releasenotes-changelog-20.0.2 "Release Changelog") OpenNMS Horizon 20.0.2 |  20.0.2 | 2017-08-14 |
@@ -104,6 +105,8 @@ _**Meridian**_ is based on selected major versions of _**Horizon**_.
 
 | Release Description | Version | Release Date |
 |:--------------------|:--------|:-------------|
+| [[fa=file-text-o /]](http://meridian.opennms.com/releasenotes/2017/latest/#_release_meridian_2017_1_2 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=14423 "Issues related to this Release in JIRA") OpenNMS Meridian 2017.1.2 |  Meridian-2017.1.2 | 2017-11-16 |
+| [[fa=file-text-o /]](http://meridian.opennms.com/releasenotes/2016/latest/#_release_meridian_2016_1_9 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=14422 "Issues related to this Release in JIRA") OpenNMS Meridian 2016.1.9 |  Meridian-2016.1.9 | 2017-11-16 |
 | [[fa=file-text-o /]](http://meridian.opennms.com/releasenotes/2017/latest/#_release_meridian_2017_1_1 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=14330 "Issues related to this Release in JIRA") OpenNMS Meridian 2017.1.1 |  Meridian-2017.1.1 | 2017-10-19 |
 | [[fa=file-text-o /]](http://meridian.opennms.com/releasenotes/2016/latest/#_release_meridian_2016_1_8 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=14337 "Issues related to this Release in JIRA") OpenNMS Meridian 2016.1.8 |  Meridian-2016.1.8 | 2017-10-19 |
 | [[fa=file-text-o /]](http://meridian.opennms.com/releasenotes/2015/latest/#_release_meridian_2015_1_8 "Release Changelog") [[fa=leaf /]](https://issues.opennms.org/secure/ReleaseNote.jspa?projectId=10001&version=14336 "Issues related to this Release in JIRA") OpenNMS Meridian 2015.1.8 |  Meridian-2015.1.8 | 2017-10-19 |

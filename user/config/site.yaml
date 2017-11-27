@@ -3,7 +3,7 @@ logo: 'logo.svg'
 author:
   name: Webmaster                           # Default author name
   email: 'webmaster@opennms.org'            # Default author email
-  copyright: "Copyright 2016 The OpenNMS Group, Inc. All Rights Reserved."
+  copyright: "Copyright 2017 The OpenNMS Group, Inc. All Rights Reserved."
 social:
   - url: 'https://github.com/OpenNMS'
     icon: 'github'
@@ -20,8 +20,8 @@ social:
 
 contact:
   address:
-    - line: "220 Chatham Business Drive"
-    - line: "Pittsboro, North Carolina 27312"
+    - line: "950 Windy Rd, Ste 300"
+    - line: "Apex, North Carolina 27502-2410"
     - line: "United States"
 othermenu:
   - text: "Trademark Policy"
@@ -125,5 +125,5 @@ footer:
   description: "Java based network management platform developed under the Open Source model."
   contact_title: "Contact Info"
   links_title: "Quick Links"
-  copyright_text: "Copyright 2016 The OpenNMS Group, Inc. All Rights Reserved."
+  copyright_text: "Copyright 2017 The OpenNMS Group, Inc. All Rights Reserved."
   feedburner: ""   # Your feedburner id for Newsletter footer modul

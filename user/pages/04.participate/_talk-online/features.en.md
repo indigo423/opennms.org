@@ -5,7 +5,7 @@ features:
     - header: "Talk with People"
       text: Use the web based chat platform powered by Mattermost or join with IRC on freenode.org and join "#opennms".
       icon: comments-o
-      linkurl: "https://chat.opennms.com/opennms"
+      linkurl: "https://chat.opennms.org/opennms"
       linktext: "Web Chat"
     - header: "Discussions and Help"
       text: Get into contact with OpenNMS users in our community through our topic-driven mailing lists.

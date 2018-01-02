@@ -32,6 +32,7 @@ Before the holiday break we did more Telemetryd work, web UI refactor, and other
   * I did more work on refactoring our various JavaScript code to a single optimized webpack build.
   * Markus worked on ReST APIs for flow applications.
   * Jesse finished the initial implementation of ReST APIs for retrieving telemetry data.
+  * Jesse added some initial code to OpenNMS.js and Helm to support telemetry data.
 
 
 ## Upcoming Events and Appearances

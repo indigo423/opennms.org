@@ -19,6 +19,7 @@ In the last week we worked on the Drift telemetry project, turning the Minion in
 * __Internals, APIs, and Documentation__
 
   * Tarus is working making a Minion appliance distro using [Project Atomic](https://www.projectatomic.io/).
+  * Ronny enhanced the Minion Docker images to allow [setting credentials in a keystore file](https://github.com/opennms-forge/docker-minion#dealing-with-credentials) rather than through environment variables.
   * Chandra continued his work on a NX-OS adapter for Telemetryd.
   * Seth did more work on making a clean Gemini blueprint environment for loading OpenNMS features into Karaf.
   * Markus worked on improving the performance of flow enrichment.

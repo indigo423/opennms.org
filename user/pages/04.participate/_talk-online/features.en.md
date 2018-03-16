@@ -12,11 +12,11 @@ features:
       icon: envelope-o
       linkurl: "https://www.opennms.org/wiki/Mailing_lists"
       linktext: "Mailing Lists"
-    - header: Q&A Board
-      text: Get answers to most frequently asked questions and see how you can use OpenNMS in several use cases.
+    - header: Ask and Answer Questions around OpenNMS
+      text: Get answers or help others with most frequently asked questions and see how you can use OpenNMS in several use cases.
       icon: commenting
-      linkurl: "http://ask.opennms.eu"
-      linktext: "Ask OpenNMS"
+      linkurl: "https://stackoverflow.com/search?tab=newest&q=opennms"
+      linktext: "OpenNMS on Stackoverflow"
 ---
 
 # Get in Contact Online

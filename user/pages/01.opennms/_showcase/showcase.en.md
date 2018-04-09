@@ -2,6 +2,16 @@
 title: Showcase
 menu: Top
 slides:
+  - image: ulf-lego.jpg
+    heading: "OUCE 2018"
+    subheading: "OpenNMS User Conference Europe 2018 in Munich"
+    button_text: "Go to OUCE"
+    button_url: https://ouce.opennms.eu
+  - image: uofm.jpg
+    heading: "DevJam 2018"
+    subheading: "OpenNMS Developer Conference 2018 in Minneapolis"
+    button_text: "Go to DevJam"
+    button_url: https://wiki.opennms.org/wiki/Dev-Jam_2018
   - image: neutral-gradient.jpg
     heading: "The Network Management Platform"
     subheading: "developed under the <strong>Open Source</strong> model"

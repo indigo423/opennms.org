@@ -43,17 +43,17 @@ The [DockerHub image for Helm](https://hub.docker.com/r/opennms/helm/tags/) has 
 
 ## Upcoming Events and Appearances
 
-* __[Africa Internet Summit - April 29th through May 11th, 2018](http://internetsummitafrica.org/)__
+* **[Africa Internet Summit - April 29th through May 11th, 2018](http://internetsummitafrica.org/)**
 
   Tarus Balog will be [conducting a one day workshop on OpenNMS](https://www.internetsummit.africa/agenda/programme) at the [Africa Network Operators group](https://afnog.org/)'s annual [Africa Internet Summit (AIS)](http://internetsummitafrica.org/) to be held in Dakar, Senegal.
   The training is currently scheduled for Sunday, May 6th.
 
-* __[Dev-Jam 2018 - June 10th through 16th, 2018](https://wiki.opennms.org/wiki/Dev-Jam_2018)__
+* **[Dev-Jam 2018 - June 10th through 16th, 2018](https://wiki.opennms.org/wiki/Dev-Jam_2018)**
 
   The OpenNMS developers conference, Dev-Jam, will return again this year to the University of Minnesota in Minneapolis.
   Dev-Jam is a week of fun -- half hackathon, half social get-together.  More information is available on [the OpenNMS wiki](https://wiki.opennms.org/wiki/Dev-Jam_2018) and [registration is now open](http://www.opennms.com/opennms-dev-jam-registration) -- please join us!  All are welcome.
 
-* __[OpenNMS User Conference Europe 2018 - September 20th through 21st, 2018](https://ouce.opennms.eu/)__
+* **[OpenNMS User Conference Europe 2018 - September 20th through 21st, 2018](https://ouce.opennms.eu/)**
 
   [OUCE 2018](https://ouce.opennms.eu/) will be held at the [Rilano Hotel in Munich, Germany](https://www.rilano-hotel-muenchen.de/).
   A reception will be held on Wednesday the 19th, with talks and workshops the following Thursday and Friday.

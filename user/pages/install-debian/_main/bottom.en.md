@@ -12,6 +12,8 @@ If you want a more customized installation, please see our [installation guide](
 
 <i class="fa fa-info-circle" aria-hidden="true"></i> Please make sure you have installed an OpenJDK 8 Development Kit or Oracle Java Development Kit installed. You find instructions in the [Java installation](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html#gi-install-oracle-java-debian) section in our install guide.
 
+<i class="fa fa-info-circle" aria-hidden="true"></i> The install script requires `gnupg`, `curl` and `wget` to get installed on a minimal Debian system.
+
 <pre class="prettyprint">
 curl -L https://github.com/opennms-forge/opennms-install/archive/1.1.tar.gz | tar xz
 cd opennms-install-1.1

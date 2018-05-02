@@ -1,7 +1,11 @@
-# Advanced Installation Guide
+---
+title: Docs
+---
 
-OpenNMS can be installed several operating systems.
-Otherwise you can run OpenNMS with different technologies to store and read time series data like [RRDtool](http://oss.oetiker.ch/rrdtool/) or [Cassandra](http://cassandra.apache.org) with [Newts](https://opennms.github.io/newts/).
-You can find detailed installation instructions in the [Install Guide](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html) section.
+# Video Tutorial
 
-<p style="text-align: center;"><a class="button primary" href="https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html">Go to Install Guide</a></p>
+<p style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+&nbsp;&nbsp;&nbsp;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLsXgBGH3nG7h6zy2hENGRJbs0BYQaqBu4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>

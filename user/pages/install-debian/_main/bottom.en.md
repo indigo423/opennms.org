@@ -8,15 +8,15 @@ Installation script installs all components of OpenNMS on a single machine and i
 This setup works for most small environments.
 If you want a more customized installation, please see our [installation guide](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html#gi-install-opennms-debian).
 
-<i class="fa fa-info-circle" aria-hidden="true"></i> The installation script is tested with Debian 8 "Jessie", Ubuntu 14.04 LTS and Ubuntu 16.04 LTS.
+<i class="fa fa-info-circle" aria-hidden="true"></i> The installation script is tested with Debian 9 "Stretch", Ubuntu 18.04 LTS.
 
 <i class="fa fa-info-circle" aria-hidden="true"></i> Please make sure you have installed an OpenJDK 8 Development Kit or Oracle Java Development Kit installed. You find instructions in the [Java installation](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html#gi-install-oracle-java-debian) section in our install guide.
 
-<i class="fa fa-info-circle" aria-hidden="true"></i> The script requires `gnupg`, `curl` and `wget` to get OpenNMS Horizon installed on a minimal Debian system.
+<i class="fa fa-info-circle" aria-hidden="true"></i> The script requires `systemd`, `sudo`, `gnupg`, `curl` and `wget` to get OpenNMS Horizon installed on a minimal Debian system.
 
 <pre class="prettyprint">
-curl -L https://github.com/opennms-forge/opennms-install/archive/1.1.tar.gz | tar xz
-cd opennms-install-1.1
+curl -L https://github.com/opennms-forge/opennms-install/archive/1.2.tar.gz | tar xz
+cd opennms-install-1.2
 bash bootstrap-debian.sh
 </pre>
 

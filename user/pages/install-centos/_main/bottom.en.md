@@ -8,11 +8,11 @@ Installation script installs all components of OpenNMS on a single machine and i
 This setup works for most small environments.
 If you want a more customized installation, please see our [installation guide](https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html#gi-install-opennms-rhel).
 
-<i class="fa fa-info-circle" aria-hidden="true"></i> The installation script is tested on minimal [CentOS 7.3.1611](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso).
+<i class="fa fa-info-circle" aria-hidden="true"></i> The installation script is tested on minimal [CentOS 7.5.1804](http://centos.intergenia.de/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.iso).
 
 <pre class="prettyprint">
-curl -L https://github.com/opennms-forge/opennms-install/archive/1.1.tar.gz | tar xz
-cd opennms-install-1.1
+curl -L https://github.com/opennms-forge/opennms-install/archive/1.2.tar.gz | tar xz
+cd opennms-install-1.2
 bash bootstrap-yum.sh
 </pre>
 

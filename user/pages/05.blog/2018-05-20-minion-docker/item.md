@@ -12,6 +12,7 @@ Running a Minion with Docker is relatively easy, you just need to have Docker in
 
 ```
 docker run --rm -d \
+  -e "TZ=Europe/Berlin" \
   -e "MINION_LOCATION=Apex-Office" \
   -e "OPENNMS_BROKER_URL=tcp://opennms-ip:61616" \
   -e "OPENNMS_HTTP_URL=http://opennms-ip:8980/opennms" \
@@ -19,6 +20,8 @@ docker run --rm -d \
   -e "OPENNMS_HTTP_PASS=minion" \
   -e "OPENNMS_BROKER_USER=minion" \
   -e "OPENNMS_BROKER_PASS=minion" \
+  -e "JAVA_OPTS=-Xms128M" \
+  -e "JAVA_OPTS=-Xmx384M" \
   opennms/minion:latest -c
 ```
 

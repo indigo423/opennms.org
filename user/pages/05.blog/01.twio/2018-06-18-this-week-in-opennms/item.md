@@ -16,7 +16,7 @@ In the last week we had Dev Jam, our annual developer conference conference.
 
 ## DEV JAM!
 
-Last week was OpenNMS Dev Jam, a week in which we get OpenNMS community folks together and have a hackathon.  As is tradition, on Friday people presented about what they worked on and we filmed it, video with be forthcoming but in the meantime Tarus did a good job of summarizing what people talked about:
+Last week was OpenNMS Dev Jam, a week in which we get OpenNMS community folks together and have a hackathon.  As is tradition, on Friday people presented about what they worked on and we filmed it.  Video with be forthcoming but in the meantime Tarus did a good job of summarizing what people talked about:
 
 * [Jesse presented](https://twitter.com/sortova/status/1007696073337516039) on the correlation work that he and David Smith have been doing.  It involves refactoring Alarmd to have better rules-based handling of things traditionally handled by Vacuumd, as well as providing an API for performing additional arbitrary correlations and rolling alarms up into meta-alarms called "situations."
 * [Christian talked](https://twitter.com/sortova/status/1007701088743710722) about writing a new provisioning policy that allows you to write arbitrary groovy scripts to transform node data before it is persisted, during the node scan phase.

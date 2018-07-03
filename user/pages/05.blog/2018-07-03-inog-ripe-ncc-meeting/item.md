@@ -1,11 +1,11 @@
 ---
 title: iNOG and Ripe NCC Hackathon
-date: 33:15 2018-07-03
+date: 15:33 2018-07-03
 author: Ronny Trommer
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: events
-    tag: [events, inog, telemetry streaming, arista, inog, ripencc]
+    tag: [events, inog, arista, inog, ripencc]
 ---
 
 ![](dublin-city.jpg)

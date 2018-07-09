@@ -1,5 +1,5 @@
 ---
-title: How to build Docker images from branches
+title: Usage of Operator Instructions in Alarms
 date: 17:42 2018-07-09
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
@@ -7,8 +7,6 @@ taxonomy:
     category: opennms
     tag: [alarms, operator instructions, opennms]
 ---
-
-# Usage of Operator Instructions in Alarms
 
 Monitoring services or metrics and getting alarms isn't complicated.
 A more interesting question is: How to fix them (fast)?

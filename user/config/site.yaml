@@ -45,7 +45,7 @@ blog:
   route: '/blog'                            # Route to blog
 
 redirects:
-  /wiki: 'http://wiki.opennms.org/wiki/Main_Page'
+  /wiki: 'http://wiki.opennms.org/wiki'
   /get-opennms/index.php: '/install'
   /feed: '/blog.rss'
   /blog/category/news/twio: '/blog/twio'

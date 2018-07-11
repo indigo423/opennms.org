@@ -39,6 +39,12 @@ We were off for part of last week for the 4th of July holiday, so we're back wit
 
 ## Upcoming Events and Appearances
 
+* **[UK Network Operators' Forum - September 11th, 2018](https://indico.uknof.org.uk/event/43)**
+
+  Tarus will be [speaking at the UK Network Operators Forum](https://indico.uknof.org.uk/event/43/contributions) on September 11th, 2018.
+  He'll be giving a talk called "What's Happening with OpenNMS" going over some of the recent enhancements to OpenNMS to extend scalability.
+
+
 * **[OpenNMS User Conference Europe 2018 - September 20th through 21st, 2018](https://ouce.opennms.eu/)**
 
   [OUCE 2018](https://ouce.opennms.eu/) will be held at the [Rilano Hotel in Munich, Germany](https://www.rilano-hotel-muenchen.de/).

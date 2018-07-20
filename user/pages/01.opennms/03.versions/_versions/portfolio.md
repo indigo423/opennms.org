@@ -10,6 +10,7 @@ _**Meridian**_ is based on selected major versions of _**Horizon**_.
 
 | Release Description | Version | Release Date |
 |:--------------------|:--------|:-------------|
+| [[fa=file-text-o /]](https://docs.opennms.org/opennms/releases/22.0.2/releasenotes/releasenotes.html#releasenotes-changelog-22.0.2 "Release Changelog") OpenNMS Horizon 22.0.2 |  22.0.2 | 2018-07-19 |
 | [[fa=file-text-o /]](https://docs.opennms.org/opennms/releases/22.0.1/releasenotes/releasenotes.html#releasenotes-changelog-22.0.1 "Release Changelog") OpenNMS Horizon 22.0.1 |  22.0.1 | 2018-06-21 |
 | [[fa=file-text-o /]](https://docs.opennms.org/opennms/releases/22.0.0/releasenotes/releasenotes.html#releasenotes-changelog-22.0.0 "Release Changelog") OpenNMS Horizon 22.0.0 |  22.0.0 | 2018-05-21 |
 | [[fa=file-text-o /]](https://docs.opennms.org/opennms/releases/21.1.0/releasenotes/releasenotes.html#releasenotes-changelog-21.1.0 "Release Changelog") OpenNMS Horizon 21.1.0 |  21.1.0 | 2018-04-19 |

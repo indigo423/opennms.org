@@ -29,6 +29,6 @@ We have published this example as part of our [IFTTT documentation](http://docs.
 I hope you get inspired to connect things with the internet and trigger real world events with OpenNMS.
 
 It would be marvellous to get some of your stories.
-Feel free to connect on [chat.opennms.org](https://chat.opennms.org/) or [Twitter](https://twitter.com/opennms?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor).
+Feel free to connect on [chat.opennms.com](https://chat.opennms.com/) or [Twitter](https://twitter.com/opennms?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor).
 
 So long

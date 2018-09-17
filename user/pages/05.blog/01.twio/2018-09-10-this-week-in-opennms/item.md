@@ -20,7 +20,7 @@ Last week we mostly worked on wrapping up various in-progress projects.
 * __Internals, APIs, and Documentation__
 
   * David Hustace did some final cleanup to his updated alarm workflow code.
-  * Matthew did some work work on leader election in Sentinel containers.
+  * Matthew did some work on leader election in Sentinel containers.
   * Chandra made some more adjustments to his work on Karaf commands to reload daemons.
   * Matthew extended the Kafka producer to be able to expose information on situations.
   * Dustin continued his work on using a single port for receiving multiple netflow protocols.

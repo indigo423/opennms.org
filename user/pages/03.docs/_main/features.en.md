@@ -8,11 +8,6 @@ features:
     icon: download
     linkurl: "https://docs.opennms.org/opennms/releases/latest/guide-install/guide-install.html"
     linktext: "Go to Install Guide"
-  - header: User Guide
-    text: "OpenNMS users tend to have a broad network monitoring skill set. This User Guide contains an overview of concepts and explains how to use OpenNMS for day-to-day monitoring."
-    icon: user
-    linkurl: "https://docs.opennms.org/opennms/releases/latest/guide-user/guide-user.html"
-    linktext: "Go to User Guide"
   - header: Administrator Guide
     text: "The Administrator Guide builds upon the foundation of the User Guide and explains how to use OpenNMS features and configurations to monitor services and applications."
     icon: terminal

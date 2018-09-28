@@ -2,6 +2,11 @@
 title: Showcase
 menu: Top
 slides:
+  - image: osmc2018-hackathon.jpg
+    heading: "Hackathon at OSMC 2018"
+    subheading: "What the Hack?!"
+    button_text: Would you like to know more?
+    button_url: https://wiki.opennms.org/wiki/Meetups/OSMC2018-Hackathon
   - image: neutral-gradient.jpg
     heading: "The Network Management Platform"
     subheading: "developed under the <strong>Open Source</strong> model"

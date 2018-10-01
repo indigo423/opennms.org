@@ -10,8 +10,8 @@ slides:
   - image: hf18.jpg
     heading: "Hacktoberfest 2018"
     subheading: "Your contribution matters"
-    button_text: Sign me up
-    button_url: https://hacktoberfest.digitalocean.com/sign_up/register
+    button_text: Would you like to know more?
+    button_url: hacktoberfest2018
   - image: neutral-gradient.jpg
     heading: "The Network Management Platform"
     subheading: "developed under the <strong>Open Source</strong> model"

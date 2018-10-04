@@ -35,4 +35,4 @@ To get information about the speakers visit the [OSMC 2018 Schedule](https://osm
 
 ### Where can I find more details
 
-If you want more inforamtion about OSMC you will find all information about venue speakers in every detail on [OSMC 2018 website]().
+If you want more inforamtion about OSMC you will find all information about venue speakers in every detail on [OSMC 2018 website](https://osmc.de).

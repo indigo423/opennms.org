@@ -1,7 +1,7 @@
 ---
 title: Showcase
 menu: Top
-slides:w
+slides:
   - image: osmc2018-hackathon.jpg
     heading: "Hackathon at OSMC 2018"
     subheading: "What the Hack?!"

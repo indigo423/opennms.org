@@ -13,11 +13,11 @@ For this reason, I've started to use [Docker](https://docs.docker.com/engine/ins
 You can find more information in the [lab section](https://wiki.opennms.org/wiki/Lab) under [Running with Docker](https://wiki.opennms.org/wiki/DevProjects/Running_with_Docker) in our wiki.
 The Docker files and images can be forked on [GitHub](https://hub.docker.com/r/opennms/horizon-core-web/) and pre-built images are available on [Dockerhub](https://hub.docker.com/u/opennms/dashboard/).
 
-To run this example, make sure you have a recent version of Docker 1.12+ and Docker Compose 1.8+ installed.
+To run this example, make sure you have a recent version of Docker CE 17+ and a current Docker Compose 1.22+ installed.
 You can verify with `docker version` and `docker-compose version`.
 
 OpenNMS uses a few other services like a [PostgreSQL](https://www.postgresql.org) database service, therefore I recommend that you use [Docker Compose](https://docs.docker.com/compose/) to model your OpenNMS service.
-The following tutorial shows you how to build an [OpenNMS Horizon](https://www.opennms.org) with the latest stable version using [PostgreSQL 9.6.1](https://www.postgresql.org/docs/9.6/static/release-9-6-1.html) and [Grafana 4.1.1](http://docs.grafana.org/guides/whats-new-in-v4/).
+The following tutorial shows you how to build an [OpenNMS Horizon](https://www.opennms.org) with the latest stable version using [PostgreSQL 9.10](https://www.postgresql.org/docs/10/static/index.html) and [Grafana 5.2.4](https://docs.grafana.org/guides/whats-new-in-v5/).
 
 ![Docker Layers](docker-layers.svg)
 
@@ -28,7 +28,8 @@ By using the `opennms:latest` version tag a [daily built](https://hub.docker.com
 
 Data for the services is stored in dedicated data containers with the exception of the OpenNMS configuration directory.
 Because it is required to edit OpenNMS configuration files manually, the `/opt/opennms/etc` directory is mounted to the Docker host system.
-It is required to modify the `/my/path/to/opennms/config:/opt/opennms/etc` entry in the following `docker-compose.yml` example.
+In this example it will create the OpenNMS configuration in the current diretory in `./horizon-22.0.4-etc`.
+If you want to use a different directory, just change the mount direction in the `docker-compose.yml` example.
 In case the directory does not exist, the configuration files are initialized automatically from the `/opt/opennms/share/etc-pristine` directory.
 
 The data containers are used for:
@@ -53,7 +54,7 @@ Initialize PostgreSQL with a minimal configuration and provide user credentials 
 _File: .postgres.env_
 ```
 # Environment variables for generic PostgreSQL server
-POSTGRES_HOST=database
+POSTGRES_HOST=postgres
 POSTGRES_PORT=5432
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
@@ -67,8 +68,6 @@ _File: .opennms.env_
 OPENNMS_DBNAME=opennms
 OPENNMS_DBUSER=opennms
 OPENNMS_DBPASS=opennms
-OPENNMS_HOME=/opt/opennms
-OPENNMS_DB_CONFIG=/opt/opennms/etc/opennms-datasources.xml
 ```
 
 Configure Grafana admin credentials and server host in URL for the web interface:
@@ -84,62 +83,72 @@ Create the `docker-compose.yml` file with the services and data containers, and 
 
 _File: docker-compose.yml_
 ```
-version: '2'
+version: '2.3'
+
+volumes:
+  data-psql:
+    driver: local
+  data-horizon:
+    driver: local
+  data-grafana:
+    driver: local
+
 services:
-  database_data:
-    image: tianon/true
-    volumes:
-        - /var/lib/postgresql/data
-  database:
-    image: postgres:9.6.1
+  postgres:
+    image: postgres:10
+    container_name: postgres
+    environment:
+      - TZ=Europe/Berlin
     env_file:
       - .postgres.env
-    ports:
-      - "5432:5432"
-    depends_on:
-      - database_data
-    volumes_from:
-      - database_data:rw
-  opennms_data:
-    image: tianon/true
     volumes:
-        - /var/log/opennms
-        - /var/opennms/rrd
-        - /var/opennms/reports
-  opennms:
-    image: opennms/horizon-core-web:19.0.1-1
+      - data-psql:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  horizon:
+    image: opennms/horizon-core-web:22.0.4-1
+    container_name: horizon
+    environment:
+      - TZ=Europe/Berlin
+      - JAVA_OPTS=-XX:+UseParallelGC -XX:+PrintFlagsFinal -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
     env_file:
       - .opennms.env
       - .postgres.env
-    depends_on:
-      - database
-      - opennms_data
-    volumes_from:
-      - opennms_data:rw
     volumes:
-      - /my/path/to/opennms/config:/opt/opennms/etc
+      - data-horizon:/opennms-data
+      - ./horizon-22.0.4-etc:/opt/opennms/etc
     command: ["-s"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+          test: ["CMD", "curl", "-f", "-I", "http://localhost:8980/opennms/login.jsp"]
+          interval: 1m
+          timeout: 5s
+          retries: 3
     ports:
       - "8980:8980"
-      - "18980:18980"
-      - "1099:1099"
-      - "8101:8101"
       - "61616:61616"
-      - "5817:5817"
-      - "162:162/udp"
-  grafana_data:
-    image: tianon/true
-    volumes:
-        - /var/lib/grafana
-        - /var/lib/grafana/plugins
+      - "8101:8101"
+
   grafana:
-    image: grafana/grafana:4.1.1
+    image: opennms/helm:latest
+    container_name: grafana
+    environment:
+      - TZ=Europe/Berlin
     env_file:
       - .grafana.env
-    depends_on:
-      - grafana_data
-    volumes_from:
-      - grafana_data:rw
+    volumes:
+      - data-grafana:/var/lib/grafana
+    healthcheck:
+          test: ["CMD", "curl", "-f", "-I", "http://localhost:3000/login"]
+          interval: 1m
+          timeout: 5s
+          retries: 3
     ports:
       - "3000:3000"
 ```
@@ -152,42 +161,20 @@ docker-compose up -d
 
 For OpenNMS Horizon, a health check shows if the web application is started and can be checked with the `docker ps` command.
 
-### Install OpenNMS Grafana Data Source plugin and configuration
+Create a `OpenNMS Faults` and an `OpenNMS Performance` data source and use the URL to our OpenNMS service:
 
-By default there are no plugins installed.
-The OpenNMS project maintains the [OpenNMS Data Source plugin](https://grafana.net/plugins/opennms-datasource) which can be installed with the `grafana-cli` command.
-The OpenNMS data source uses the [OpenNMS Measurement ReST API](https://grafana.net/plugins/opennms-datasource).
-It is recommended to create a non-admin user in OpenNMS which can be used to access the data from Grafana.
+`http://horizon:8980/opennms`
 
-Create a user in the OpenNMS web user interface in this example called `grafana` with a password `mypass`.
+We named our OpenNMS Horizon service `horizon` in our docker-compose file and we can use it as a host name to connect to it.
 
-The next step is installing the OpenNMS Data Source in Grafana with:
-
-```
-docker-compose exec grafana grafana-cli plugins install opennms-datasource
-```
-
-To be able to create use the OpenNMS Data Source Grafana needs to be restarted with
-
-```
-docker-compose stop grafana && docker-compose up -d
-```
-
-Create a Data Source of type `OpenNMS` and use the URL to our OpenNMS service:
-
-`http://opennms:8980/opennms`
-
-We named our OpenNMS Horizon instance `opennms` and can use this in Grafana as host name in the URL.
-The host name `opennms` will be automatically resolved to an dynamically associated IP address from the Docker engine.
-
-Access type is `Proxy` and enable `Basic Auth` with `Credentials`.
-Type in the user name `grafana` with the provided password in our example `mypass`.
+Use `Basic Auth` and use the OpenNMS credentials for authentication.
+In this example we use the `admin` user from OpenNMS to access the REST API, you can create a REST user in the OpenNMS Web UI which has limited access if you like.
 
 `Save & Test` will test the connectivity to the OpenNMS ReST API with the provided credentials.
 
 ![Configure OpenNMS Grafana Data Source](grafana-datasource.png)
 
-Now you can start creating your own dashboards using data from OpenNMS.
+Now you can start creating your own dashboards using data collected from OpenNMS.
 
 ### Build OpenNMS Minion service
 
@@ -230,8 +217,8 @@ _File: .minion.env_
 MINION_ID=00000000-0000-0000-0000-deadbeef0001
 MINION_LOCATION=YOUR-LOCATION
 MINION_CONFIG=/opt/minion/etc/org.opennms.minion.controller.cfg
-OPENNMS_BROKER_URL=tcp://opennms:61616
-OPENNMS_HTTP_URL=http://opennms:8980/opennms
+OPENNMS_BROKER_URL=tcp://horizon:61616
+OPENNMS_HTTP_URL=http://horizon:8980/opennms
 ```
 
 Define the service by creating a `docker-compose.yml` file:
@@ -240,13 +227,12 @@ Define the service by creating a `docker-compose.yml` file:
 version: '2'
 services:
   minion:
-    image: opennms/minion:19.0.1-1
+    image: opennms/minion:22.0.4-1
     env_file:
       - .minion.env
     command: ["-f"]
     ports:
       - "8201"
-      - "18980"
       - "162/udp"
       - "514/udp"
 ```

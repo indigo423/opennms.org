@@ -1,6 +1,6 @@
 ---
 title: This Week in OpenNMS - October 22nd, 2018 - More Horizon 23 Prep, Correlation, Helm UI Updates, Acknowledging Situations
-date: 11:26 10/15/2018
+date: 11:26 10/22/2018
 author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:

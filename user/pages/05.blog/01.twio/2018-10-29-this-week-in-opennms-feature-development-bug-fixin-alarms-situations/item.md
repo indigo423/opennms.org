@@ -69,6 +69,10 @@ A number of fixes and improvements have been made to our Docker containers:
 
 ## Upcoming Events and Appearances
 
+* **[Scylla Summit 2018 - November 5th through 7th, 2018](https://scyllasummit2018.sched.com/)**
+
+  Jesse will be [speaking on Wednesday, November 7th](https://scyllasummit2018.sched.com/event/Herv/scaling-your-time-series-data-with-newts) about Newts, our scalable time-series database.
+
 * **[OSMC 2018 Talk and Hackathon - November 5th through 8th, 2018](https://osmc.de/)**
 
   Tarus will be [speaking on Tuesday, November 6th](https://osmc.de/schedule/) about the latest features in OpenNMS including Minions, Telemetryd (flow support), Sextant (alarm correlation), and more.

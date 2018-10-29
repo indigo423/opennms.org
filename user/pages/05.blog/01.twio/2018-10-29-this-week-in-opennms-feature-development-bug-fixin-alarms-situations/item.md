@@ -33,6 +33,8 @@ Last week we continued work on some outstanding feature development, fixed a lot
   * Patrick did more work on HTTP proxy support.
   * Jesse did some refactoring of alarm testing.
   * Jesse reimplemented the alarm change notifier (alarms -> ES) by implementing the `AlarmLifecycleListener` API rather than relying on triggers.
+  * Antonio added XLSX support to PRIS.
+  * Alejandro bumped PRIS to a newer Jetty version.
 
 * __Web & UI__
 
@@ -41,6 +43,28 @@ Last week we continued work on some outstanding feature development, fixed a lot
   * Markus removed the remote poller map.
   * Antonio worked on some Enlinkd and Topology enhancements.
   * Markus worked on modernizing our Vaadin infrastructure.
+
+
+## Horizon 23.0.0 Released
+
+OpenNMS Horizon 23.0.0 is the first release of the stable 23 series.
+
+It contains a number of bug fixes and enhancements, including support for alarm correlation, running OpenNMS components in an external container, and many other improvements.
+
+For a high-level overview of what's changed in OpenNMS 23, see [What's New in OpenNMS 23](https://docs.opennms.org/opennms/releases/23.0.0/releasenotes/releasenotes.html#releasenotes-23).
+
+The codename for 23.0.0 is _[Granny Weatherwax](https://en.wikipedia.org/wiki/Granny_Weatherwax)_.
+
+
+## Docker Updates
+
+A number of fixes and improvements have been made to our Docker containers:
+
+* Ronny updated the OpenNMS container to [OpenJDK 1.8.0 u191](https://access.redhat.com/errata/RHSA-2018:2942)
+* Alejandro improved the Minion image to make it easier to [use Kafka and configure UDP listeners](https://github.com/opennms-forge/docker-minion#advanced-environment-variables)
+* Jesse and Matt extended the Docker image with [an overlay directory to inject files into /opt/opennms](https://github.com/opennms-forge/docker-horizon-core-web#using-overlay-for-custom-arbitrary-configuration)
+* Containers have been updated to 23.0.0 for Horizon and Minion
+* Note that as of version 23.0.0, the Docker image for Minion runs as non-root user by default. [See the documentation for notes on updating.](https://github.com/opennms-forge/docker-minion#run-as-root-or-non-root)
 
 
 ## Upcoming Events and Appearances
@@ -56,6 +80,10 @@ Last week we continued work on some outstanding feature development, fixed a lot
 * **[NETHINKS Asset Topology Provider Webinar - November 14th, 2018](https://www.nethinks.com/blog/it-ueberwachung/jetzt-anmelden-opennms-webinar-zu-asset-topology-provider/)**
 
   NETHINKS will be doing a German-language webinar on the Asset Topology Provider on November 14th, 2018.  Registration is required, you can sign up on [the NETHINKS site](https://www.nethinks.com/blog/it-ueberwachung/jetzt-anmelden-opennms-webinar-zu-asset-topology-provider/).
+
+* **[OpenNMS Training - December 10th through 14th, 2018](https://www.opennms.com/training/)**
+
+  The OpenNMS Group will be offering hands-on OpenNMS training in our Apex, NC office.
 
 
 ## Until Next Week…

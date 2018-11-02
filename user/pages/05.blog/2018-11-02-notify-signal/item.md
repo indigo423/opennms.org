@@ -53,9 +53,9 @@ Important for our integration:
 
 * `-u +4912345789`: This is the user which sends the notification
 * `-m "the message": The message content which will be sent
-* `+4912345789`: The phone number of the recipient, in this case I send it myself but can also be your collegue
+* `+4912345789`: The phone number of the recipient, in this case I send it to myself but can also be a collegue
 
-The encryption and keys for *Signal* are stored in the home directory of your running as user which is `/root/.config`.
+The encryption and keys for *Signal* are stored in the home directory of your logged-in user which is `/root/.config`.
 
 **Step 3: Create a wrapper script which can be used as a custom notification in OpenNMS**
 
@@ -75,7 +75,7 @@ ${SIGNAL_BINARY} -u "${LINKED_USER}" send -m "${MESSAGE}" "${RECIPIENT}" 2>>${ER
 ```
 
 Ensure the script is executable with `chmod +x signal-cliw.sh`.
-You can use it now like that:
+You can use it now like this:
 
 ```bash
 ./signal-cliw.sh <target-phone-number> "<text message>"
@@ -99,8 +99,8 @@ Add a new notification command in `${OPENNMS_HOME}/etc/notificationCommands.xml`
 </command>
 ```
 
-As first argument for the `signal-cliw.sh` script is the *Mobile Phone* number used from a configure OpenNMS user.
-The second argument we pass with `-nm` a short message text to our script which is configured in the the notification itself.
+As first argument for the `signal-cliw.sh` script is the *Mobile Phone* number used from a configured OpenNMS user.
+The second argument we pass with `-nm` is a short message text to our script which is configured in the the notification itself.
 Restart OpenNMS so the changes will be applied.
 
 **Step 5: Create a new Destination Path which uses Signal**
@@ -131,8 +131,8 @@ Check if you get a notification for a node outage and a resolved message.
 
 #### Troubleshooting
 
-If you have issues getting the integration running, *Notifd* is the main component which drives the bits and pieces and writes log files to `${OPENNMS_HOME/logs/notfid`.
-In case you need a more verbose output you can increase the log level in `${OPENNMS_HOME/etc/log4j2.xml` by setting it from `WARN` to `DEBUG`.
+If you have issues getting the integration running, *Notifd* is the main component which drives the bits and pieces and writes log files to `${OPENNMS_HOME/logs/notfid.log`.
+In case you need a more verbose output you can increase the log level value in `${OPENNMS_HOME/etc/log4j2.xml` by changing the `value` from `WARN` to `DEBUG` in the line below.
 The changes will be picked up automatically and you don't need a restart.
 
 ```xml

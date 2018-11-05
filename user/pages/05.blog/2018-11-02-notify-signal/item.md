@@ -141,4 +141,8 @@ The changes will be picked up automatically and you don't need a restart.
 
 If you have devices on very unreliable internet connections, you can set an initial delay which ensures you only get notifications when the outage exists for a certain amount of time.
 
+[UPDATE - 2018-11-05]
+
+We have added a editable version of this article in our wiki: https://wiki.opennms.org/wiki/Using_Signal_as_Notification
+
 gl & hf

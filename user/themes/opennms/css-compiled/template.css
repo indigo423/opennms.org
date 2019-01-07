@@ -75,20 +75,20 @@ b, strong, label, th {
 
 .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
   text-align: center;
-  padding-left: 18rem;
-  padding-right: 18rem; }
+  padding-left: 4rem;
+  padding-right: 4rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 8rem;
-      padding-right: 8rem; } }
+      padding-left: 3rem;
+      padding-right: 3rem; } }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 11rem;
-      padding-right: 11rem; } }
+      padding-left: 2rem;
+      padding-right: 2rem; } }
   @media only all and (max-width: 47.938em) {
     .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 5rem;
-      padding-right: 5rem; } }
+      padding-left: 0.5rem;
+      padding-right: 0.5rem; } }
 
 .padding-vert {
   padding-top: 3rem;

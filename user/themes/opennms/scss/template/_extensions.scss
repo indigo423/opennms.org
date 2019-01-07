@@ -4,19 +4,19 @@
 
 .padding-horiz {
 	text-align: center;
-	padding-left: $padding-horiz;
-	padding-right: $padding-horiz;
+	padding-left: 4rem;
+	padding-right: 4rem;
 	@include breakpoint(desktop-range) {
-		padding-left: $padding-horiz - 10rem;
-		padding-right: $padding-horiz - 10rem;
+		padding-left: 3rem;
+		padding-right: 3rem;
 	}
 	@include breakpoint(tablet-range) {
-		padding-left: $padding-horiz - 7rem;
-		padding-right: $padding-horiz - 7rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 	@include breakpoint(mobile-only) {
-		padding-left: $padding-horiz - 13rem;
-		padding-right: $padding-horiz - 13rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
 	}
 }
 

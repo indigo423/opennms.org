@@ -4,8 +4,8 @@
 
 .padding-horiz {
 	text-align: center;
-	padding-left: 4rem;
-	padding-right: 4rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
 	@include breakpoint(desktop-range) {
 		padding-left: 3rem;
 		padding-right: 3rem;

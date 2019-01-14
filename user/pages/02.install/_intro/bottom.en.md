@@ -19,7 +19,7 @@ services:
     - icon: cubes
       title: Docker
       desc: "Run OpenNMS Horizon in Linux container"
-      url: "https://hub.docker.com/r/opennms/horizon-core-web/"
+      url: "https://github.com/opennms-forge/docker-horizon-core-web/blob/master/README.md"
       text: "Show me"
 ---
 

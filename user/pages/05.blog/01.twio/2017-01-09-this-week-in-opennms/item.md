@@ -5,7 +5,7 @@ author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: twio
-    tag: [twio, internals, testing, eventd, rrd, wsman, trapd, syslogd, elasticsearch, datacollection, bug fixes, fosdem, training]
+    tag: [twio, internals, testing, eventd, rrd, ws-man, trapd, syslogd, elasticsearch, datacollection, bug fixes, fosdem, training]
 ---
 
 In the last couple of weeks we worked on internals, testing, the Minion, and bug fixes.  We also released OpenNMS Horizon 18.0.3, OpenNMS Meridian 2016.1.4, and OpenNMS Meridian 2015.1.4.

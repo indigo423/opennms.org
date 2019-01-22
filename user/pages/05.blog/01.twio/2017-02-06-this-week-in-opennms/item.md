@@ -5,7 +5,7 @@ author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: twio
-    tag: [twio, jasper reports, jira, trouble ticketing, rrd, wmi, wsman, graphing, icmp, ping, data collection, node maps, maps, acls, bug fixes, training]
+    tag: [twio, jasper reports, jira, trouble ticketing, rrd, wmi, ws-man, graphing, icmp, ping, data collection, node maps, maps, acls, bug fixes, training]
 ---
 
 In the last week we worked on internals, minion, web UI, and bug fixes.

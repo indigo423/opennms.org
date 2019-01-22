@@ -5,7 +5,7 @@ author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: twio
-    tag: [twio, data collection, karaf, logging, wsman, elasticsearch, kafka, syslog, jasper, path outages, surveillance categories, floss weekly, open technologies for growth, fosdem, training]
+    tag: [twio, data collection, karaf, logging, ws-man, elasticsearch, kafka, syslog, jasper, path outages, surveillance categories, floss weekly, open technologies for growth, fosdem, training]
 ---
 
 In the last week we worked on internals, testing, the Minion, the web UI, and bug fixes.

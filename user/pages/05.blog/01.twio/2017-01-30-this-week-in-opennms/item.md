@@ -5,7 +5,7 @@ author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: twio
-    tag: [twio, documentation, asciibinder, data collection, refactoring, elasticsearch, smoke tests, wsman, quartz, events, node maps, jetty, open technologies for growth, fosdem, training]
+    tag: [twio, documentation, asciibinder, data collection, refactoring, elasticsearch, smoke tests, ws-man, quartz, events, node maps, jetty, open technologies for growth, fosdem, training]
 ---
 
 In the last week we worked on documentation, internals, testing, minion, web UI, and bug fixes.

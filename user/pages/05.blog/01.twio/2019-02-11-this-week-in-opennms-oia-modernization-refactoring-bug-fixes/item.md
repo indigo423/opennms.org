@@ -90,7 +90,5 @@ If there’s anything you’d like me to talk about in a future TWiO, or you jus
 * [NMS-8185](https://issues.opennms.org/browse/NMS-8185): Create a reload daemon configuration page
 * [NMS-10486](https://issues.opennms.org/browse/NMS-10486): syslog events are creating notifications and disregarding rules in place
 * [NMS-10496](https://issues.opennms.org/browse/NMS-10496): Update flow classification rules to match either the src or dst ports
-* [NMS-10546](https://issues.opennms.org/browse/NMS-10546): Cross-Site Scripting: Reflected
-* [NMS-10547](https://issues.opennms.org/browse/NMS-10547): Cross-Frame Scripting
 * [NMS-10557](https://issues.opennms.org/browse/NMS-10557): Upgrade liquibase to 3.x
 * [OCE-38](https://issues.opennms.org/browse/OCE-38): Add log rotation support to the kafka-event-mirrorer

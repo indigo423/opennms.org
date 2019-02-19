@@ -1,5 +1,5 @@
 ---
-title: This Week in OpenNMS - February 11th, 2019 - Bug Fixes, New Integration APIs, Enlinkd Refactor, and More!
+title: This Week in OpenNMS - February 19th, 2019 - Bug Fixes, New Integration APIs, Enlinkd Refactor, and More!
 date: 09:49 02/19/2019
 author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling

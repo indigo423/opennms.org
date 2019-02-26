@@ -27,6 +27,7 @@ Last week we worked on Java 9+ fixes, correlation, data collection in OIA, and t
   * Matt did more work on building with Java 9+.
   * David worked on making the inventory model used by the correlation engine configurable.
   * Matt continued to work on adapting topology code to the new refactored Enlinkd and adding tests.
+  * Markus continued to work on moving our embedded Karaf to 4.2.
 
 * __Web & UI__
 

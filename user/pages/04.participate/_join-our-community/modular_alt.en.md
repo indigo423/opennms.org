@@ -1,5 +1,5 @@
 ---
-title: Change the Code
+title: Join our Commmunity
 onpage_menu: false
 body_classes: "modular header-image header-lite fullwidth"
 

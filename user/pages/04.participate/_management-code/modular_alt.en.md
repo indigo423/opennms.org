@@ -1,5 +1,5 @@
 ---
-title: Meet in Real Life
+title: Project Management and Source Code
 onpage_menu: false
 body_classes: "modular header-image header-lite fullwidth"
 

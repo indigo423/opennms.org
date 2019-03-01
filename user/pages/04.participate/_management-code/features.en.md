@@ -15,8 +15,8 @@ features:
     - header: Continuous Integration
       text: The software is covered by a large test suite. For running test suits and build packages for deployment we use Atlassian Bamboo.
       icon: cogs
-      linkurl: "http://bamboo.internal.opennms.com:8085"
+      linkurl: "https://bamboo.internal.opennms.org"
       linktext: "Go to Bamboo"
 ---
 
-# Change the Code
+# Management and Source Code

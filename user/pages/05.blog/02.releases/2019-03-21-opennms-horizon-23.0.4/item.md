@@ -1,6 +1,6 @@
 ---
 title: OpenNMS Horizon 23.0.4 (Morgan le Fay) Released
-date: 20:12 02/21/2019
+date: 10:00 03/22/2019
 author: Benjamin Reed
 body_classes: header-lite fullwidth blogstyling
 taxonomy:

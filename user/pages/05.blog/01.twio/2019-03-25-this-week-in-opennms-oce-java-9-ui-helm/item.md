@@ -69,12 +69,12 @@ For a complete list of changes, see the release announcements:
 
   For more details or to sign up, see the [NETHINKS training page](https://www.nethinks.com/opennms-schulung.html).
 
-* **OpenNMS Dev-Jam 2019 in Minneapolis, MN**
+* **[OpenNMS Dev-Jam 2019 in Minneapolis, MN](https://opennms.discourse.group/t/devjam-2019-24th-june-until-28th-june-university-of-minnesota)**
 
   Dev-Jam 2019 will be once again on the University of Minneapolis campus, from June 24th through 28th.
 
-  More details will be forthcoming as we start to put together plans,
-  but please plan on joining us for a week of fun, coding, and frivolity.
+  More details [are available in the announcement](https://opennms.discourse.group/t/devjam-2019-24th-june-until-28th-june-university-of-minnesota).
+  Please plan on joining us for a week of fun, coding, and frivolity.
 
 * **[OSMC 2019 in Nuremberg, Germany - November 4th through 7th](https://osmc.de/)**
 

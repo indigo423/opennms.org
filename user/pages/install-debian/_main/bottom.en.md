@@ -13,8 +13,8 @@ If you want a more customized installation, please see our [installation guide](
 <i class="fa fa-info-circle" aria-hidden="true"></i> The script requires `systemd`, `sudo`, `gnupg`, `curl` and `wget` to get OpenNMS Horizon installed on a minimal Debian system. On Ubuntu ensure you have added the universe repository with `add-apt-repository universe`.
 
 <pre class="prettyprint">
-curl -L https://github.com/opennms-forge/opennms-install/archive/1.3.tar.gz | tar xz
-cd opennms-install-1.3
+curl -L https://github.com/opennms-forge/opennms-install/archive/1.4.tar.gz | tar xz
+cd opennms-install-1.4
 bash bootstrap-debian.sh
 </pre>
 

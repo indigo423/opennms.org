@@ -11,8 +11,8 @@ If you want a more customized installation, please see our [installation guide](
 <i class="fa fa-info-circle" aria-hidden="true"></i> The installation script is tested on minimal [CentOS 7.6.1810](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso).
 
 <pre class="prettyprint">
-curl -L https://github.com/opennms-forge/opennms-install/archive/1.3.tar.gz | tar xz
-cd opennms-install-1.3
+curl -L https://github.com/opennms-forge/opennms-install/archive/1.4.tar.gz | tar xz
+cd opennms-install-1.4
 bash bootstrap-yum.sh
 </pre>
 
